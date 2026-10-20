@@ -1,0 +1,3242 @@
+{
+  "dask\\backends.py": {
+    "loc": 163,
+    "lloc": 98,
+    "sloc": 117,
+    "comments": 1,
+    "multi": 11,
+    "blank": 27,
+    "single_comments": 8
+  },
+  "dask\\base.py": {
+    "loc": 1425,
+    "lloc": 513,
+    "sloc": 681,
+    "comments": 46,
+    "multi": 465,
+    "blank": 237,
+    "single_comments": 42
+  },
+  "dask\\blockwise.py": {
+    "loc": 1569,
+    "lloc": 625,
+    "sloc": 776,
+    "comments": 109,
+    "multi": 455,
+    "blank": 233,
+    "single_comments": 105
+  },
+  "dask\\cache.py": {
+    "loc": 66,
+    "lloc": 38,
+    "sloc": 37,
+    "comments": 0,
+    "multi": 13,
+    "blank": 16,
+    "single_comments": 0
+  },
+  "dask\\callbacks.py": {
+    "loc": 145,
+    "lloc": 69,
+    "sloc": 65,
+    "comments": 0,
+    "multi": 42,
+    "blank": 36,
+    "single_comments": 2
+  },
+  "dask\\cli.py": {
+    "loc": 208,
+    "lloc": 116,
+    "sloc": 136,
+    "comments": 4,
+    "multi": 14,
+    "blank": 44,
+    "single_comments": 14
+  },
+  "dask\\config.py": {
+    "loc": 895,
+    "lloc": 338,
+    "sloc": 417,
+    "comments": 41,
+    "multi": 267,
+    "blank": 178,
+    "single_comments": 33
+  },
+  "dask\\conftest.py": {
+    "loc": 81,
+    "lloc": 30,
+    "sloc": 35,
+    "comments": 0,
+    "multi": 28,
+    "blank": 18,
+    "single_comments": 0
+  },
+  "dask\\context.py": {
+    "loc": 69,
+    "lloc": 24,
+    "sloc": 22,
+    "comments": 0,
+    "multi": 33,
+    "blank": 14,
+    "single_comments": 0
+  },
+  "dask\\core.py": {
+    "loc": 547,
+    "lloc": 256,
+    "sloc": 253,
+    "comments": 31,
+    "multi": 154,
+    "blank": 113,
+    "single_comments": 27
+  },
+  "dask\\datasets.py": {
+    "loc": 179,
+    "lloc": 42,
+    "sloc": 70,
+    "comments": 2,
+    "multi": 78,
+    "blank": 29,
+    "single_comments": 2
+  },
+  "dask\\delayed.py": {
+    "loc": 932,
+    "lloc": 385,
+    "sloc": 480,
+    "comments": 33,
+    "multi": 248,
+    "blank": 171,
+    "single_comments": 33
+  },
+  "dask\\distributed.py": {
+    "loc": 24,
+    "lloc": 15,
+    "sloc": 20,
+    "comments": 1,
+    "multi": 0,
+    "blank": 4,
+    "single_comments": 0
+  },
+  "dask\\dot.py": {
+    "loc": 550,
+    "lloc": 228,
+    "sloc": 354,
+    "comments": 9,
+    "multi": 111,
+    "blank": 75,
+    "single_comments": 10
+  },
+  "dask\\graph_manipulation.py": {
+    "loc": 558,
+    "lloc": 206,
+    "sloc": 266,
+    "comments": 23,
+    "multi": 195,
+    "blank": 76,
+    "single_comments": 21
+  },
+  "dask\\hashing.py": {
+    "loc": 100,
+    "lloc": 55,
+    "sloc": 49,
+    "comments": 14,
+    "multi": 20,
+    "blank": 21,
+    "single_comments": 10
+  },
+  "dask\\highlevelgraph.py": {
+    "loc": 1017,
+    "lloc": 471,
+    "sloc": 539,
+    "comments": 48,
+    "multi": 268,
+    "blank": 165,
+    "single_comments": 45
+  },
+  "dask\\layers.py": {
+    "loc": 484,
+    "lloc": 245,
+    "sloc": 280,
+    "comments": 26,
+    "multi": 83,
+    "blank": 91,
+    "single_comments": 30
+  },
+  "dask\\local.py": {
+    "loc": 649,
+    "lloc": 255,
+    "sloc": 286,
+    "comments": 15,
+    "multi": 220,
+    "blank": 128,
+    "single_comments": 15
+  },
+  "dask\\ml.py": {
+    "loc": 15,
+    "lloc": 8,
+    "sloc": 13,
+    "comments": 0,
+    "multi": 0,
+    "blank": 2,
+    "single_comments": 0
+  },
+  "dask\\multiprocessing.py": {
+    "loc": 270,
+    "lloc": 130,
+    "sloc": 159,
+    "comments": 32,
+    "multi": 31,
+    "blank": 46,
+    "single_comments": 34
+  },
+  "dask\\optimization.py": {
+    "loc": 888,
+    "lloc": 458,
+    "sloc": 593,
+    "comments": 41,
+    "multi": 163,
+    "blank": 99,
+    "single_comments": 33
+  },
+  "dask\\order.py": {
+    "loc": 839,
+    "lloc": 459,
+    "sloc": 495,
+    "comments": 146,
+    "multi": 102,
+    "blank": 102,
+    "single_comments": 140
+  },
+  "dask\\rewrite.py": {
+    "loc": 437,
+    "lloc": 190,
+    "sloc": 168,
+    "comments": 16,
+    "multi": 150,
+    "blank": 94,
+    "single_comments": 25
+  },
+  "dask\\sizeof.py": {
+    "loc": 316,
+    "lloc": 189,
+    "sloc": 207,
+    "comments": 16,
+    "multi": 17,
+    "blank": 75,
+    "single_comments": 17
+  },
+  "dask\\system.py": {
+    "loc": 92,
+    "lloc": 55,
+    "sloc": 54,
+    "comments": 16,
+    "multi": 6,
+    "blank": 17,
+    "single_comments": 15
+  },
+  "dask\\task_spec.py": {
+    "loc": 12,
+    "lloc": 3,
+    "sloc": 10,
+    "comments": 0,
+    "multi": 0,
+    "blank": 2,
+    "single_comments": 0
+  },
+  "dask\\threaded.py": {
+    "loc": 135,
+    "lloc": 60,
+    "sloc": 71,
+    "comments": 1,
+    "multi": 38,
+    "blank": 25,
+    "single_comments": 1
+  },
+  "dask\\tokenize.py": {
+    "loc": 489,
+    "lloc": 299,
+    "sloc": 356,
+    "comments": 23,
+    "multi": 14,
+    "blank": 96,
+    "single_comments": 23
+  },
+  "dask\\typing.py": {
+    "loc": 443,
+    "lloc": 81,
+    "sloc": 83,
+    "comments": 8,
+    "multi": 261,
+    "blank": 86,
+    "single_comments": 13
+  },
+  "dask\\utils.py": {
+    "loc": 2361,
+    "lloc": 1085,
+    "sloc": 1198,
+    "comments": 55,
+    "multi": 658,
+    "blank": 440,
+    "single_comments": 65
+  },
+  "dask\\utils_test.py": {
+    "loc": 164,
+    "lloc": 117,
+    "sloc": 106,
+    "comments": 0,
+    "multi": 12,
+    "blank": 42,
+    "single_comments": 4
+  },
+  "dask\\_collections.py": {
+    "loc": 10,
+    "lloc": 7,
+    "sloc": 6,
+    "comments": 1,
+    "multi": 0,
+    "blank": 3,
+    "single_comments": 1
+  },
+  "dask\\_compatibility.py": {
+    "loc": 154,
+    "lloc": 66,
+    "sloc": 94,
+    "comments": 8,
+    "multi": 30,
+    "blank": 24,
+    "single_comments": 6
+  },
+  "dask\\_dispatch.py": {
+    "loc": 5,
+    "lloc": 3,
+    "sloc": 3,
+    "comments": 0,
+    "multi": 0,
+    "blank": 2,
+    "single_comments": 0
+  },
+  "dask\\_expr.py": {
+    "loc": 1474,
+    "lloc": 825,
+    "sloc": 951,
+    "comments": 65,
+    "multi": 193,
+    "blank": 264,
+    "single_comments": 66
+  },
+  "dask\\_pandas_compat.py": {
+    "loc": 165,
+    "lloc": 94,
+    "sloc": 119,
+    "comments": 7,
+    "multi": 0,
+    "blank": 39,
+    "single_comments": 7
+  },
+  "dask\\_task_spec.py": {
+    "loc": 1227,
+    "lloc": 726,
+    "sloc": 846,
+    "comments": 57,
+    "multi": 104,
+    "blank": 236,
+    "single_comments": 41
+  },
+  "dask\\__init__.py": {
+    "loc": 24,
+    "lloc": 13,
+    "sloc": 21,
+    "comments": 2,
+    "multi": 0,
+    "blank": 2,
+    "single_comments": 1
+  },
+  "dask\\__main__.py": {
+    "loc": 11,
+    "lloc": 6,
+    "sloc": 6,
+    "comments": 0,
+    "multi": 0,
+    "blank": 5,
+    "single_comments": 0
+  },
+  "dask\\array\\api.py": {
+    "loc": 3,
+    "lloc": 2,
+    "sloc": 2,
+    "comments": 1,
+    "multi": 0,
+    "blank": 1,
+    "single_comments": 0
+  },
+  "dask\\array\\backends.py": {
+    "loc": 440,
+    "lloc": 284,
+    "sloc": 299,
+    "comments": 15,
+    "multi": 40,
+    "blank": 83,
+    "single_comments": 18
+  },
+  "dask\\array\\blockwise.py": {
+    "loc": 312,
+    "lloc": 90,
+    "sloc": 144,
+    "comments": 8,
+    "multi": 110,
+    "blank": 50,
+    "single_comments": 8
+  },
+  "dask\\array\\chunk.py": {
+    "loc": 443,
+    "lloc": 184,
+    "sloc": 191,
+    "comments": 19,
+    "multi": 129,
+    "blank": 103,
+    "single_comments": 20
+  },
+  "dask\\array\\chunk_types.py": {
+    "loc": 157,
+    "lloc": 40,
+    "sloc": 39,
+    "comments": 1,
+    "multi": 85,
+    "blank": 30,
+    "single_comments": 3
+  },
+  "dask\\array\\core.py": {
+    "loc": 6288,
+    "lloc": 2289,
+    "sloc": 3028,
+    "comments": 215,
+    "multi": 1925,
+    "blank": 1140,
+    "single_comments": 195
+  },
+  "dask\\array\\creation.py": {
+    "loc": 1301,
+    "lloc": 593,
+    "sloc": 736,
+    "comments": 24,
+    "multi": 302,
+    "blank": 239,
+    "single_comments": 24
+  },
+  "dask\\array\\cupy_entry_point.py": {
+    "loc": 72,
+    "lloc": 54,
+    "sloc": 53,
+    "comments": 2,
+    "multi": 0,
+    "blank": 16,
+    "single_comments": 3
+  },
+  "dask\\array\\dispatch.py": {
+    "loc": 21,
+    "lloc": 14,
+    "sloc": 13,
+    "comments": 0,
+    "multi": 4,
+    "blank": 4,
+    "single_comments": 0
+  },
+  "dask\\array\\einsumfuncs.py": {
+    "loc": 295,
+    "lloc": 164,
+    "sloc": 196,
+    "comments": 28,
+    "multi": 28,
+    "blank": 45,
+    "single_comments": 26
+  },
+  "dask\\array\\fft.py": {
+    "loc": 316,
+    "lloc": 192,
+    "sloc": 214,
+    "comments": 3,
+    "multi": 25,
+    "blank": 71,
+    "single_comments": 6
+  },
+  "dask\\array\\gufunc.py": {
+    "loc": 819,
+    "lloc": 250,
+    "sloc": 397,
+    "comments": 46,
+    "multi": 297,
+    "blank": 81,
+    "single_comments": 44
+  },
+  "dask\\array\\image.py": {
+    "loc": 71,
+    "lloc": 29,
+    "sloc": 30,
+    "comments": 0,
+    "multi": 23,
+    "blank": 18,
+    "single_comments": 0
+  },
+  "dask\\array\\linalg.py": {
+    "loc": 1547,
+    "lloc": 702,
+    "sloc": 899,
+    "comments": 84,
+    "multi": 356,
+    "blank": 215,
+    "single_comments": 77
+  },
+  "dask\\array\\ma.py": {
+    "loc": 228,
+    "lloc": 152,
+    "sloc": 170,
+    "comments": 1,
+    "multi": 0,
+    "blank": 58,
+    "single_comments": 0
+  },
+  "dask\\array\\numpy_compat.py": {
+    "loc": 191,
+    "lloc": 81,
+    "sloc": 105,
+    "comments": 16,
+    "multi": 40,
+    "blank": 34,
+    "single_comments": 12
+  },
+  "dask\\array\\optimization.py": {
+    "loc": 318,
+    "lloc": 177,
+    "sloc": 197,
+    "comments": 29,
+    "multi": 39,
+    "blank": 57,
+    "single_comments": 25
+  },
+  "dask\\array\\overlap.py": {
+    "loc": 943,
+    "lloc": 362,
+    "sloc": 499,
+    "comments": 34,
+    "multi": 257,
+    "blank": 153,
+    "single_comments": 34
+  },
+  "dask\\array\\percentile.py": {
+    "loc": 341,
+    "lloc": 183,
+    "sloc": 208,
+    "comments": 14,
+    "multi": 55,
+    "blank": 66,
+    "single_comments": 12
+  },
+  "dask\\array\\random.py": {
+    "loc": 1113,
+    "lloc": 539,
+    "sloc": 752,
+    "comments": 23,
+    "multi": 158,
+    "blank": 180,
+    "single_comments": 23
+  },
+  "dask\\array\\rechunk.py": {
+    "loc": 870,
+    "lloc": 407,
+    "sloc": 453,
+    "comments": 75,
+    "multi": 190,
+    "blank": 158,
+    "single_comments": 69
+  },
+  "dask\\array\\reductions.py": {
+    "loc": 1847,
+    "lloc": 742,
+    "sloc": 1255,
+    "comments": 69,
+    "multi": 246,
+    "blank": 275,
+    "single_comments": 71
+  },
+  "dask\\array\\reshape.py": {
+    "loc": 592,
+    "lloc": 250,
+    "sloc": 320,
+    "comments": 65,
+    "multi": 115,
+    "blank": 100,
+    "single_comments": 57
+  },
+  "dask\\array\\routines.py": {
+    "loc": 2614,
+    "lloc": 1309,
+    "sloc": 1584,
+    "comments": 159,
+    "multi": 391,
+    "blank": 482,
+    "single_comments": 157
+  },
+  "dask\\array\\slicing.py": {
+    "loc": 2117,
+    "lloc": 806,
+    "sloc": 958,
+    "comments": 238,
+    "multi": 557,
+    "blank": 365,
+    "single_comments": 237
+  },
+  "dask\\array\\stats.py": {
+    "loc": 517,
+    "lloc": 238,
+    "sloc": 287,
+    "comments": 72,
+    "multi": 74,
+    "blank": 94,
+    "single_comments": 62
+  },
+  "dask\\array\\svg.py": {
+    "loc": 296,
+    "lloc": 146,
+    "sloc": 204,
+    "comments": 5,
+    "multi": 32,
+    "blank": 57,
+    "single_comments": 3
+  },
+  "dask\\array\\tiledb_io.py": {
+    "loc": 167,
+    "lloc": 45,
+    "sloc": 64,
+    "comments": 3,
+    "multi": 62,
+    "blank": 38,
+    "single_comments": 3
+  },
+  "dask\\array\\ufunc.py": {
+    "loc": 349,
+    "lloc": 242,
+    "sloc": 279,
+    "comments": 15,
+    "multi": 0,
+    "blank": 53,
+    "single_comments": 17
+  },
+  "dask\\array\\utils.py": {
+    "loc": 600,
+    "lloc": 327,
+    "sloc": 409,
+    "comments": 22,
+    "multi": 69,
+    "blank": 98,
+    "single_comments": 24
+  },
+  "dask\\array\\wrap.py": {
+    "loc": 242,
+    "lloc": 114,
+    "sloc": 158,
+    "comments": 6,
+    "multi": 20,
+    "blank": 58,
+    "single_comments": 6
+  },
+  "dask\\array\\_reductions_generic.py": {
+    "loc": 342,
+    "lloc": 124,
+    "sloc": 196,
+    "comments": 8,
+    "multi": 109,
+    "blank": 29,
+    "single_comments": 8
+  },
+  "dask\\array\\_shuffle.py": {
+    "loc": 328,
+    "lloc": 165,
+    "sloc": 203,
+    "comments": 18,
+    "multi": 42,
+    "blank": 65,
+    "single_comments": 18
+  },
+  "dask\\array\\__init__.py": {
+    "loc": 932,
+    "lloc": 186,
+    "sloc": 901,
+    "comments": 12,
+    "multi": 0,
+    "blank": 26,
+    "single_comments": 5
+  },
+  "dask\\array\\lib\\stride_tricks.py": {
+    "loc": 3,
+    "lloc": 2,
+    "sloc": 2,
+    "comments": 1,
+    "multi": 0,
+    "blank": 1,
+    "single_comments": 0
+  },
+  "dask\\array\\lib\\__init__.py": {
+    "loc": 3,
+    "lloc": 2,
+    "sloc": 2,
+    "comments": 0,
+    "multi": 0,
+    "blank": 1,
+    "single_comments": 0
+  },
+  "dask\\array\\tests\\test_api.py": {
+    "loc": 32,
+    "lloc": 16,
+    "sloc": 20,
+    "comments": 3,
+    "multi": 0,
+    "blank": 8,
+    "single_comments": 4
+  },
+  "dask\\array\\tests\\test_array_core.py": {
+    "loc": 6195,
+    "lloc": 4000,
+    "sloc": 4582,
+    "comments": 198,
+    "multi": 31,
+    "blank": 1404,
+    "single_comments": 178
+  },
+  "dask\\array\\tests\\test_array_expr_incompatible.py": {
+    "loc": 31,
+    "lloc": 22,
+    "sloc": 22,
+    "comments": 2,
+    "multi": 0,
+    "blank": 7,
+    "single_comments": 2
+  },
+  "dask\\array\\tests\\test_array_function.py": {
+    "loc": 262,
+    "lloc": 112,
+    "sloc": 203,
+    "comments": 10,
+    "multi": 0,
+    "blank": 48,
+    "single_comments": 11
+  },
+  "dask\\array\\tests\\test_array_utils.py": {
+    "loc": 141,
+    "lloc": 82,
+    "sloc": 104,
+    "comments": 4,
+    "multi": 0,
+    "blank": 34,
+    "single_comments": 3
+  },
+  "dask\\array\\tests\\test_atop.py": {
+    "loc": 886,
+    "lloc": 336,
+    "sloc": 744,
+    "comments": 39,
+    "multi": 4,
+    "blank": 133,
+    "single_comments": 5
+  },
+  "dask\\array\\tests\\test_chunk.py": {
+    "loc": 133,
+    "lloc": 85,
+    "sloc": 80,
+    "comments": 0,
+    "multi": 8,
+    "blank": 44,
+    "single_comments": 1
+  },
+  "dask\\array\\tests\\test_creation.py": {
+    "loc": 1116,
+    "lloc": 618,
+    "sloc": 869,
+    "comments": 29,
+    "multi": 6,
+    "blank": 214,
+    "single_comments": 27
+  },
+  "dask\\array\\tests\\test_cupy_core.py": {
+    "loc": 677,
+    "lloc": 335,
+    "sloc": 537,
+    "comments": 31,
+    "multi": 0,
+    "blank": 118,
+    "single_comments": 22
+  },
+  "dask\\array\\tests\\test_cupy_creation.py": {
+    "loc": 203,
+    "lloc": 95,
+    "sloc": 149,
+    "comments": 19,
+    "multi": 0,
+    "blank": 38,
+    "single_comments": 16
+  },
+  "dask\\array\\tests\\test_cupy_gufunc.py": {
+    "loc": 26,
+    "lloc": 17,
+    "sloc": 18,
+    "comments": 0,
+    "multi": 0,
+    "blank": 8,
+    "single_comments": 0
+  },
+  "dask\\array\\tests\\test_cupy_linalg.py": {
+    "loc": 425,
+    "lloc": 177,
+    "sloc": 380,
+    "comments": 96,
+    "multi": 0,
+    "blank": 33,
+    "single_comments": 12
+  },
+  "dask\\array\\tests\\test_cupy_overlap.py": {
+    "loc": 132,
+    "lloc": 72,
+    "sloc": 100,
+    "comments": 0,
+    "multi": 0,
+    "blank": 32,
+    "single_comments": 0
+  },
+  "dask\\array\\tests\\test_cupy_percentile.py": {
+    "loc": 84,
+    "lloc": 55,
+    "sloc": 58,
+    "comments": 5,
+    "multi": 0,
+    "blank": 24,
+    "single_comments": 2
+  },
+  "dask\\array\\tests\\test_cupy_random.py": {
+    "loc": 217,
+    "lloc": 171,
+    "sloc": 171,
+    "comments": 16,
+    "multi": 0,
+    "blank": 35,
+    "single_comments": 11
+  },
+  "dask\\array\\tests\\test_cupy_reductions.py": {
+    "loc": 79,
+    "lloc": 55,
+    "sloc": 62,
+    "comments": 1,
+    "multi": 0,
+    "blank": 17,
+    "single_comments": 0
+  },
+  "dask\\array\\tests\\test_cupy_routines.py": {
+    "loc": 222,
+    "lloc": 129,
+    "sloc": 167,
+    "comments": 9,
+    "multi": 0,
+    "blank": 46,
+    "single_comments": 9
+  },
+  "dask\\array\\tests\\test_cupy_slicing.py": {
+    "loc": 162,
+    "lloc": 115,
+    "sloc": 108,
+    "comments": 17,
+    "multi": 3,
+    "blank": 34,
+    "single_comments": 17
+  },
+  "dask\\array\\tests\\test_cupy_sparse.py": {
+    "loc": 105,
+    "lloc": 61,
+    "sloc": 84,
+    "comments": 0,
+    "multi": 0,
+    "blank": 21,
+    "single_comments": 0
+  },
+  "dask\\array\\tests\\test_dispatch.py": {
+    "loc": 292,
+    "lloc": 137,
+    "sloc": 205,
+    "comments": 10,
+    "multi": 20,
+    "blank": 56,
+    "single_comments": 11
+  },
+  "dask\\array\\tests\\test_fft.py": {
+    "loc": 295,
+    "lloc": 194,
+    "sloc": 233,
+    "comments": 1,
+    "multi": 0,
+    "blank": 61,
+    "single_comments": 1
+  },
+  "dask\\array\\tests\\test_gufunc.py": {
+    "loc": 725,
+    "lloc": 465,
+    "sloc": 506,
+    "comments": 20,
+    "multi": 0,
+    "blank": 199,
+    "single_comments": 20
+  },
+  "dask\\array\\tests\\test_image.py": {
+    "loc": 54,
+    "lloc": 40,
+    "sloc": 38,
+    "comments": 0,
+    "multi": 0,
+    "blank": 16,
+    "single_comments": 0
+  },
+  "dask\\array\\tests\\test_linalg.py": {
+    "loc": 1140,
+    "lloc": 637,
+    "sloc": 909,
+    "comments": 172,
+    "multi": 0,
+    "blank": 181,
+    "single_comments": 50
+  },
+  "dask\\array\\tests\\test_map_blocks.py": {
+    "loc": 15,
+    "lloc": 10,
+    "sloc": 10,
+    "comments": 0,
+    "multi": 0,
+    "blank": 5,
+    "single_comments": 0
+  },
+  "dask\\array\\tests\\test_masked.py": {
+    "loc": 505,
+    "lloc": 313,
+    "sloc": 382,
+    "comments": 13,
+    "multi": 0,
+    "blank": 113,
+    "single_comments": 10
+  },
+  "dask\\array\\tests\\test_numpy_compat.py": {
+    "loc": 42,
+    "lloc": 23,
+    "sloc": 28,
+    "comments": 4,
+    "multi": 0,
+    "blank": 10,
+    "single_comments": 4
+  },
+  "dask\\array\\tests\\test_optimization.py": {
+    "loc": 256,
+    "lloc": 152,
+    "sloc": 185,
+    "comments": 13,
+    "multi": 9,
+    "blank": 52,
+    "single_comments": 10
+  },
+  "dask\\array\\tests\\test_overlap.py": {
+    "loc": 987,
+    "lloc": 514,
+    "sloc": 768,
+    "comments": 59,
+    "multi": 0,
+    "blank": 186,
+    "single_comments": 33
+  },
+  "dask\\array\\tests\\test_percentiles.py": {
+    "loc": 132,
+    "lloc": 65,
+    "sloc": 100,
+    "comments": 2,
+    "multi": 0,
+    "blank": 30,
+    "single_comments": 2
+  },
+  "dask\\array\\tests\\test_random.py": {
+    "loc": 447,
+    "lloc": 308,
+    "sloc": 330,
+    "comments": 13,
+    "multi": 0,
+    "blank": 112,
+    "single_comments": 5
+  },
+  "dask\\array\\tests\\test_rechunk.py": {
+    "loc": 1251,
+    "lloc": 735,
+    "sloc": 973,
+    "comments": 44,
+    "multi": 5,
+    "blank": 241,
+    "single_comments": 32
+  },
+  "dask\\array\\tests\\test_reductions.py": {
+    "loc": 1262,
+    "lloc": 838,
+    "sloc": 995,
+    "comments": 60,
+    "multi": 0,
+    "blank": 221,
+    "single_comments": 46
+  },
+  "dask\\array\\tests\\test_reshape.py": {
+    "loc": 449,
+    "lloc": 176,
+    "sloc": 362,
+    "comments": 44,
+    "multi": 0,
+    "blank": 63,
+    "single_comments": 24
+  },
+  "dask\\array\\tests\\test_routines.py": {
+    "loc": 2904,
+    "lloc": 1655,
+    "sloc": 2198,
+    "comments": 106,
+    "multi": 0,
+    "blank": 616,
+    "single_comments": 90
+  },
+  "dask\\array\\tests\\test_shuffle.py": {
+    "loc": 154,
+    "lloc": 102,
+    "sloc": 120,
+    "comments": 0,
+    "multi": 0,
+    "blank": 34,
+    "single_comments": 0
+  },
+  "dask\\array\\tests\\test_slicing.py": {
+    "loc": 1153,
+    "lloc": 676,
+    "sloc": 836,
+    "comments": 56,
+    "multi": 24,
+    "blank": 239,
+    "single_comments": 54
+  },
+  "dask\\array\\tests\\test_sparse.py": {
+    "loc": 191,
+    "lloc": 98,
+    "sloc": 152,
+    "comments": 10,
+    "multi": 0,
+    "blank": 36,
+    "single_comments": 3
+  },
+  "dask\\array\\tests\\test_stats.py": {
+    "loc": 179,
+    "lloc": 102,
+    "sloc": 133,
+    "comments": 6,
+    "multi": 0,
+    "blank": 40,
+    "single_comments": 6
+  },
+  "dask\\array\\tests\\test_svg.py": {
+    "loc": 97,
+    "lloc": 69,
+    "sloc": 67,
+    "comments": 9,
+    "multi": 0,
+    "blank": 26,
+    "single_comments": 4
+  },
+  "dask\\array\\tests\\test_testing.py": {
+    "loc": 55,
+    "lloc": 38,
+    "sloc": 38,
+    "comments": 3,
+    "multi": 0,
+    "blank": 14,
+    "single_comments": 3
+  },
+  "dask\\array\\tests\\test_ufunc.py": {
+    "loc": 603,
+    "lloc": 328,
+    "sloc": 437,
+    "comments": 37,
+    "multi": 2,
+    "blank": 132,
+    "single_comments": 32
+  },
+  "dask\\array\\tests\\test_wrap.py": {
+    "loc": 92,
+    "lloc": 54,
+    "sloc": 62,
+    "comments": 1,
+    "multi": 0,
+    "blank": 29,
+    "single_comments": 1
+  },
+  "dask\\array\\tests\\test_xarray.py": {
+    "loc": 203,
+    "lloc": 121,
+    "sloc": 156,
+    "comments": 9,
+    "multi": 0,
+    "blank": 38,
+    "single_comments": 9
+  },
+  "dask\\array\\tests\\__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "dask\\array\\_array_expr\\random.py": {
+    "loc": 1127,
+    "lloc": 516,
+    "sloc": 748,
+    "comments": 35,
+    "multi": 155,
+    "blank": 192,
+    "single_comments": 32
+  },
+  "dask\\array\\_array_expr\\_backends.py": {
+    "loc": 128,
+    "lloc": 84,
+    "sloc": 83,
+    "comments": 9,
+    "multi": 0,
+    "blank": 39,
+    "single_comments": 6
+  },
+  "dask\\array\\_array_expr\\_blockwise.py": {
+    "loc": 373,
+    "lloc": 210,
+    "sloc": 306,
+    "comments": 23,
+    "multi": 0,
+    "blank": 45,
+    "single_comments": 22
+  },
+  "dask\\array\\_array_expr\\_collection.py": {
+    "loc": 1581,
+    "lloc": 496,
+    "sloc": 682,
+    "comments": 20,
+    "multi": 567,
+    "blank": 315,
+    "single_comments": 17
+  },
+  "dask\\array\\_array_expr\\_creation.py": {
+    "loc": 583,
+    "lloc": 203,
+    "sloc": 272,
+    "comments": 10,
+    "multi": 204,
+    "blank": 97,
+    "single_comments": 10
+  },
+  "dask\\array\\_array_expr\\_expr.py": {
+    "loc": 290,
+    "lloc": 185,
+    "sloc": 230,
+    "comments": 4,
+    "multi": 0,
+    "blank": 55,
+    "single_comments": 5
+  },
+  "dask\\array\\_array_expr\\_gufunc.py": {
+    "loc": 855,
+    "lloc": 249,
+    "sloc": 413,
+    "comments": 60,
+    "multi": 297,
+    "blank": 87,
+    "single_comments": 58
+  },
+  "dask\\array\\_array_expr\\_io.py": {
+    "loc": 136,
+    "lloc": 79,
+    "sloc": 109,
+    "comments": 8,
+    "multi": 0,
+    "blank": 20,
+    "single_comments": 7
+  },
+  "dask\\array\\_array_expr\\_map_blocks.py": {
+    "loc": 491,
+    "lloc": 113,
+    "sloc": 211,
+    "comments": 17,
+    "multi": 188,
+    "blank": 76,
+    "single_comments": 16
+  },
+  "dask\\array\\_array_expr\\_overlap.py": {
+    "loc": 909,
+    "lloc": 360,
+    "sloc": 482,
+    "comments": 29,
+    "multi": 253,
+    "blank": 145,
+    "single_comments": 29
+  },
+  "dask\\array\\_array_expr\\_rechunk.py": {
+    "loc": 200,
+    "lloc": 107,
+    "sloc": 152,
+    "comments": 11,
+    "multi": 0,
+    "blank": 36,
+    "single_comments": 12
+  },
+  "dask\\array\\_array_expr\\_reductions.py": {
+    "loc": 366,
+    "lloc": 131,
+    "sloc": 218,
+    "comments": 18,
+    "multi": 96,
+    "blank": 34,
+    "single_comments": 18
+  },
+  "dask\\array\\_array_expr\\_shuffle.py": {
+    "loc": 216,
+    "lloc": 133,
+    "sloc": 171,
+    "comments": 7,
+    "multi": 0,
+    "blank": 38,
+    "single_comments": 7
+  },
+  "dask\\array\\_array_expr\\_slicing.py": {
+    "loc": 490,
+    "lloc": 243,
+    "sloc": 324,
+    "comments": 25,
+    "multi": 58,
+    "blank": 84,
+    "single_comments": 24
+  },
+  "dask\\array\\_array_expr\\_ufunc.py": {
+    "loc": 345,
+    "lloc": 242,
+    "sloc": 273,
+    "comments": 15,
+    "multi": 0,
+    "blank": 55,
+    "single_comments": 17
+  },
+  "dask\\array\\_array_expr\\_utils.py": {
+    "loc": 74,
+    "lloc": 38,
+    "sloc": 60,
+    "comments": 4,
+    "multi": 0,
+    "blank": 10,
+    "single_comments": 4
+  },
+  "dask\\array\\_array_expr\\__init__.py": {
+    "loc": 34,
+    "lloc": 10,
+    "sloc": 33,
+    "comments": 0,
+    "multi": 0,
+    "blank": 1,
+    "single_comments": 0
+  },
+  "dask\\array\\_array_expr\\tests\\test_collection.py": {
+    "loc": 134,
+    "lloc": 74,
+    "sloc": 105,
+    "comments": 3,
+    "multi": 0,
+    "blank": 26,
+    "single_comments": 3
+  },
+  "dask\\array\\_array_expr\\tests\\test_config.py": {
+    "loc": 29,
+    "lloc": 19,
+    "sloc": 17,
+    "comments": 0,
+    "multi": 3,
+    "blank": 8,
+    "single_comments": 1
+  },
+  "dask\\array\\_array_expr\\tests\\__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "dask\\bag\\avro.py": {
+    "loc": 300,
+    "lloc": 135,
+    "sloc": 163,
+    "comments": 4,
+    "multi": 82,
+    "blank": 47,
+    "single_comments": 8
+  },
+  "dask\\bag\\chunk.py": {
+    "loc": 36,
+    "lloc": 22,
+    "sloc": 21,
+    "comments": 0,
+    "multi": 3,
+    "blank": 12,
+    "single_comments": 0
+  },
+  "dask\\bag\\core.py": {
+    "loc": 2758,
+    "lloc": 1080,
+    "sloc": 1341,
+    "comments": 30,
+    "multi": 872,
+    "blank": 507,
+    "single_comments": 38
+  },
+  "dask\\bag\\random.py": {
+    "loc": 194,
+    "lloc": 86,
+    "sloc": 90,
+    "comments": 2,
+    "multi": 61,
+    "blank": 41,
+    "single_comments": 2
+  },
+  "dask\\bag\\text.py": {
+    "loc": 199,
+    "lloc": 71,
+    "sloc": 118,
+    "comments": 5,
+    "multi": 52,
+    "blank": 24,
+    "single_comments": 5
+  },
+  "dask\\bag\\utils.py": {
+    "loc": 10,
+    "lloc": 7,
+    "sloc": 7,
+    "comments": 0,
+    "multi": 0,
+    "blank": 3,
+    "single_comments": 0
+  },
+  "dask\\bag\\__init__.py": {
+    "loc": 46,
+    "lloc": 14,
+    "sloc": 44,
+    "comments": 0,
+    "multi": 0,
+    "blank": 2,
+    "single_comments": 0
+  },
+  "dask\\bag\\tests\\test_avro.py": {
+    "loc": 120,
+    "lloc": 97,
+    "sloc": 101,
+    "comments": 0,
+    "multi": 0,
+    "blank": 19,
+    "single_comments": 0
+  },
+  "dask\\bag\\tests\\test_bag.py": {
+    "loc": 1817,
+    "lloc": 1205,
+    "sloc": 1303,
+    "comments": 68,
+    "multi": 17,
+    "blank": 432,
+    "single_comments": 65
+  },
+  "dask\\bag\\tests\\test_random.py": {
+    "loc": 207,
+    "lloc": 146,
+    "sloc": 152,
+    "comments": 8,
+    "multi": 0,
+    "blank": 47,
+    "single_comments": 8
+  },
+  "dask\\bag\\tests\\test_text.py": {
+    "loc": 153,
+    "lloc": 85,
+    "sloc": 121,
+    "comments": 3,
+    "multi": 0,
+    "blank": 30,
+    "single_comments": 2
+  },
+  "dask\\bag\\tests\\__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "dask\\bytes\\core.py": {
+    "loc": 194,
+    "lloc": 92,
+    "sloc": 117,
+    "comments": 5,
+    "multi": 49,
+    "blank": 24,
+    "single_comments": 4
+  },
+  "dask\\bytes\\utils.py": {
+    "loc": 26,
+    "lloc": 16,
+    "sloc": 20,
+    "comments": 0,
+    "multi": 0,
+    "blank": 5,
+    "single_comments": 1
+  },
+  "dask\\bytes\\__init__.py": {
+    "loc": 3,
+    "lloc": 2,
+    "sloc": 2,
+    "comments": 0,
+    "multi": 0,
+    "blank": 1,
+    "single_comments": 0
+  },
+  "dask\\bytes\\tests\\test_bytes_utils.py": {
+    "loc": 158,
+    "lloc": 101,
+    "sloc": 114,
+    "comments": 11,
+    "multi": 0,
+    "blank": 32,
+    "single_comments": 12
+  },
+  "dask\\bytes\\tests\\test_compression.py": {
+    "loc": 24,
+    "lloc": 18,
+    "sloc": 18,
+    "comments": 0,
+    "multi": 0,
+    "blank": 6,
+    "single_comments": 0
+  },
+  "dask\\bytes\\tests\\test_http.py": {
+    "loc": 224,
+    "lloc": 162,
+    "sloc": 177,
+    "comments": 11,
+    "multi": 0,
+    "blank": 36,
+    "single_comments": 11
+  },
+  "dask\\bytes\\tests\\test_local.py": {
+    "loc": 354,
+    "lloc": 242,
+    "sloc": 274,
+    "comments": 5,
+    "multi": 0,
+    "blank": 75,
+    "single_comments": 5
+  },
+  "dask\\bytes\\tests\\test_s3.py": {
+    "loc": 635,
+    "lloc": 300,
+    "sloc": 504,
+    "comments": 20,
+    "multi": 12,
+    "blank": 100,
+    "single_comments": 19
+  },
+  "dask\\bytes\\tests\\__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\accessor.py": {
+    "loc": 135,
+    "lloc": 70,
+    "sloc": 72,
+    "comments": 9,
+    "multi": 23,
+    "blank": 31,
+    "single_comments": 9
+  },
+  "dask\\dataframe\\api.py": {
+    "loc": 10,
+    "lloc": 9,
+    "sloc": 9,
+    "comments": 8,
+    "multi": 0,
+    "blank": 1,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\backends.py": {
+    "loc": 869,
+    "lloc": 432,
+    "sloc": 543,
+    "comments": 57,
+    "multi": 126,
+    "blank": 147,
+    "single_comments": 53
+  },
+  "dask\\dataframe\\categorical.py": {
+    "loc": 67,
+    "lloc": 48,
+    "sloc": 54,
+    "comments": 1,
+    "multi": 4,
+    "blank": 9,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\core.py": {
+    "loc": 487,
+    "lloc": 323,
+    "sloc": 363,
+    "comments": 14,
+    "multi": 30,
+    "blank": 77,
+    "single_comments": 17
+  },
+  "dask\\dataframe\\dispatch.py": {
+    "loc": 140,
+    "lloc": 57,
+    "sloc": 70,
+    "comments": 2,
+    "multi": 45,
+    "blank": 23,
+    "single_comments": 2
+  },
+  "dask\\dataframe\\extensions.py": {
+    "loc": 26,
+    "lloc": 7,
+    "sloc": 16,
+    "comments": 0,
+    "multi": 4,
+    "blank": 6,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\groupby.py": {
+    "loc": 1262,
+    "lloc": 546,
+    "sloc": 791,
+    "comments": 96,
+    "multi": 152,
+    "blank": 223,
+    "single_comments": 96
+  },
+  "dask\\dataframe\\hyperloglog.py": {
+    "loc": 83,
+    "lloc": 41,
+    "sloc": 38,
+    "comments": 14,
+    "multi": 8,
+    "blank": 22,
+    "single_comments": 15
+  },
+  "dask\\dataframe\\indexing.py": {
+    "loc": 115,
+    "lloc": 68,
+    "sloc": 64,
+    "comments": 4,
+    "multi": 25,
+    "blank": 22,
+    "single_comments": 4
+  },
+  "dask\\dataframe\\methods.py": {
+    "loc": 541,
+    "lloc": 289,
+    "sloc": 348,
+    "comments": 32,
+    "multi": 43,
+    "blank": 121,
+    "single_comments": 29
+  },
+  "dask\\dataframe\\multi.py": {
+    "loc": 366,
+    "lloc": 169,
+    "sloc": 202,
+    "comments": 23,
+    "multi": 62,
+    "blank": 76,
+    "single_comments": 26
+  },
+  "dask\\dataframe\\partitionquantiles.py": {
+    "loc": 475,
+    "lloc": 189,
+    "sloc": 194,
+    "comments": 29,
+    "multi": 178,
+    "blank": 74,
+    "single_comments": 29
+  },
+  "dask\\dataframe\\rolling.py": {
+    "loc": 49,
+    "lloc": 29,
+    "sloc": 26,
+    "comments": 0,
+    "multi": 11,
+    "blank": 12,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\shuffle.py": {
+    "loc": 240,
+    "lloc": 121,
+    "sloc": 131,
+    "comments": 14,
+    "multi": 48,
+    "blank": 46,
+    "single_comments": 15
+  },
+  "dask\\dataframe\\utils.py": {
+    "loc": 780,
+    "lloc": 452,
+    "sloc": 554,
+    "comments": 20,
+    "multi": 83,
+    "blank": 123,
+    "single_comments": 20
+  },
+  "dask\\dataframe\\_compat.py": {
+    "loc": 77,
+    "lloc": 14,
+    "sloc": 66,
+    "comments": 1,
+    "multi": 0,
+    "blank": 10,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\_dtypes.py": {
+    "loc": 71,
+    "lloc": 49,
+    "sloc": 53,
+    "comments": 0,
+    "multi": 0,
+    "blank": 18,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\_pyarrow.py": {
+    "loc": 96,
+    "lloc": 48,
+    "sloc": 67,
+    "comments": 4,
+    "multi": 0,
+    "blank": 23,
+    "single_comments": 6
+  },
+  "dask\\dataframe\\_pyarrow_compat.py": {
+    "loc": 30,
+    "lloc": 10,
+    "sloc": 10,
+    "comments": 14,
+    "multi": 0,
+    "blank": 6,
+    "single_comments": 14
+  },
+  "dask\\dataframe\\__init__.py": {
+    "loc": 125,
+    "lloc": 19,
+    "sloc": 114,
+    "comments": 2,
+    "multi": 0,
+    "blank": 10,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\dask_expr\\datasets.py": {
+    "loc": 250,
+    "lloc": 98,
+    "sloc": 177,
+    "comments": 5,
+    "multi": 35,
+    "blank": 34,
+    "single_comments": 4
+  },
+  "dask\\dataframe\\dask_expr\\_accessor.py": {
+    "loc": 120,
+    "lloc": 70,
+    "sloc": 80,
+    "comments": 3,
+    "multi": 7,
+    "blank": 30,
+    "single_comments": 3
+  },
+  "dask\\dataframe\\dask_expr\\_backends.py": {
+    "loc": 76,
+    "lloc": 37,
+    "sloc": 42,
+    "comments": 5,
+    "multi": 4,
+    "blank": 26,
+    "single_comments": 4
+  },
+  "dask\\dataframe\\dask_expr\\_categorical.py": {
+    "loc": 212,
+    "lloc": 99,
+    "sloc": 124,
+    "comments": 4,
+    "multi": 36,
+    "blank": 45,
+    "single_comments": 7
+  },
+  "dask\\dataframe\\dask_expr\\_collection.py": {
+    "loc": 6517,
+    "lloc": 2213,
+    "sloc": 3535,
+    "comments": 104,
+    "multi": 1977,
+    "blank": 901,
+    "single_comments": 104
+  },
+  "dask\\dataframe\\dask_expr\\_concat.py": {
+    "loc": 383,
+    "lloc": 182,
+    "sloc": 330,
+    "comments": 8,
+    "multi": 0,
+    "blank": 47,
+    "single_comments": 6
+  },
+  "dask\\dataframe\\dask_expr\\_cumulative.py": {
+    "loc": 151,
+    "lloc": 99,
+    "sloc": 114,
+    "comments": 3,
+    "multi": 0,
+    "blank": 36,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\dask_expr\\_datetime.py": {
+    "loc": 74,
+    "lloc": 7,
+    "sloc": 61,
+    "comments": 0,
+    "multi": 5,
+    "blank": 8,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\dask_expr\\_describe.py": {
+    "loc": 114,
+    "lloc": 62,
+    "sloc": 93,
+    "comments": 1,
+    "multi": 0,
+    "blank": 20,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\dask_expr\\_dummies.py": {
+    "loc": 179,
+    "lloc": 38,
+    "sloc": 86,
+    "comments": 1,
+    "multi": 68,
+    "blank": 24,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\dask_expr\\_expr.py": {
+    "loc": 4217,
+    "lloc": 2584,
+    "sloc": 3100,
+    "comments": 168,
+    "multi": 98,
+    "blank": 853,
+    "single_comments": 166
+  },
+  "dask\\dataframe\\dask_expr\\_groupby.py": {
+    "loc": 2313,
+    "lloc": 958,
+    "sloc": 1714,
+    "comments": 51,
+    "multi": 216,
+    "blank": 350,
+    "single_comments": 33
+  },
+  "dask\\dataframe\\dask_expr\\_indexing.py": {
+    "loc": 453,
+    "lloc": 297,
+    "sloc": 367,
+    "comments": 6,
+    "multi": 4,
+    "blank": 78,
+    "single_comments": 4
+  },
+  "dask\\dataframe\\dask_expr\\_interchange.py": {
+    "loc": 64,
+    "lloc": 32,
+    "sloc": 51,
+    "comments": 0,
+    "multi": 0,
+    "blank": 13,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\dask_expr\\_merge.py": {
+    "loc": 956,
+    "lloc": 449,
+    "sloc": 795,
+    "comments": 48,
+    "multi": 19,
+    "blank": 103,
+    "single_comments": 39
+  },
+  "dask\\dataframe\\dask_expr\\_merge_asof.py": {
+    "loc": 441,
+    "lloc": 195,
+    "sloc": 339,
+    "comments": 2,
+    "multi": 36,
+    "blank": 64,
+    "single_comments": 2
+  },
+  "dask\\dataframe\\dask_expr\\_quantile.py": {
+    "loc": 135,
+    "lloc": 83,
+    "sloc": 109,
+    "comments": 1,
+    "multi": 0,
+    "blank": 25,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\dask_expr\\_quantiles.py": {
+    "loc": 90,
+    "lloc": 43,
+    "sloc": 74,
+    "comments": 1,
+    "multi": 0,
+    "blank": 15,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\dask_expr\\_reductions.py": {
+    "loc": 1538,
+    "lloc": 950,
+    "sloc": 1152,
+    "comments": 39,
+    "multi": 56,
+    "blank": 295,
+    "single_comments": 35
+  },
+  "dask\\dataframe\\dask_expr\\_repartition.py": {
+    "loc": 522,
+    "lloc": 335,
+    "sloc": 421,
+    "comments": 24,
+    "multi": 0,
+    "blank": 75,
+    "single_comments": 26
+  },
+  "dask\\dataframe\\dask_expr\\_rolling.py": {
+    "loc": 343,
+    "lloc": 166,
+    "sloc": 266,
+    "comments": 3,
+    "multi": 4,
+    "blank": 71,
+    "single_comments": 2
+  },
+  "dask\\dataframe\\dask_expr\\_shuffle.py": {
+    "loc": 1428,
+    "lloc": 622,
+    "sloc": 1096,
+    "comments": 51,
+    "multi": 88,
+    "blank": 194,
+    "single_comments": 50
+  },
+  "dask\\dataframe\\dask_expr\\_str_accessor.py": {
+    "loc": 192,
+    "lloc": 86,
+    "sloc": 150,
+    "comments": 0,
+    "multi": 5,
+    "blank": 36,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\dask_expr\\_util.py": {
+    "loc": 204,
+    "lloc": 113,
+    "sloc": 118,
+    "comments": 15,
+    "multi": 21,
+    "blank": 50,
+    "single_comments": 15
+  },
+  "dask\\dataframe\\dask_expr\\__init__.py": {
+    "loc": 10,
+    "lloc": 9,
+    "sloc": 9,
+    "comments": 0,
+    "multi": 0,
+    "blank": 1,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\dask_expr\\diagnostics\\_analyze.py": {
+    "loc": 203,
+    "lloc": 114,
+    "sloc": 156,
+    "comments": 6,
+    "multi": 0,
+    "blank": 43,
+    "single_comments": 4
+  },
+  "dask\\dataframe\\dask_expr\\diagnostics\\_analyze_plugin.py": {
+    "loc": 135,
+    "lloc": 103,
+    "sloc": 100,
+    "comments": 1,
+    "multi": 0,
+    "blank": 35,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\dask_expr\\diagnostics\\_explain.py": {
+    "loc": 110,
+    "lloc": 61,
+    "sloc": 85,
+    "comments": 0,
+    "multi": 0,
+    "blank": 25,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\dask_expr\\diagnostics\\__init__.py": {
+    "loc": 6,
+    "lloc": 4,
+    "sloc": 4,
+    "comments": 0,
+    "multi": 0,
+    "blank": 2,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\dask_expr\\io\\bag.py": {
+    "loc": 44,
+    "lloc": 20,
+    "sloc": 21,
+    "comments": 0,
+    "multi": 15,
+    "blank": 8,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\dask_expr\\io\\io.py": {
+    "loc": 719,
+    "lloc": 426,
+    "sloc": 606,
+    "comments": 17,
+    "multi": 4,
+    "blank": 93,
+    "single_comments": 16
+  },
+  "dask\\dataframe\\dask_expr\\io\\parquet.py": {
+    "loc": 2024,
+    "lloc": 963,
+    "sloc": 1451,
+    "comments": 148,
+    "multi": 178,
+    "blank": 257,
+    "single_comments": 138
+  },
+  "dask\\dataframe\\dask_expr\\io\\records.py": {
+    "loc": 22,
+    "lloc": 5,
+    "sloc": 4,
+    "comments": 0,
+    "multi": 12,
+    "blank": 6,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\dask_expr\\io\\_delayed.py": {
+    "loc": 164,
+    "lloc": 67,
+    "sloc": 104,
+    "comments": 5,
+    "multi": 29,
+    "blank": 28,
+    "single_comments": 3
+  },
+  "dask\\dataframe\\dask_expr\\io\\__init__.py": {
+    "loc": 4,
+    "lloc": 3,
+    "sloc": 3,
+    "comments": 0,
+    "multi": 0,
+    "blank": 1,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\dask_expr\\io\\tests\\test_delayed.py": {
+    "loc": 77,
+    "lloc": 63,
+    "sloc": 56,
+    "comments": 2,
+    "multi": 0,
+    "blank": 19,
+    "single_comments": 2
+  },
+  "dask\\dataframe\\dask_expr\\io\\tests\\test_distributed.py": {
+    "loc": 64,
+    "lloc": 44,
+    "sloc": 46,
+    "comments": 1,
+    "multi": 0,
+    "blank": 18,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\dask_expr\\io\\tests\\test_from_pandas.py": {
+    "loc": 156,
+    "lloc": 128,
+    "sloc": 112,
+    "comments": 0,
+    "multi": 0,
+    "blank": 44,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\dask_expr\\io\\tests\\test_io.py": {
+    "loc": 561,
+    "lloc": 361,
+    "sloc": 435,
+    "comments": 23,
+    "multi": 0,
+    "blank": 107,
+    "single_comments": 19
+  },
+  "dask\\dataframe\\dask_expr\\io\\tests\\test_parquet.py": {
+    "loc": 651,
+    "lloc": 250,
+    "sloc": 542,
+    "comments": 29,
+    "multi": 0,
+    "blank": 89,
+    "single_comments": 20
+  },
+  "dask\\dataframe\\dask_expr\\io\\tests\\test_sql.py": {
+    "loc": 41,
+    "lloc": 18,
+    "sloc": 33,
+    "comments": 0,
+    "multi": 0,
+    "blank": 8,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\dask_expr\\io\\tests\\__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_align_partitions.py": {
+    "loc": 104,
+    "lloc": 66,
+    "sloc": 78,
+    "comments": 7,
+    "multi": 0,
+    "blank": 20,
+    "single_comments": 6
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_categorical.py": {
+    "loc": 72,
+    "lloc": 52,
+    "sloc": 52,
+    "comments": 1,
+    "multi": 0,
+    "blank": 19,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_collection.py": {
+    "loc": 2806,
+    "lloc": 1807,
+    "sloc": 2133,
+    "comments": 46,
+    "multi": 0,
+    "blank": 639,
+    "single_comments": 34
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_concat.py": {
+    "loc": 405,
+    "lloc": 230,
+    "sloc": 318,
+    "comments": 2,
+    "multi": 0,
+    "blank": 85,
+    "single_comments": 2
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_core.py": {
+    "loc": 65,
+    "lloc": 45,
+    "sloc": 44,
+    "comments": 0,
+    "multi": 0,
+    "blank": 21,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_cumulative.py": {
+    "loc": 22,
+    "lloc": 12,
+    "sloc": 15,
+    "comments": 1,
+    "multi": 0,
+    "blank": 6,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_datasets.py": {
+    "loc": 123,
+    "lloc": 89,
+    "sloc": 87,
+    "comments": 5,
+    "multi": 0,
+    "blank": 31,
+    "single_comments": 5
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_datetime.py": {
+    "loc": 139,
+    "lloc": 46,
+    "sloc": 111,
+    "comments": 0,
+    "multi": 0,
+    "blank": 28,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_describe.py": {
+    "loc": 67,
+    "lloc": 31,
+    "sloc": 52,
+    "comments": 1,
+    "multi": 0,
+    "blank": 13,
+    "single_comments": 2
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_diagnostics.py": {
+    "loc": 40,
+    "lloc": 27,
+    "sloc": 27,
+    "comments": 3,
+    "multi": 0,
+    "blank": 12,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_distributed.py": {
+    "loc": 470,
+    "lloc": 313,
+    "sloc": 374,
+    "comments": 18,
+    "multi": 0,
+    "blank": 81,
+    "single_comments": 15
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_dummies.py": {
+    "loc": 30,
+    "lloc": 14,
+    "sloc": 24,
+    "comments": 0,
+    "multi": 0,
+    "blank": 6,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_format.py": {
+    "loc": 207,
+    "lloc": 52,
+    "sloc": 180,
+    "comments": 4,
+    "multi": 0,
+    "blank": 24,
+    "single_comments": 3
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_fusion.py": {
+    "loc": 147,
+    "lloc": 96,
+    "sloc": 89,
+    "comments": 19,
+    "multi": 0,
+    "blank": 40,
+    "single_comments": 18
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_groupby.py": {
+    "loc": 1100,
+    "lloc": 661,
+    "sloc": 843,
+    "comments": 17,
+    "multi": 0,
+    "blank": 240,
+    "single_comments": 17
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_indexing.py": {
+    "loc": 205,
+    "lloc": 187,
+    "sloc": 153,
+    "comments": 3,
+    "multi": 0,
+    "blank": 51,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_interchange.py": {
+    "loc": 20,
+    "lloc": 15,
+    "sloc": 14,
+    "comments": 1,
+    "multi": 0,
+    "blank": 5,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_map_partitions_overlap.py": {
+    "loc": 391,
+    "lloc": 225,
+    "sloc": 288,
+    "comments": 19,
+    "multi": 0,
+    "blank": 85,
+    "single_comments": 18
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_merge.py": {
+    "loc": 1110,
+    "lloc": 724,
+    "sloc": 874,
+    "comments": 41,
+    "multi": 0,
+    "blank": 198,
+    "single_comments": 38
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_merge_asof.py": {
+    "loc": 78,
+    "lloc": 48,
+    "sloc": 60,
+    "comments": 1,
+    "multi": 0,
+    "blank": 17,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_partitioning_knowledge.py": {
+    "loc": 249,
+    "lloc": 152,
+    "sloc": 192,
+    "comments": 3,
+    "multi": 0,
+    "blank": 54,
+    "single_comments": 3
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_predicate_pushdown.py": {
+    "loc": 61,
+    "lloc": 41,
+    "sloc": 44,
+    "comments": 1,
+    "multi": 0,
+    "blank": 17,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_quantiles.py": {
+    "loc": 21,
+    "lloc": 14,
+    "sloc": 15,
+    "comments": 1,
+    "multi": 0,
+    "blank": 5,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_reductions.py": {
+    "loc": 573,
+    "lloc": 300,
+    "sloc": 443,
+    "comments": 28,
+    "multi": 0,
+    "blank": 109,
+    "single_comments": 21
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_repartition.py": {
+    "loc": 144,
+    "lloc": 91,
+    "sloc": 105,
+    "comments": 4,
+    "multi": 4,
+    "blank": 31,
+    "single_comments": 4
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_reshape.py": {
+    "loc": 83,
+    "lloc": 38,
+    "sloc": 64,
+    "comments": 1,
+    "multi": 0,
+    "blank": 18,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_rolling.py": {
+    "loc": 201,
+    "lloc": 129,
+    "sloc": 158,
+    "comments": 8,
+    "multi": 0,
+    "blank": 37,
+    "single_comments": 6
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_shuffle.py": {
+    "loc": 833,
+    "lloc": 532,
+    "sloc": 605,
+    "comments": 32,
+    "multi": 0,
+    "blank": 196,
+    "single_comments": 32
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_string_accessor.py": {
+    "loc": 159,
+    "lloc": 62,
+    "sloc": 130,
+    "comments": 3,
+    "multi": 0,
+    "blank": 26,
+    "single_comments": 3
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_ufunc.py": {
+    "loc": 78,
+    "lloc": 43,
+    "sloc": 57,
+    "comments": 2,
+    "multi": 0,
+    "blank": 20,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\dask_expr\\tests\\_util.py": {
+    "loc": 44,
+    "lloc": 28,
+    "sloc": 28,
+    "comments": 3,
+    "multi": 0,
+    "blank": 13,
+    "single_comments": 3
+  },
+  "dask\\dataframe\\dask_expr\\tests\\__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\io\\csv.py": {
+    "loc": 966,
+    "lloc": 343,
+    "sloc": 643,
+    "comments": 48,
+    "multi": 151,
+    "blank": 125,
+    "single_comments": 47
+  },
+  "dask\\dataframe\\io\\demo.py": {
+    "loc": 548,
+    "lloc": 257,
+    "sloc": 331,
+    "comments": 12,
+    "multi": 106,
+    "blank": 85,
+    "single_comments": 26
+  },
+  "dask\\dataframe\\io\\hdf.py": {
+    "loc": 552,
+    "lloc": 231,
+    "sloc": 313,
+    "comments": 16,
+    "multi": 127,
+    "blank": 95,
+    "single_comments": 17
+  },
+  "dask\\dataframe\\io\\io.py": {
+    "loc": 369,
+    "lloc": 182,
+    "sloc": 205,
+    "comments": 41,
+    "multi": 67,
+    "blank": 58,
+    "single_comments": 39
+  },
+  "dask\\dataframe\\io\\json.py": {
+    "loc": 324,
+    "lloc": 94,
+    "sloc": 190,
+    "comments": 1,
+    "multi": 97,
+    "blank": 36,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\io\\sql.py": {
+    "loc": 606,
+    "lloc": 158,
+    "sloc": 285,
+    "comments": 10,
+    "multi": 234,
+    "blank": 77,
+    "single_comments": 10
+  },
+  "dask\\dataframe\\io\\utils.py": {
+    "loc": 252,
+    "lloc": 118,
+    "sloc": 147,
+    "comments": 13,
+    "multi": 48,
+    "blank": 39,
+    "single_comments": 18
+  },
+  "dask\\dataframe\\io\\__init__.py": {
+    "loc": 13,
+    "lloc": 11,
+    "sloc": 11,
+    "comments": 0,
+    "multi": 0,
+    "blank": 2,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\io\\orc\\arrow.py": {
+    "loc": 127,
+    "lloc": 95,
+    "sloc": 106,
+    "comments": 5,
+    "multi": 0,
+    "blank": 16,
+    "single_comments": 5
+  },
+  "dask\\dataframe\\io\\orc\\core.py": {
+    "loc": 225,
+    "lloc": 66,
+    "sloc": 120,
+    "comments": 11,
+    "multi": 60,
+    "blank": 34,
+    "single_comments": 11
+  },
+  "dask\\dataframe\\io\\orc\\utils.py": {
+    "loc": 19,
+    "lloc": 12,
+    "sloc": 13,
+    "comments": 0,
+    "multi": 0,
+    "blank": 5,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\io\\orc\\__init__.py": {
+    "loc": 3,
+    "lloc": 2,
+    "sloc": 2,
+    "comments": 0,
+    "multi": 0,
+    "blank": 1,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\io\\parquet\\arrow.py": {
+    "loc": 1842,
+    "lloc": 828,
+    "sloc": 1360,
+    "comments": 238,
+    "multi": 53,
+    "blank": 195,
+    "single_comments": 234
+  },
+  "dask\\dataframe\\io\\parquet\\core.py": {
+    "loc": 717,
+    "lloc": 296,
+    "sloc": 468,
+    "comments": 66,
+    "multi": 101,
+    "blank": 91,
+    "single_comments": 57
+  },
+  "dask\\dataframe\\io\\parquet\\utils.py": {
+    "loc": 762,
+    "lloc": 310,
+    "sloc": 428,
+    "comments": 73,
+    "multi": 180,
+    "blank": 85,
+    "single_comments": 69
+  },
+  "dask\\dataframe\\io\\parquet\\__init__.py": {
+    "loc": 3,
+    "lloc": 2,
+    "sloc": 2,
+    "comments": 0,
+    "multi": 0,
+    "blank": 1,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\io\\tests\\test_csv.py": {
+    "loc": 1901,
+    "lloc": 1040,
+    "sloc": 1477,
+    "comments": 71,
+    "multi": 4,
+    "blank": 352,
+    "single_comments": 68
+  },
+  "dask\\dataframe\\io\\tests\\test_demo.py": {
+    "loc": 348,
+    "lloc": 159,
+    "sloc": 295,
+    "comments": 1,
+    "multi": 0,
+    "blank": 51,
+    "single_comments": 2
+  },
+  "dask\\dataframe\\io\\tests\\test_hdf.py": {
+    "loc": 880,
+    "lloc": 449,
+    "sloc": 717,
+    "comments": 42,
+    "multi": 2,
+    "blank": 120,
+    "single_comments": 41
+  },
+  "dask\\dataframe\\io\\tests\\test_io.py": {
+    "loc": 990,
+    "lloc": 617,
+    "sloc": 716,
+    "comments": 75,
+    "multi": 0,
+    "blank": 217,
+    "single_comments": 57
+  },
+  "dask\\dataframe\\io\\tests\\test_json.py": {
+    "loc": 246,
+    "lloc": 167,
+    "sloc": 190,
+    "comments": 6,
+    "multi": 0,
+    "blank": 50,
+    "single_comments": 6
+  },
+  "dask\\dataframe\\io\\tests\\test_orc.py": {
+    "loc": 158,
+    "lloc": 102,
+    "sloc": 117,
+    "comments": 10,
+    "multi": 0,
+    "blank": 32,
+    "single_comments": 9
+  },
+  "dask\\dataframe\\io\\tests\\test_parquet.py": {
+    "loc": 3996,
+    "lloc": 2040,
+    "sloc": 3052,
+    "comments": 262,
+    "multi": 12,
+    "blank": 682,
+    "single_comments": 250
+  },
+  "dask\\dataframe\\io\\tests\\test_sql.py": {
+    "loc": 584,
+    "lloc": 323,
+    "sloc": 450,
+    "comments": 28,
+    "multi": 0,
+    "blank": 107,
+    "single_comments": 27
+  },
+  "dask\\dataframe\\io\\tests\\__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\tests\\test_accessors.py": {
+    "loc": 345,
+    "lloc": 196,
+    "sloc": 248,
+    "comments": 13,
+    "multi": 2,
+    "blank": 82,
+    "single_comments": 13
+  },
+  "dask\\dataframe\\tests\\test_api.py": {
+    "loc": 33,
+    "lloc": 15,
+    "sloc": 21,
+    "comments": 3,
+    "multi": 0,
+    "blank": 8,
+    "single_comments": 4
+  },
+  "dask\\dataframe\\tests\\test_arithmetics_reduction.py": {
+    "loc": 1490,
+    "lloc": 824,
+    "sloc": 1239,
+    "comments": 62,
+    "multi": 0,
+    "blank": 197,
+    "single_comments": 54
+  },
+  "dask\\dataframe\\tests\\test_boolean.py": {
+    "loc": 33,
+    "lloc": 21,
+    "sloc": 22,
+    "comments": 0,
+    "multi": 0,
+    "blank": 11,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\tests\\test_categorical.py": {
+    "loc": 519,
+    "lloc": 303,
+    "sloc": 398,
+    "comments": 31,
+    "multi": 0,
+    "blank": 88,
+    "single_comments": 33
+  },
+  "dask\\dataframe\\tests\\test_dataframe.py": {
+    "loc": 5400,
+    "lloc": 3368,
+    "sloc": 4062,
+    "comments": 215,
+    "multi": 19,
+    "blank": 1133,
+    "single_comments": 186
+  },
+  "dask\\dataframe\\tests\\test_extensions.py": {
+    "loc": 52,
+    "lloc": 30,
+    "sloc": 29,
+    "comments": 4,
+    "multi": 0,
+    "blank": 19,
+    "single_comments": 4
+  },
+  "dask\\dataframe\\tests\\test_groupby.py": {
+    "loc": 3266,
+    "lloc": 1631,
+    "sloc": 2556,
+    "comments": 150,
+    "multi": 14,
+    "blank": 559,
+    "single_comments": 137
+  },
+  "dask\\dataframe\\tests\\test_hashing.py": {
+    "loc": 84,
+    "lloc": 41,
+    "sloc": 69,
+    "comments": 5,
+    "multi": 0,
+    "blank": 10,
+    "single_comments": 5
+  },
+  "dask\\dataframe\\tests\\test_hyperloglog.py": {
+    "loc": 96,
+    "lloc": 26,
+    "sloc": 85,
+    "comments": 0,
+    "multi": 0,
+    "blank": 11,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\tests\\test_indexing.py": {
+    "loc": 658,
+    "lloc": 482,
+    "sloc": 475,
+    "comments": 28,
+    "multi": 0,
+    "blank": 160,
+    "single_comments": 23
+  },
+  "dask\\dataframe\\tests\\test_map.py": {
+    "loc": 266,
+    "lloc": 182,
+    "sloc": 198,
+    "comments": 9,
+    "multi": 17,
+    "blank": 47,
+    "single_comments": 4
+  },
+  "dask\\dataframe\\tests\\test_merge_column_and_index.py": {
+    "loc": 277,
+    "lloc": 128,
+    "sloc": 164,
+    "comments": 43,
+    "multi": 0,
+    "blank": 70,
+    "single_comments": 43
+  },
+  "dask\\dataframe\\tests\\test_methods.py": {
+    "loc": 13,
+    "lloc": 10,
+    "sloc": 9,
+    "comments": 0,
+    "multi": 0,
+    "blank": 4,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\tests\\test_multi.py": {
+    "loc": 2438,
+    "lloc": 1090,
+    "sloc": 1971,
+    "comments": 88,
+    "multi": 0,
+    "blank": 389,
+    "single_comments": 78
+  },
+  "dask\\dataframe\\tests\\test_numeric.py": {
+    "loc": 78,
+    "lloc": 61,
+    "sloc": 60,
+    "comments": 1,
+    "multi": 0,
+    "blank": 17,
+    "single_comments": 1
+  },
+  "dask\\dataframe\\tests\\test_pyarrow.py": {
+    "loc": 184,
+    "lloc": 27,
+    "sloc": 171,
+    "comments": 2,
+    "multi": 0,
+    "blank": 13,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\tests\\test_pyarrow_compat.py": {
+    "loc": 142,
+    "lloc": 75,
+    "sloc": 114,
+    "comments": 5,
+    "multi": 0,
+    "blank": 23,
+    "single_comments": 5
+  },
+  "dask\\dataframe\\tests\\test_reshape.py": {
+    "loc": 335,
+    "lloc": 193,
+    "sloc": 254,
+    "comments": 13,
+    "multi": 0,
+    "blank": 68,
+    "single_comments": 13
+  },
+  "dask\\dataframe\\tests\\test_rolling.py": {
+    "loc": 508,
+    "lloc": 240,
+    "sloc": 399,
+    "comments": 28,
+    "multi": 0,
+    "blank": 88,
+    "single_comments": 21
+  },
+  "dask\\dataframe\\tests\\test_shuffle.py": {
+    "loc": 1300,
+    "lloc": 741,
+    "sloc": 992,
+    "comments": 53,
+    "multi": 4,
+    "blank": 258,
+    "single_comments": 46
+  },
+  "dask\\dataframe\\tests\\test_ufunc.py": {
+    "loc": 562,
+    "lloc": 220,
+    "sloc": 427,
+    "comments": 31,
+    "multi": 8,
+    "blank": 96,
+    "single_comments": 31
+  },
+  "dask\\dataframe\\tests\\test_utils_dataframe.py": {
+    "loc": 715,
+    "lloc": 462,
+    "sloc": 555,
+    "comments": 36,
+    "multi": 0,
+    "blank": 124,
+    "single_comments": 36
+  },
+  "dask\\dataframe\\tests\\__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\tseries\\resample.py": {
+    "loc": 374,
+    "lloc": 205,
+    "sloc": 278,
+    "comments": 5,
+    "multi": 4,
+    "blank": 88,
+    "single_comments": 4
+  },
+  "dask\\dataframe\\tseries\\__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "dask\\dataframe\\tseries\\tests\\test_resample.py": {
+    "loc": 248,
+    "lloc": 138,
+    "sloc": 179,
+    "comments": 8,
+    "multi": 0,
+    "blank": 61,
+    "single_comments": 8
+  },
+  "dask\\dataframe\\tseries\\tests\\test_resample_expr.py": {
+    "loc": 152,
+    "lloc": 85,
+    "sloc": 114,
+    "comments": 6,
+    "multi": 0,
+    "blank": 32,
+    "single_comments": 6
+  },
+  "dask\\dataframe\\tseries\\tests\\__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "dask\\diagnostics\\profile.py": {
+    "loc": 414,
+    "lloc": 201,
+    "sloc": 205,
+    "comments": 3,
+    "multi": 107,
+    "blank": 96,
+    "single_comments": 6
+  },
+  "dask\\diagnostics\\profile_visualize.py": {
+    "loc": 437,
+    "lloc": 186,
+    "sloc": 277,
+    "comments": 7,
+    "multi": 97,
+    "blank": 55,
+    "single_comments": 8
+  },
+  "dask\\diagnostics\\progress.py": {
+    "loc": 153,
+    "lloc": 83,
+    "sloc": 79,
+    "comments": 4,
+    "multi": 44,
+    "blank": 25,
+    "single_comments": 5
+  },
+  "dask\\diagnostics\\__init__.py": {
+    "loc": 6,
+    "lloc": 5,
+    "sloc": 5,
+    "comments": 0,
+    "multi": 0,
+    "blank": 1,
+    "single_comments": 0
+  },
+  "dask\\diagnostics\\tests\\test_profiler.py": {
+    "loc": 389,
+    "lloc": 280,
+    "sloc": 305,
+    "comments": 15,
+    "multi": 0,
+    "blank": 70,
+    "single_comments": 14
+  },
+  "dask\\diagnostics\\tests\\test_progress.py": {
+    "loc": 137,
+    "lloc": 101,
+    "sloc": 101,
+    "comments": 1,
+    "multi": 0,
+    "blank": 36,
+    "single_comments": 0
+  },
+  "dask\\diagnostics\\tests\\__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "dask\\tests\\test_backends.py": {
+    "loc": 22,
+    "lloc": 16,
+    "sloc": 15,
+    "comments": 2,
+    "multi": 0,
+    "blank": 5,
+    "single_comments": 2
+  },
+  "dask\\tests\\test_base.py": {
+    "loc": 1040,
+    "lloc": 719,
+    "sloc": 766,
+    "comments": 61,
+    "multi": 3,
+    "blank": 230,
+    "single_comments": 41
+  },
+  "dask\\tests\\test_cache.py": {
+    "loc": 80,
+    "lloc": 56,
+    "sloc": 53,
+    "comments": 2,
+    "multi": 0,
+    "blank": 26,
+    "single_comments": 1
+  },
+  "dask\\tests\\test_callbacks.py": {
+    "loc": 112,
+    "lloc": 83,
+    "sloc": 77,
+    "comments": 3,
+    "multi": 0,
+    "blank": 32,
+    "single_comments": 3
+  },
+  "dask\\tests\\test_cli.py": {
+    "loc": 267,
+    "lloc": 160,
+    "sloc": 190,
+    "comments": 13,
+    "multi": 0,
+    "blank": 65,
+    "single_comments": 12
+  },
+  "dask\\tests\\test_composite_expr.py": {
+    "loc": 305,
+    "lloc": 204,
+    "sloc": 203,
+    "comments": 5,
+    "multi": 0,
+    "blank": 97,
+    "single_comments": 5
+  },
+  "dask\\tests\\test_config.py": {
+    "loc": 783,
+    "lloc": 534,
+    "sloc": 574,
+    "comments": 20,
+    "multi": 15,
+    "blank": 175,
+    "single_comments": 19
+  },
+  "dask\\tests\\test_context.py": {
+    "loc": 65,
+    "lloc": 41,
+    "sloc": 41,
+    "comments": 2,
+    "multi": 0,
+    "blank": 23,
+    "single_comments": 1
+  },
+  "dask\\tests\\test_core.py": {
+    "loc": 306,
+    "lloc": 176,
+    "sloc": 223,
+    "comments": 8,
+    "multi": 6,
+    "blank": 72,
+    "single_comments": 5
+  },
+  "dask\\tests\\test_datasets.py": {
+    "loc": 48,
+    "lloc": 31,
+    "sloc": 31,
+    "comments": 1,
+    "multi": 0,
+    "blank": 17,
+    "single_comments": 0
+  },
+  "dask\\tests\\test_delayed.py": {
+    "loc": 964,
+    "lloc": 704,
+    "sloc": 682,
+    "comments": 47,
+    "multi": 0,
+    "blank": 244,
+    "single_comments": 38
+  },
+  "dask\\tests\\test_distributed.py": {
+    "loc": 1094,
+    "lloc": 691,
+    "sloc": 820,
+    "comments": 65,
+    "multi": 10,
+    "blank": 208,
+    "single_comments": 56
+  },
+  "dask\\tests\\test_docs.py": {
+    "loc": 31,
+    "lloc": 16,
+    "sloc": 23,
+    "comments": 0,
+    "multi": 0,
+    "blank": 7,
+    "single_comments": 1
+  },
+  "dask\\tests\\test_dot.py": {
+    "loc": 338,
+    "lloc": 218,
+    "sloc": 261,
+    "comments": 17,
+    "multi": 0,
+    "blank": 69,
+    "single_comments": 8
+  },
+  "dask\\tests\\test_expr.py": {
+    "loc": 167,
+    "lloc": 108,
+    "sloc": 106,
+    "comments": 11,
+    "multi": 0,
+    "blank": 50,
+    "single_comments": 11
+  },
+  "dask\\tests\\test_graph_manipulation.py": {
+    "loc": 346,
+    "lloc": 245,
+    "sloc": 267,
+    "comments": 33,
+    "multi": 10,
+    "blank": 60,
+    "single_comments": 9
+  },
+  "dask\\tests\\test_hashing.py": {
+    "loc": 44,
+    "lloc": 26,
+    "sloc": 33,
+    "comments": 2,
+    "multi": 0,
+    "blank": 10,
+    "single_comments": 1
+  },
+  "dask\\tests\\test_highgraph.py": {
+    "loc": 364,
+    "lloc": 256,
+    "sloc": 261,
+    "comments": 27,
+    "multi": 2,
+    "blank": 74,
+    "single_comments": 27
+  },
+  "dask\\tests\\test_hlgexpr.py": {
+    "loc": 283,
+    "lloc": 175,
+    "sloc": 228,
+    "comments": 14,
+    "multi": 4,
+    "blank": 37,
+    "single_comments": 14
+  },
+  "dask\\tests\\test_imports.py": {
+    "loc": 49,
+    "lloc": 22,
+    "sloc": 35,
+    "comments": 4,
+    "multi": 0,
+    "blank": 14,
+    "single_comments": 0
+  },
+  "dask\\tests\\test_layers.py": {
+    "loc": 210,
+    "lloc": 121,
+    "sloc": 141,
+    "comments": 20,
+    "multi": 0,
+    "blank": 55,
+    "single_comments": 14
+  },
+  "dask\\tests\\test_local.py": {
+    "loc": 222,
+    "lloc": 154,
+    "sloc": 166,
+    "comments": 0,
+    "multi": 0,
+    "blank": 56,
+    "single_comments": 0
+  },
+  "dask\\tests\\test_ml.py": {
+    "loc": 15,
+    "lloc": 13,
+    "sloc": 13,
+    "comments": 2,
+    "multi": 0,
+    "blank": 2,
+    "single_comments": 0
+  },
+  "dask\\tests\\test_multiprocessing.py": {
+    "loc": 306,
+    "lloc": 199,
+    "sloc": 192,
+    "comments": 2,
+    "multi": 20,
+    "blank": 88,
+    "single_comments": 6
+  },
+  "dask\\tests\\test_optimization.py": {
+    "loc": 1381,
+    "lloc": 512,
+    "sloc": 1229,
+    "comments": 37,
+    "multi": 4,
+    "blank": 122,
+    "single_comments": 26
+  },
+  "dask\\tests\\test_order.py": {
+    "loc": 2703,
+    "lloc": 808,
+    "sloc": 2165,
+    "comments": 111,
+    "multi": 199,
+    "blank": 245,
+    "single_comments": 94
+  },
+  "dask\\tests\\test_rewrite.py": {
+    "loc": 157,
+    "lloc": 106,
+    "sloc": 113,
+    "comments": 17,
+    "multi": 0,
+    "blank": 27,
+    "single_comments": 17
+  },
+  "dask\\tests\\test_sizeof.py": {
+    "loc": 307,
+    "lloc": 199,
+    "sloc": 224,
+    "comments": 9,
+    "multi": 3,
+    "blank": 71,
+    "single_comments": 9
+  },
+  "dask\\tests\\test_spark_compat.py": {
+    "loc": 186,
+    "lloc": 85,
+    "sloc": 119,
+    "comments": 28,
+    "multi": 0,
+    "blank": 39,
+    "single_comments": 28
+  },
+  "dask\\tests\\test_system.py": {
+    "loc": 157,
+    "lloc": 100,
+    "sloc": 121,
+    "comments": 6,
+    "multi": 0,
+    "blank": 31,
+    "single_comments": 5
+  },
+  "dask\\tests\\test_task_spec.py": {
+    "loc": 1145,
+    "lloc": 689,
+    "sloc": 844,
+    "comments": 44,
+    "multi": 3,
+    "blank": 254,
+    "single_comments": 44
+  },
+  "dask\\tests\\test_threaded.py": {
+    "loc": 268,
+    "lloc": 176,
+    "sloc": 167,
+    "comments": 8,
+    "multi": 21,
+    "blank": 73,
+    "single_comments": 7
+  },
+  "dask\\tests\\test_tokenize.py": {
+    "loc": 1542,
+    "lloc": 937,
+    "sloc": 1059,
+    "comments": 89,
+    "multi": 11,
+    "blank": 391,
+    "single_comments": 81
+  },
+  "dask\\tests\\test_traceback.py": {
+    "loc": 160,
+    "lloc": 93,
+    "sloc": 109,
+    "comments": 5,
+    "multi": 12,
+    "blank": 38,
+    "single_comments": 1
+  },
+  "dask\\tests\\test_typing.py": {
+    "loc": 218,
+    "lloc": 124,
+    "sloc": 151,
+    "comments": 0,
+    "multi": 0,
+    "blank": 67,
+    "single_comments": 0
+  },
+  "dask\\tests\\test_utils.py": {
+    "loc": 1025,
+    "lloc": 618,
+    "sloc": 729,
+    "comments": 16,
+    "multi": 13,
+    "blank": 264,
+    "single_comments": 19
+  },
+  "dask\\tests\\test_utils_test.py": {
+    "loc": 50,
+    "lloc": 47,
+    "sloc": 37,
+    "comments": 0,
+    "multi": 0,
+    "blank": 13,
+    "single_comments": 0
+  },
+  "dask\\tests\\warning_aliases.py": {
+    "loc": 10,
+    "lloc": 7,
+    "sloc": 7,
+    "comments": 0,
+    "multi": 0,
+    "blank": 3,
+    "single_comments": 0
+  },
+  "dask\\tests\\__init__.py": {
+    "loc": 0,
+    "lloc": 0,
+    "sloc": 0,
+    "comments": 0,
+    "multi": 0,
+    "blank": 0,
+    "single_comments": 0
+  },
+  "dask\\widgets\\widgets.py": {
+    "loc": 40,
+    "lloc": 20,
+    "sloc": 30,
+    "comments": 0,
+    "multi": 0,
+    "blank": 10,
+    "single_comments": 0
+  },
+  "dask\\widgets\\__init__.py": {
+    "loc": 26,
+    "lloc": 12,
+    "sloc": 22,
+    "comments": 1,
+    "multi": 0,
+    "blank": 4,
+    "single_comments": 0
+  },
+  "dask\\widgets\\tests\\test_widgets.py": {
+    "loc": 48,
+    "lloc": 29,
+    "sloc": 30,
+    "comments": 2,
+    "multi": 0,
+    "blank": 16,
+    "single_comments": 2
+  }
+}
