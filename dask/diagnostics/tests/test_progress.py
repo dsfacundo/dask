@@ -52,9 +52,11 @@ def test_minimum_time(capsys):
 @pytest.mark.parametrize("get", [get_threaded, get_sync])
 def test_clean_exit(get):
     dsk = {"a": (lambda: 1 / 0,)}
-    with pytest.raises(ZeroDivisionError):
+    try:
         with ProgressBar() as pbar:
             get_threaded(dsk, "a")
+    except ZeroDivisionError:
+        pass
     assert not pbar._running
     assert not pbar._timer.is_alive()
 

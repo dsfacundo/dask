@@ -174,19 +174,15 @@ def test_wrap_ffts(modname, funcname, dtype):
     )
 
 
-def _get_fft_func(modname, funcname):
-    fft_mod = pytest.importorskip(modname)
-    func = getattr(fft_mod, funcname, None)
-    if func is None:
-        pytest.skip(f"`{modname}` missing function `{funcname}`.")
-    return func
-
-
 @pytest.mark.parametrize("modname", ["numpy.fft", "scipy.fft"])
 @pytest.mark.parametrize("funcname", all_nd_funcnames)
 @pytest.mark.parametrize("dtype", ["float32", "float64"])
 def test_wrap_fftns(modname, funcname, dtype):
-    func = _get_fft_func(modname, funcname)
+    fft_mod = pytest.importorskip(modname)
+    try:
+        func = getattr(fft_mod, funcname)
+    except AttributeError:
+        pytest.skip(f"`{modname}` missing function `{funcname}`.")
 
     darrc = darr.astype(dtype).rechunk(darr.shape)
     darr2c = darr2.astype(dtype).rechunk(darr2.shape)

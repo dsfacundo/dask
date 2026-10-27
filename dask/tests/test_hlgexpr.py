@@ -60,61 +60,76 @@ def func(*args, **kwargs):
     pass
 
 
-def _make_sample_hlg_exprs():
+def test_hlg_expr_sequence_finalize():
     hlgx = HighLevelGraph(
         xlayer := {"xlayer": MaterializedLayer({"x": DataNode("x", 1)})},
         dependencies=(xdeps := {"xlayer": set()}),
     )
     ylayer = {"ylayer": MaterializedLayer({"y": Task("y", func, TaskRef("x"))})}
     ylayer.update(xlayer)
-    ydeps = {"ylayer": {"xlayer"}, **xdeps}
+    ydeps = {"ylayer": {"xlayer"}}
+    ydeps.update(xdeps)
     hlgy = HighLevelGraph(ylayer, dependencies=ydeps)
-
     zlayer = {"zlayer": MaterializedLayer({"z": Task("z", func, TaskRef("x"))})}
     zlayer.update(xlayer)
-    zdeps = {"zlayer": {"xlayer"}, **xdeps}
+    zdeps = {"zlayer": {"xlayer"}}
+
+    zdeps.update(xdeps)
     hlgz = HighLevelGraph(zlayer, dependencies=zdeps)
-
-    hlgexprx = HLGExpr(hlgx, low_level_optimizer=optimizer, output_keys=["x"])
-    hlgexpry = HLGExpr(hlgy, low_level_optimizer=optimizer, output_keys=["y"])
-    hlgexprz = HLGExpr(hlgz, low_level_optimizer=optimizer, output_keys=["z"])
-    return hlgx, hlgy, hlgz, hlgexprx, hlgexpry, hlgexprz
-
-
-def test_hlg_expr_single_finalize():
-    _, hlgy, _, hlgexprx, hlgexpry, _ = _make_sample_hlg_exprs()
+    hlgexprx = HLGExpr(
+        hlgx,
+        low_level_optimizer=optimizer,
+        output_keys=["x"],
+    )
+    hlgexpry = HLGExpr(
+        hlgy,
+        low_level_optimizer=optimizer,
+        output_keys=["y"],
+    )
+    hlgexprz = HLGExpr(
+        hlgz,
+        low_level_optimizer=optimizer,
+        output_keys=["z"],
+    )
     dskx = hlgexprx.finalize_compute().optimize().__dask_graph__()
     assert isinstance(dskx, dict)
     assert len(dskx) == 1
-    assert dskx.get("x") is hlgy.layers["xlayer"]["x"]
+    assert "x" in dskx
+    assert dskx["x"] is hlgy.layers["xlayer"]["x"]
 
     dsky = hlgexpry.finalize_compute().optimize().__dask_graph__()
     assert isinstance(dsky, dict)
+    # Linear low level fusion
     assert len(dsky) == 1
     assert "y" in dsky
     assert dsky["y"] != hlgy.layers["ylayer"]["y"]
 
-
-def test_hlg_expr_sequence_finalize():
-    hlgx, hlgy, hlgz, _, hlgexpry, hlgexprz = _make_sample_hlg_exprs()
     expryz_opt = _ExprSequence(hlgexprz, hlgexpry).finalize_compute().optimize()
-    assert len(expryz_opt.__dask_keys__()) == 2
+    keys_yz = expryz_opt.__dask_keys__()
+    assert len(keys_yz) == 2
 
     dskyz = expryz_opt.__dask_graph__()
-    expected = {
-        **next(iter(hlgx.layers.values())).mapping,
-        **next(iter(hlgy.layers.values())).mapping,
-        **next(iter(hlgz.layers.values())).mapping,
-    }
+    assert isinstance(dskyz, dict)
+    expected = {}
+    expected.update(next(iter(hlgx.layers.values())).mapping)
+    expected.update(next(iter(hlgy.layers.values())).mapping)
+    expected.update(next(iter(hlgz.layers.values())).mapping)
+    # This is building the graph properly without fusing anything
     assert dskyz == expected
 
-    hlgexprz_diff = HLGExpr(hlgz, low_level_optimizer=optimizer2, output_keys=["z"])
+    hlgexprz_different_optimizer = HLGExpr(
+        hlgz,
+        low_level_optimizer=optimizer2,
+        output_keys=["z"],
+    )
+
     dskyz2 = (
-        _ExprSequence(hlgexprz_diff, hlgexpry)
+        _ExprSequence(hlgexprz_different_optimizer, hlgexpry)
         .finalize_compute()
         .optimize()
         .__dask_graph__()
     )
+    # both are fusing x
     assert "x" not in dskyz2
     assert len(dskyz2) == 2
 

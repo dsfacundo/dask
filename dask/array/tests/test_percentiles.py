@@ -61,7 +61,10 @@ def test_percentile(internal_method):
 
 @pytest.mark.skip
 def test_percentile_with_categoricals():
-    pd = pytest.importorskip("pandas")
+    try:
+        import pandas as pd
+    except ImportError:
+        return
     x0 = pd.Categorical(["Alice", "Bob", "Charlie", "Dennis", "Alice", "Alice"])
     x1 = pd.Categorical(["Alice", "Bob", "Charlie", "Dennis", "Alice", "Alice"])
 

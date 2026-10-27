@@ -927,20 +927,17 @@ def test_callable_scheduler():
     assert called[0]
 
 
-def _hold_worker_slot(duration):
-    deadline = time.perf_counter() + duration
-    while time.perf_counter() < deadline:
-        pass
-
-
 @pytest.mark.flaky(reruns=10, reruns_delay=5)
 @pytest.mark.slow
 @pytest.mark.parametrize("scheduler", ["threads", "processes"])
 def test_num_workers_config(scheduler):
     # Regression test for issue #4082
-    f = delayed(pure=False)(_hold_worker_slot)
+
+    f = delayed(pure=False)(time.sleep)
+    # Be generous with the initial sleep times, as process have been observed
+    # to take >0.5s to spin up
     num_workers = 3
-    a = [f(1.0), f(1.0), f(1.0)]
+    a = [f(1.0) for i in range(num_workers)]
     with dask.config.set(num_workers=num_workers, chunksize=1), Profiler() as prof:
         compute(*a, scheduler=scheduler)
 
