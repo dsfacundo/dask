@@ -1,12 +1,4 @@
 arquivo,smell,metodo,linhas
-TEMPY/main.py,Conditional Test Logic,test_file_selection_window,132
-TEMPY/main.py,Unknown Test,test_file_selection_window,114
-TEMPY/main.py,Non-Functional Statement,get_selected_test_file,34
-TEMPY/main.py,Non-Functional Statement,get_selected_test_file,49
-TEMPY/main.py,Non-Functional Statement,get_all_test_file,78
-TEMPY/main.py,Non-Functional Statement,get_all_test_file,93
-TEMPY/main.py,Non-Functional Statement,select_file,214
-TEMPY/main.py,Non-Functional Statement,set_github_url,240
 dask/dask/utils_test.py,Exception Handling,test_badkey,55
 dask/dask/utils_test.py,Exception Handling,test_nested_badkey,67
 dask/dask/utils_test.py,Programming Paradigms Blend,(nível do módulo),8;29
