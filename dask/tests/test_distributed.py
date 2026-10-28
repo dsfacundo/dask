@@ -482,30 +482,23 @@ async def test_annotations_blockwise_unpack(c, s, a, b):
 
 
 @pytest.mark.parametrize(
-    "io",
+    "io,extra_args",
     [
-        "ones",
-        "zeros",
-        "full",
+        ("ones", ()),
+        ("zeros", ()),
+        ("full", (10,)),
     ],
 )
 @pytest.mark.parametrize("fuse", [True, False, None])
-def test_blockwise_array_creation(c, io, fuse):
+def test_blockwise_array_creation(c, io, extra_args, fuse):
     np = pytest.importorskip("numpy")
     da = pytest.importorskip("dask.array")
 
     chunks = (5, 2)
     shape = (10, 4)
 
-    if io == "ones":
-        darr = da.ones(shape, chunks=chunks)
-        narr = np.ones(shape)
-    elif io == "zeros":
-        darr = da.zeros(shape, chunks=chunks)
-        narr = np.zeros(shape)
-    elif io == "full":
-        darr = da.full(shape, 10, chunks=chunks)
-        narr = np.full(shape, 10)
+    darr = getattr(da, io)(shape, *extra_args, chunks=chunks)
+    narr = getattr(np, io)(shape, *extra_args)
 
     darr += 2
     narr += 2
