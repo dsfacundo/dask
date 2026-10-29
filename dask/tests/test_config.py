@@ -376,9 +376,12 @@ def test_set_nested():
 def test_set_hard_to_copyables():
     import threading
 
-    with dask.config.set(x=threading.Lock()):
+    lock = threading.Lock()
+
+    with dask.config.set(x=lock):
         with dask.config.set(y=1):
-            pass
+            assert dask.config.get("x") is lock
+            assert dask.config.get("y") == 1
 
 
 @pytest.mark.parametrize("mkdir", [True, False])
