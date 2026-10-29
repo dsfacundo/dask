@@ -3029,8 +3029,7 @@ def test_from_array_dask_collection_warns():
 
 
 def test_from_array_inline():
-    class MyArray(np.ndarray):
-        pass
+    MyArray = type("MyArray", (np.ndarray,), {})
 
     a = np.array([1, 2, 3]).view(MyArray)
     dsk = dict(da.from_array(a, name="my-array", inline_array=False).dask)
