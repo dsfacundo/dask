@@ -967,68 +967,104 @@ def test_nested_containers():
     assert t({"b": "b"}) == ["a-b", "c-d"]
 
 
-def test_dict_class():
-    t = Dict(k=Task("key-1", func, "a", "b"), v=Task("key-2", func, "c", "d"))
-    assert not t.dependencies
-    assert t() == {"k": "a-b", "v": "c-d"}
-    t2 = Dict({"k": Task("key-1", func, "a", "b"), "v": Task("key-2", func, "c", "d")})
-    assert t == t2
-    assert t() == t2()
+@pytest.fixture
+def simple_dict():
+    return Dict(k=Task("key-1", func, "a", "b"), v=Task("key-2", func, "c", "d"))
+ 
+ 
+def test_dict_without_refs_has_no_dependencies(simple_dict):
+    assert not simple_dict.dependencies
+ 
+ 
+def test_dict_call_returns_computed_values(simple_dict):
+    assert simple_dict() == {"k": "a-b", "v": "c-d"}
+ 
+ 
+def test_dict_from_kwargs_equals_dict_from_mapping(simple_dict):
+    from_mapping = Dict(
+        {"k": Task("key-1", func, "a", "b"), "v": Task("key-2", func, "c", "d")}
+    )
+ 
+    assert simple_dict == from_mapping
+    assert simple_dict() == from_mapping()
+ 
+ 
+def test_dict_with_task_ref_exposes_dependencies_and_resolves_them():
     t = Dict(k=Task("key-1", func, "a", TaskRef("b")), v=Task("key-2", func, "c", "d"))
+ 
     assert t.dependencies == {"b"}
     assert t({"b": "b"}) == {"k": "a-b", "v": "c-d"}
-
+ 
+ 
+def test_dict_accepts_non_string_hashable_keys():
     t = Dict(
         {
             "k": Task("key-1", func, "a", TaskRef("b")),
-            # Use a hashable key that isn't a string. This cannot be used as
-            # kwargs, for instance
             ("v", 1): Task("key-2", func, "c", "d"),
         }
     )
+ 
     assert t.dependencies == {"b"}
     assert t({"b": "b"}) == {"k": "a-b", ("v", 1): "c-d"}
-
-    t = Dict(
-        k=Task("key-1", func, "a", "b"),
-        v=Task("key-2", func, "c", "d"),
-    )
-    t2 = Dict(
-        v=Task("key-2", func, "c", "d"),
-        k=Task("key-1", func, "a", "b"),
-    )
-    assert t == t2
-    assert tokenize(t) == tokenize(t2)
-
+ 
+ 
+def test_dict_equality_and_token_ignore_kwargs_order():
+    t1 = Dict(k=Task("key-1", func, "a", "b"), v=Task("key-2", func, "c", "d"))
+    t2 = Dict(v=Task("key-2", func, "c", "d"), k=Task("key-1", func, "a", "b"))
+ 
+    assert t1 == t2
+    assert tokenize(t1) == tokenize(t2)
+ 
+ 
+def test_dict_from_list_of_pairs_collects_all_dependencies():
     d = Dict(
         [
             ["k", Task("key-1", func, "a", TaskRef("b"))],
             ["v", Task("key-2", func, TaskRef("c"), "d")],
         ]
     )
-    assert d.dependencies == {"c", "b"}
+ 
+    assert d.dependencies == {"b", "c"}
     assert d({"b": "b", "c": "c"}) == {"k": "a-b", "v": "c-d"}
-
-    d = Dict([("columns", ["a", "b"])])
-    assert d() == {"columns": ["a", "b"]}
-
-    d = Dict([["columns", ["a", "b"]]])
-    assert d() == {"columns": ["a", "b"]}
-    # Can be converted to a dict, e.g. also used as **kwargs
-    assert isinstance(t, Mapping)
-    assert dict(t) == {
+ 
+ 
+@pytest.mark.parametrize(
+    "pairs",
+    [
+        [("columns", ["a", "b"])], 
+        [["columns", ["a", "b"]]],  
+    ],
+    ids=["tuple-pairs", "list-pairs"],
+)
+def test_dict_from_pairs_keeps_plain_list_values(pairs):
+    assert Dict(pairs)() == {"columns": ["a", "b"]}
+ 
+ 
+def test_dict_is_a_mapping(simple_dict):
+    assert isinstance(simple_dict, Mapping)
+ 
+ 
+def test_dict_can_be_converted_to_builtin_dict(simple_dict):
+    assert dict(simple_dict) == {
         "k": Task("key-1", func, "a", "b"),
         "v": Task("key-2", func, "c", "d"),
     }
-    assert len(t) == len(dict(t)) == 2
-
+ 
+ 
+def test_dict_len(simple_dict):
+    assert len(simple_dict) == 2
+ 
+ 
+def test_dict_can_be_unpacked_as_kwargs(simple_dict):
     def as_kwargs(**kwargs):
-        return kwargs == {
-            "k": Task("key-1", func, "a", "b"),
-            "v": Task("key-2", func, "c", "d"),
-        }
+        return kwargs
+ 
+    assert as_kwargs(**simple_dict) == {
+        "k": Task("key-1", func, "a", "b"),
+        "v": Task("key-2", func, "c", "d"),
+    }
+ 
 
-    assert as_kwargs(**t)
 
 
 def test_block_io_fusion():
