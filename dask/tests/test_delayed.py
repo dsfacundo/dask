@@ -70,8 +70,7 @@ def test_to_task_dask():
     assert dict(dask) == merge(a.dask, b.dask)
 
     # Issue https://github.com/dask/dask/issues/2107
-    class MyClass(dict):
-        pass
+    MyClass = type("MyClass", (dict,), {})
 
     task, dask = to_task_dask(MyClass())
     assert type(task) is MyClass
