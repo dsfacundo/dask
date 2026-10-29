@@ -858,53 +858,72 @@ def test_fused_dont_hold_in_memory_too_long():
     assert OnlyTwice.total == 10
 
 
-def test_linear_fusion():
-    tasks = [
-        io := Task("foo", func, 1),
-        second := Task("second", func, io.ref()),
-        Task("third", func, second.ref()),
-    ]
+def fuse(tasks, keys):
     dsk = {t.key: t for t in tasks}
-    result = fuse_linear_task_spec(dsk, {"third"})
+    return fuse_linear_task_spec(dsk, keys)
+ 
+ 
+def assert_is_fused_subgraph(task):
+    assert isinstance(task, Task)
+    assert funcname(task.func) == "_execute_subgraph"
+ 
+ 
+@pytest.fixture
+def task_chain():
+    """foo -> second -> third, todos Task."""
+    foo = Task("foo", func, 1)
+    second = Task("second", func, foo.ref())
+    third = Task("third", func, second.ref())
+    return [foo, second, third]
+ 
+ 
+@pytest.fixture
+def datanode_chain():
+    """foo (DataNode) -> second -> third -> fourth."""
+    foo = DataNode("foo", 1)
+    second = Task("second", func, foo.ref())
+    third = Task("third", func, second.ref())
+    fourth = Task("fourth", func, third.ref())
+    return {"foo": foo, "second": second, "third": third, "fourth": fourth}
+ 
+ 
+def test_linear_chain_is_fused_into_single_subgraph(task_chain):
+    result = fuse(task_chain, {"third"})
+ 
     assert len(result) == 2
     assert isinstance(result["third"], Alias)
-    assert (
-        isinstance(result["foo-second-third"], Task)
-        and funcname(result["foo-second-third"].func) == "_execute_subgraph"
-    )
-
-    # Data Nodes don't get fused
-
-    tasks = [
-        io := DataNode("foo", 1),
-        second := Task("second", func, io.ref()),
-        third := Task("third", func, second.ref()),
-        Task("fourth", func, third.ref()),
-    ]
-    dsk = {t.key: t for t in tasks}
-    result = fuse_linear_task_spec(dsk, {"fourth"})
+    assert_is_fused_subgraph(result["foo-second-third"])
+ 
+ 
+def test_data_nodes_are_not_fused(datanode_chain):
+    result = fuse(datanode_chain.values(), {"fourth"})
+ 
     assert len(result) == 2
     assert isinstance(result["fourth"], Alias)
-    assert (
-        isinstance(result["foo-second-third-fourth"], Task)
-        and funcname(result["foo-second-third-fourth"].func) == "_execute_subgraph"
-    )
+    assert_is_fused_subgraph(result["foo-second-third-fourth"])
     assert "foo" not in result
-
-    # Branch, so no fusion
-    tasks.append(Task("branch", func, third.ref()))
-    dsk = {t.key: t for t in tasks}
-    result = fuse_linear_task_spec(dsk, {"fourth"})
+ 
+ 
+def test_branch_after_third_stops_fusion_at_branch_point(datanode_chain):
+    branch = Task("branch", func, datanode_chain["third"].ref())
+ 
+    result = fuse([*datanode_chain.values(), branch], {"fourth"})
+ 
     assert len(result) == 4
     assert "foo-second-third" in result
     assert isinstance(result["third"], Alias)
-
-    # Branch, so no fusion at all
-    tasks.append(Task("branch2", func, second.ref()))
-    dsk = {t.key: t for t in tasks}
-    result = fuse_linear_task_spec(dsk, {"fourth"})
+ 
+ 
+def test_branches_after_second_and_third_prevent_any_fusion(datanode_chain):
+    extra = [
+        Task("branch", func, datanode_chain["third"].ref()),
+        Task("branch2", func, datanode_chain["second"].ref()),
+    ]
+ 
+    result = fuse([*datanode_chain.values(), *extra], {"fourth"})
+ 
     assert len(result) == 6
-    assert not any("-" in k for k in dsk)
+    assert not any("-" in key for key in result)
 
 
 def test_linear_fusion_intermediate_branch():
