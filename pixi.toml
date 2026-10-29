@@ -32,6 +32,7 @@ toolz = ">=0.12.0"
 dask-core = { path = "." }
 pytest-cov = ">=7.1.0,<8"
 pytest-html = ">=3.2.0,<5"
+radon = ">=6.0.1,<7"
 
 [feature.distributed.dependencies]
 distributed = { git = "https://github.com/dask/distributed" }

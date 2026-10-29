@@ -28,8 +28,6 @@ def pdf():
 def df(pdf):
     yield from_pandas(pdf, npartitions=4)
 
-
-@pytest.mark.parametrize("kwargs", [{}, {"closed": "left"}])
 _RESAMPLE_SERIES_APIS = [
     "count",
     "prod",
@@ -47,7 +45,7 @@ _RESAMPLE_SERIES_APIS = [
     "sem",
 ]
 
-
+@pytest.mark.parametrize("kwargs", [{}, {"closed": "left"}])
 @pytest.mark.parametrize("api", [*_RESAMPLE_SERIES_APIS, "size", "ohlc"])
 def test_resample_apis(df, pdf, api, kwargs):
     result = getattr(df.resample("2min", **kwargs), api)()
