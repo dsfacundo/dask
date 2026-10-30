@@ -1,0 +1,1738 @@
+arquivo,smell,metodo,linhas
+dask/dask/utils_test.py,Exception Handling,test_badkey,55
+dask/dask/utils_test.py,Exception Handling,test_nested_badkey,67
+dask/dask/utils_test.py,Programming Paradigms Blend,(nível do módulo),8;29
+dask/dask/utils_test.py,Non-Functional Statement,test_badkey,58
+dask/dask/utils_test.py,Non-Functional Statement,test_nested_badkey,70
+dask/dask/array/_array_expr/tests/test_config.py,Unknown Test,test_str_config,23
+dask/dask/array/tests/test_api.py,Conditional Test Logic,test_api,22
+dask/dask/array/tests/test_api.py,Conditional Test Logic,test_api,23
+dask/dask/array/tests/test_api.py,Conditional Test Logic,test_api,24
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_graph_from_arraylike,117
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_stack,603
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_concatenate,757
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_block_with_mismatched_shape,1083
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_block_invalid_nesting,1094
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_block_empty_lists,1107
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_block_tuple,1114
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_elemwise_on_scalars,1152
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_elemwise_dtype,1204
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_elemwise_dtype,1205
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_broadcast_to,1347
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_broadcast_to,1353
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_broadcast_to_array,1363
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_broadcast_to_scalar,1373
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_broadcast_to_chunks,1384
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_broadcast_arrays,1420
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_reshape,1511
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_reshape_not_implemented_error,1531
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_reshape_unknown_dimensions,1539
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_reshape_unknown_dimensions,1540
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_map_blocks_block_info,1606
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_map_blocks_block_info_with_new_axis,1639
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_map_blocks_block_info_with_drop_axis,1675
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_map_blocks_block_info_with_broadcast,1789
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_map_blocks_block_info_with_broadcast,1790
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_map_blocks_unique_name_drop_axis,1914
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_map_blocks_unique_name_new_axis,1932
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_repr_html_array_highlevelgraph,1987
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_coerce,2041
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_coerce,2049
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_store_regions,2199
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_store_regions,2207
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_store_regions,2208
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_store_regions,2229
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_store_regions,2241
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_store_regions,2242
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_store_nocompute_regions,2301
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_store_locks_no_lock,2400
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_store_locks_no_lock,2403
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_store_method_return,2438
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_store_deterministic_keys,2457
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_from_array_with_lock,2850
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_from_array_scalar,2948
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_from_array_no_asarray,2971
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_normalize_chunks,3262
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_point_slicing_with_full_slice,3410
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_map_blocks_with_negative_drop_axis,3699
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_map_blocks_with_invalid_drop_axis,3712
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_cumulative,3882
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_cumulative,3892
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_raise_informative_errors_no_chunks,4180
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_raise_informative_errors_no_chunks,4190
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_no_chunks_slicing_2d,4201
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_zarr_roundtrip_with_path_like,5016
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_zarr_roundtrip_with_path_like,5017
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_zarr_pass_store,5098
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_zarr_irregular_chunks,5145
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_zarr_to_zarr_shards,5223
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_dask_array_setitem_singleton_sparse,5559
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_scipy_sparse_indexing,5594
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_scipy_sparse_concatenate,5624
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_scipy_sparse_concatenate,5633
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_chunk_shape_broadcast,6019
+dask/dask/array/tests/test_array_core.py,Conditional Test Logic,test_chunk_shape_broadcast,6033
+dask/dask/array/tests/test_array_core.py,Exception Handling,test_raise_on_no_chunks,3331
+dask/dask/array/tests/test_array_core.py,Exception Handling,test_chunks_is_immutable,3341
+dask/dask/array/tests/test_array_core.py,Exception Handling,test_raise_on_bad_kwargs,3350
+dask/dask/array/tests/test_array_core.py,Exception Handling,test_memmap,3557
+dask/dask/array/tests/test_array_core.py,Exception Handling,test_chunk_shape_broadcast,6028
+dask/dask/array/tests/test_array_core.py,Exception Handling,test_chunk_non_array_like,6050
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_array_interface_deprecated_kwargs,554
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_block_with_mismatched_shape,1079
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_block_invalid_nesting,1093
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_block_empty_lists,1106
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_block_tuple,1113
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_reshape_exceptions,1517
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_reshape_not_implemented_error,1529
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_bool,2053
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_store_delayed_target_invalid_inputs,2138
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_from_array_dask_array,3018
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_from_array_dask_collection_warns,3025
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_slice_with_floats,3430
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_vindex_errors,3508
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_map_blocks_with_invalid_drop_axis,3708
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_chunks_error,3774
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_array_compute_forward_kwargs,3780
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_from_array_raises_on_bad_chunks,3985
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_warn_bad_rechunking,4101
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_raise_informative_errors_no_chunks,4172
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_setitem_errs,4566
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_setitem_bool_index_errs,4658
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_blockwise_zero_shape,4706
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_blockwise_zero_shape_new_axes,4720
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_concatenate_errs,4759
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_normalize_chunks_object_dtype,4921
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_to_zarr_unknown_chunks_raises,5077
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_zarr_risky_shards_warns,5256
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_compute_chunk_sizes_warning_fixes_rechunk,5869
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_compute_chunk_sizes_warning_fixes_to_zarr,5877
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_compute_chunk_sizes_warning_fixes_to_svg,5888
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_compute_chunk_sizes_warning_fixes_concatenate,5896
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_compute_chunk_sizes_warning_fixes_reduction,5908
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_compute_chunk_sizes_warning_fixes_reshape,5916
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_compute_chunk_sizes_warning_fixes_slicing,5924
+dask/dask/array/tests/test_array_core.py,Unknown Test,test_elemwise_scalar_overflow_raises_overflowerror,6199
+dask/dask/array/tests/test_array_core.py,Verbose Test,test_top,130;218
+dask/dask/array/tests/test_array_core.py,Verbose Test,test_stack_unknown_chunksizes,689;745
+dask/dask/array/tests/test_array_core.py,Verbose Test,test_map_blocks_block_info_with_broadcast,1690;1802
+dask/dask/array/tests/test_array_core.py,Verbose Test,test_store_regions,2168;2260
+dask/dask/array/tests/test_array_core.py,Verbose Test,test_arithmetic,2617;2761
+dask/dask/array/tests/test_array_core.py,Verbose Test,test_concatenate3_2,3176;3222
+dask/dask/array/tests/test_array_core.py,Verbose Test,test_map_blocks_with_changed_dimension,3631;3692
+dask/dask/array/tests/test_array_core.py,Verbose Test,test_cumulative,3845;3900
+dask/dask/array/tests/test_array_core.py,Verbose Test,test_setitem_extended_API_2d_rhs_func_of_lhs,4414;4526
+dask/dask/array/tests/test_array_core.py,Verbose Test,test_setitem_errs,4566;4654
+dask/dask/array/tests/test_array_core.py,Verbose Test,test_zarr_to_zarr_shards,5198;5253
+dask/dask/array/tests/test_array_core.py,Verbose Test,test_blockview,5394;5443
+dask/dask/array/tests/test_array_core.py,Programming Paradigms Blend,(nível do módulo),13;2305
+dask/dask/array/tests/test_array_core.py,Undefined Test,unknown,5862
+dask/dask/array/tests/test_array_function.py,Conditional Test Logic,test_array_function_fft,78
+dask/dask/array/tests/test_array_function.py,Conditional Test Logic,test_array_function_sparse,104
+dask/dask/array/tests/test_array_function.py,Unknown Test,test_stack_functions_require_sequence_of_arrays,61
+dask/dask/array/tests/test_array_function.py,Unknown Test,test_array_notimpl_function_dask,91
+dask/dask/array/tests/test_array_utils.py,Conditional Test Logic,test_meta_from_array_literal,60
+dask/dask/array/tests/test_atop.py,Conditional Test Logic,test_rewrite,384
+dask/dask/array/tests/test_atop.py,Conditional Test Logic,test_rewrite,394
+dask/dask/array/tests/test_atop.py,Conditional Test Logic,test_optimize_blockwise_custom_annotations,485
+dask/dask/array/tests/test_atop.py,Conditional Test Logic,test_optimize_blockwise_custom_annotations,486
+dask/dask/array/tests/test_atop.py,Conditional Test Logic,test_blockwise_stacked_new_axes_front,661
+dask/dask/array/tests/test_atop.py,Unknown Test,test_inner_compute,552
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_arr_like,56
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_arr_like,65
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_arr_like,81
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_arr_like,84
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_arr_like,89
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_arr_like_shape,128
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_meshgrid,420
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_meshgrid,427
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_meshgrid,438
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_meshgrid,440
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_repeat,725
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_repeat,726
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_repeat,740
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_repeat,749
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_pad,874
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_from_array_getitem_fused,1065
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_from_array_getitem_fused,1066
+dask/dask/array/tests/test_creation.py,Conditional Test Logic,test_nan_full_like,1090
+dask/dask/array/tests/test_creation.py,Unknown Test,test_indices_wrong_chunks,340
+dask/dask/array/tests/test_creation.py,Unknown Test,test_diag_bad_input,502
+dask/dask/array/tests/test_creation.py,Unknown Test,test_tile_neg_reps,773
+dask/dask/array/tests/test_creation.py,Unknown Test,test_string_auto_chunk,1022
+dask/dask/array/tests/test_creation.py,Unknown Test,test_like_forgets_graph,1107
+dask/dask/array/tests/test_creation.py,Verbose Test,test_arr_like,46;92
+dask/dask/array/tests/test_creation.py,Verbose Test,test_linspace,133;188
+dask/dask/array/tests/test_creation.py,Verbose Test,test_arange,191;256
+dask/dask/array/tests/test_creation.py,Verbose Test,test_diagonal,595;695
+dask/dask/array/tests/test_cupy_core.py,Conditional Test Logic,test_basic,140
+dask/dask/array/tests/test_cupy_core.py,Conditional Test Logic,test_asanyarray,162
+dask/dask/array/tests/test_cupy_core.py,Conditional Test Logic,test_setitem_extended_API_2d_rhs_func_of_lhs,550
+dask/dask/array/tests/test_cupy_core.py,Unknown Test,test_setitem_errs,578
+dask/dask/array/tests/test_cupy_core.py,Unknown Test,test_setitem_shape_mismatch_errs,605
+dask/dask/array/tests/test_cupy_core.py,Unknown Test,test_setitem_boolean_and_broadcast_value_errs,611
+dask/dask/array/tests/test_cupy_core.py,Unknown Test,test_setitem_index_errs,633
+dask/dask/array/tests/test_cupy_core.py,Unknown Test,test_setitem_scalar_index_err,639
+dask/dask/array/tests/test_cupy_core.py,Unknown Test,test_setitem_not_implemented_errs,656
+dask/dask/array/tests/test_cupy_core.py,Verbose Test,test_setitem_extended_API_2d_rhs_func_of_lhs,448;562
+dask/dask/array/tests/test_cupy_core.py,Verbose Test,test_setitem_not_implemented_errs,656;733
+dask/dask/array/tests/test_cupy_creation.py,Conditional Test Logic,test_pad,138
+dask/dask/array/tests/test_cupy_creation.py,Conditional Test Logic,test_tri_like,166
+dask/dask/array/tests/test_cupy_creation.py,Verbose Test,test_diagonal,38;93
+dask/dask/array/tests/test_cupy_linalg.py,Conditional Test Logic,test_tsqr,81
+dask/dask/array/tests/test_cupy_linalg.py,Conditional Test Logic,test_sfqr,326
+dask/dask/array/tests/test_cupy_linalg.py,Conditional Test Logic,test_lstsq,344
+dask/dask/array/tests/test_cupy_linalg.py,Conditional Test Logic,test_lstsq,373
+dask/dask/array/tests/test_cupy_linalg.py,Unknown Test,test_tsqr_uncertain_error,245
+dask/dask/array/tests/test_cupy_linalg.py,Verbose Test,test_tsqr,63;108
+dask/dask/array/tests/test_cupy_random.py,Conditional Test Logic,test_random_all_RandomState,20
+dask/dask/array/tests/test_cupy_random.py,Conditional Test Logic,test_random_all_direct_calls,81
+dask/dask/array/tests/test_cupy_random.py,Conditional Test Logic,test_random_all_direct_calls,107
+dask/dask/array/tests/test_cupy_random.py,Conditional Test Logic,test_random_all_Generator,138
+dask/dask/array/tests/test_cupy_random.py,Unknown Test,test_cupy_unsupported,186
+dask/dask/array/tests/test_cupy_random.py,Verbose Test,test_random_all_RandomState,18;76
+dask/dask/array/tests/test_cupy_random.py,Verbose Test,test_random_all_direct_calls,80;130
+dask/dask/array/tests/test_cupy_routines.py,Conditional Test Logic,test_diff_prepend,78
+dask/dask/array/tests/test_cupy_routines.py,Conditional Test Logic,test_diff_append,106
+dask/dask/array/tests/test_cupy_routines.py,Conditional Test Logic,test_digitize,117
+dask/dask/array/tests/test_cupy_routines.py,Conditional Test Logic,test_digitize,118
+dask/dask/array/tests/test_cupy_routines.py,Conditional Test Logic,test_digitize,130
+dask/dask/array/tests/test_cupy_routines.py,Conditional Test Logic,test_digitize,131
+dask/dask/array/tests/test_cupy_routines.py,Conditional Test Logic,test_tril_triu,146
+dask/dask/array/tests/test_cupy_routines.py,Conditional Test Logic,test_tril_triu,152
+dask/dask/array/tests/test_cupy_routines.py,Conditional Test Logic,test_unique_kwargs,185
+dask/dask/array/tests/test_cupy_routines.py,Conditional Test Logic,test_unique_kwargs,194
+dask/dask/array/tests/test_cupy_routines.py,Conditional Test Logic,test_unique_kwargs,198
+dask/dask/array/tests/test_cupy_routines.py,Conditional Test Logic,test_unique_kwargs,203
+dask/dask/array/tests/test_cupy_slicing.py,Conditional Test Logic,test_index_with_int_dask_array,29
+dask/dask/array/tests/test_cupy_slicing.py,Conditional Test Logic,test_index_with_int_dask_array_nep35,49
+dask/dask/array/tests/test_cupy_slicing.py,Conditional Test Logic,test_index_with_int_dask_array_nep35,51
+dask/dask/array/tests/test_cupy_slicing.py,Conditional Test Logic,test_index_with_int_dask_array_nep35,61
+dask/dask/array/tests/test_cupy_slicing.py,Unknown Test,test_index_with_int_dask_array_indexerror,107
+dask/dask/array/tests/test_cupy_slicing.py,Unknown Test,test_index_with_int_dask_array_nocompute,138
+dask/dask/array/tests/test_cupy_sparse.py,Conditional Test Logic,test_sparse_concatenate,36
+dask/dask/array/tests/test_cupy_sparse.py,Conditional Test Logic,test_sparse_concatenate,45
+dask/dask/array/tests/test_dispatch.py,Programming Paradigms Blend,(nível do módulo),13;41
+dask/dask/array/tests/test_fft.py,Conditional Test Logic,test_cant_fft_chunked_axis,42
+dask/dask/array/tests/test_fft.py,Conditional Test Logic,test_fft2n_shapes,65
+dask/dask/array/tests/test_fft.py,Conditional Test Logic,test_nd_ffts_axes,129
+dask/dask/array/tests/test_fft.py,Conditional Test Logic,test_nd_ffts_axes,130
+dask/dask/array/tests/test_fft.py,Conditional Test Logic,test_nd_ffts_axes,132
+dask/dask/array/tests/test_fft.py,Conditional Test Logic,test_nd_ffts_axes,135
+dask/dask/array/tests/test_fft.py,Conditional Test Logic,test_fftshift,251
+dask/dask/array/tests/test_fft.py,Conditional Test Logic,test_fftshift,252
+dask/dask/array/tests/test_fft.py,Conditional Test Logic,test_fftshift_identity,278
+dask/dask/array/tests/test_fft.py,Conditional Test Logic,test_fftshift_identity,279
+dask/dask/array/tests/test_fft.py,Conditional Test Logic,test_scipy_fftpack_future_warning,292
+dask/dask/array/tests/test_fft.py,Exception Handling,test_wrap_ffts,151
+dask/dask/array/tests/test_fft.py,Unknown Test,test_cant_fft_chunked_axis,38
+dask/dask/array/tests/test_fft.py,Unknown Test,test_wrap_bad_kind,113
+dask/dask/array/tests/test_fft.py,Unknown Test,test_scipy_fftpack_future_warning,289
+dask/dask/array/tests/test_gufunc.py,Conditional Test Logic,test_apply_gufunc_via_numba_01,624
+dask/dask/array/tests/test_gufunc.py,Conditional Test Logic,test_apply_gufunc_via_numba_02,646
+dask/dask/array/tests/test_gufunc.py,Unknown Test,test_apply_gufunc_axes_input_validation_01,36
+dask/dask/array/tests/test_gufunc.py,Unknown Test,test_apply_gufunc_axes_args_validation,57
+dask/dask/array/tests/test_gufunc.py,Unknown Test,test_apply_gufunc_elemwise_01b,207
+dask/dask/array/tests/test_linalg.py,Conditional Test Logic,test_tsqr,78
+dask/dask/array/tests/test_linalg.py,Conditional Test Logic,test_tsqr_uncertain,196
+dask/dask/array/tests/test_linalg.py,Conditional Test Logic,test_tsqr_uncertain,200
+dask/dask/array/tests/test_linalg.py,Conditional Test Logic,test_tsqr_uncertain,219
+dask/dask/array/tests/test_linalg.py,Conditional Test Logic,test_sfqr,354
+dask/dask/array/tests/test_linalg.py,Conditional Test Logic,test_qr,413
+dask/dask/array/tests/test_linalg.py,Conditional Test Logic,test_dask_svd_self_consistent,450
+dask/dask/array/tests/test_linalg.py,Conditional Test Logic,test_lu_1,560
+dask/dask/array/tests/test_linalg.py,Conditional Test Logic,test_lu_1,581
+dask/dask/array/tests/test_linalg.py,Conditional Test Logic,test_lstsq,863
+dask/dask/array/tests/test_linalg.py,Conditional Test Logic,test_lstsq,892
+dask/dask/array/tests/test_linalg.py,Conditional Test Logic,test_no_chunks_svd,910
+dask/dask/array/tests/test_linalg.py,Conditional Test Logic,test_norm_any_slice,1084
+dask/dask/array/tests/test_linalg.py,Conditional Test Logic,test_norm_any_slice,1085
+dask/dask/array/tests/test_linalg.py,Conditional Test Logic,test_norm_any_slice,1086
+dask/dask/array/tests/test_linalg.py,Conditional Test Logic,test_norm_2dim,1120
+dask/dask/array/tests/test_linalg.py,Conditional Test Logic,test_norm_implemented_errors,1138
+dask/dask/array/tests/test_linalg.py,Exception Handling,test_svd_flip_sign,955
+dask/dask/array/tests/test_linalg.py,Unknown Test,test_lu_2,591
+dask/dask/array/tests/test_linalg.py,Unknown Test,test_lu_3,602
+dask/dask/array/tests/test_linalg.py,Unknown Test,test_lu_errors,611
+dask/dask/array/tests/test_linalg.py,Unknown Test,test_solve_triangular_errors,699
+dask/dask/array/tests/test_linalg.py,Unknown Test,test_svd_incompatible_chunking,997
+dask/dask/array/tests/test_linalg.py,Unknown Test,test_svd_incompatible_dimensions,1006
+dask/dask/array/tests/test_linalg.py,Unknown Test,test_svd_full_matrices_raises,1012
+dask/dask/array/tests/test_linalg.py,Unknown Test,test_norm_implemented_errors,1135
+dask/dask/array/tests/test_linalg.py,Verbose Test,test_tsqr_uncertain,187;247
+dask/dask/array/tests/test_linalg.py,Undefined Test,_check_lu_result,538
+dask/dask/array/tests/test_masked.py,Conditional Test Logic,test_basic,97
+dask/dask/array/tests/test_masked.py,Conditional Test Logic,test_creation_functions,179
+dask/dask/array/tests/test_masked.py,Conditional Test Logic,test_cumulative,310
+dask/dask/array/tests/test_masked.py,Conditional Test Logic,test_masked_array,333
+dask/dask/array/tests/test_masked.py,Conditional Test Logic,test_count,410
+dask/dask/array/tests/test_masked.py,Conditional Test Logic,test_count,427
+dask/dask/array/tests/test_masked.py,Conditional Test Logic,test_like_funcs,446
+dask/dask/array/tests/test_masked.py,Conditional Test Logic,test_nonzero,458
+dask/dask/array/tests/test_masked.py,Conditional Test Logic,test_nonzero,470
+dask/dask/array/tests/test_masked.py,Conditional Test Logic,test_where,488
+dask/dask/array/tests/test_masked.py,Conditional Test Logic,test_where,491
+dask/dask/array/tests/test_masked.py,Conditional Test Logic,test_where,502
+dask/dask/array/tests/test_masked.py,Verbose Test,test_creation_functions,172;219
+dask/dask/array/tests/test_optimization.py,Conditional Test Logic,test_nonfusible_fancy_indexing,106
+dask/dask/array/tests/test_optimization.py,Conditional Test Logic,test_dont_fuse_numpy_arrays,113
+dask/dask/array/tests/test_optimization.py,Conditional Test Logic,test_dont_fuse_numpy_arrays,120
+dask/dask/array/tests/test_optimization.py,Conditional Test Logic,test_fuse_getter_with_asarray,144
+dask/dask/array/tests/test_optimization.py,Conditional Test Logic,test_fuse_getter_with_asarray,149
+dask/dask/array/tests/test_optimization.py,Unknown Test,test_nonfusible_fancy_indexing,96
+dask/dask/array/tests/test_optimization.py,Unknown Test,test_gh3937,200
+dask/dask/array/tests/test_overlap.py,Conditional Test Logic,test_no_shared_keys_with_different_depths,722
+dask/dask/array/tests/test_overlap.py,Conditional Test Logic,test_push,767
+dask/dask/array/tests/test_overlap.py,Conditional Test Logic,test_push,769
+dask/dask/array/tests/test_overlap.py,Unknown Test,test_overlap_allow_rechunk_kwarg,292
+dask/dask/array/tests/test_overlap.py,Unknown Test,test_asymmetric_overlap_boundary_exception,306
+dask/dask/array/tests/test_overlap.py,Unknown Test,test_map_overlap_multiarray_uneven_numblocks_exception,454
+dask/dask/array/tests/test_overlap.py,Unknown Test,test_depth_greater_than_dim,674
+dask/dask/array/tests/test_overlap.py,Unknown Test,test_ensure_minimum_chunksize_raises_error,837
+dask/dask/array/tests/test_overlap.py,Unknown Test,test_sliding_window_errors,878
+dask/dask/array/tests/test_overlap.py,Verbose Test,test_overlap,226;289
+dask/dask/array/tests/test_percentiles.py,Conditional Test Logic,test_percentile,54
+dask/dask/array/tests/test_random.py,Conditional Test Logic,test_array_broadcasting,265
+dask/dask/array/tests/test_random.py,Conditional Test Logic,test_array_broadcasting,286
+dask/dask/array/tests/test_random.py,Conditional Test Logic,test_multinomial,299
+dask/dask/array/tests/test_random.py,Conditional Test Logic,test_choice,325
+dask/dask/array/tests/test_random.py,Conditional Test Logic,test_choice,336
+dask/dask/array/tests/test_random.py,Conditional Test Logic,test_choice,358
+dask/dask/array/tests/test_random.py,Unknown Test,test_can_make_really_big_random_array,133
+dask/dask/array/tests/test_random.py,Unknown Test,test_random_all,159
+dask/dask/array/tests/test_random.py,Unknown Test,test_RandomState_only_funcs,200
+dask/dask/array/tests/test_random.py,Unknown Test,test_Generator_only_funcs,208
+dask/dask/array/tests/test_random.py,Verbose Test,test_choice,306;372
+dask/dask/array/tests/test_rechunk.py,Conditional Test Logic,test_rechunk_expand2,171
+dask/dask/array/tests/test_rechunk.py,Conditional Test Logic,test_rechunk_expand2,176
+dask/dask/array/tests/test_rechunk.py,Conditional Test Logic,test_rechunk_same,290
+dask/dask/array/tests/test_rechunk.py,Conditional Test Logic,test_rechunk_same_fully_unknown,304
+dask/dask/array/tests/test_rechunk.py,Conditional Test Logic,test_rechunk_same_fully_unknown_floats,320
+dask/dask/array/tests/test_rechunk.py,Conditional Test Logic,test_rechunk_same_partially_unknown,335
+dask/dask/array/tests/test_rechunk.py,Conditional Test Logic,test_plan_rechunk,485
+dask/dask/array/tests/test_rechunk.py,Conditional Test Logic,test_dont_concatenate_single_chunks,566
+dask/dask/array/tests/test_rechunk.py,Conditional Test Logic,test_dont_concatenate_single_chunks,567
+dask/dask/array/tests/test_rechunk.py,Conditional Test Logic,test_rechunk_auto_image_stack,924
+dask/dask/array/tests/test_rechunk.py,Conditional Test Logic,test_balance_split_into_n_chunks,1102
+dask/dask/array/tests/test_rechunk.py,Conditional Test Logic,test_balance_split_into_n_chunks,1103
+dask/dask/array/tests/test_rechunk.py,Unknown Test,test_plan_rechunk_5d,493
+dask/dask/array/tests/test_rechunk.py,Unknown Test,test_plan_rechunk_heterogeneous,507
+dask/dask/array/tests/test_rechunk.py,Unknown Test,test_rechunk_unknown_raises,742
+dask/dask/array/tests/test_rechunk.py,Verbose Test,test_rechunk_internals_1,34;100
+dask/dask/array/tests/test_rechunk.py,Verbose Test,test_plan_rechunk,424;490
+dask/dask/array/tests/test_rechunk.py,Verbose Test,test_intersect_chunks_with_zero,1139;1208
+dask/dask/array/tests/test_rechunk.py,Undefined Test,_assert_steps,419
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_numel,26
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_numel,48
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_numel,49
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_numel,55
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_numel,56
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,reduction_1d_test,105
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,reduction_1d_test,110
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,reduction_2d_test,196
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,reduction_2d_test,201
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_nan_object,507
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_nan_object,517
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_nan_object,522
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_nan_object,525
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_nan_object,528
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_reductions_with_empty_array,558
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_array_cumreduction_axis,659
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_array_cumreduction_axis,662
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_regres_3940,802
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_regres_3940,810
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_median_does_not_rechunk_if_whole_axis_in_one_chunk,862
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_weighted_reduction,957
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_weighted_reduction,959
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_quantile_weights,1064
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_quantile_weights,1069
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_quantile_weights_non_last_axis,1108
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_quantile_weights_non_last_axis,1113
+dask/dask/array/tests/test_reductions.py,Conditional Test Logic,test_quantile_nd_q,1156
+dask/dask/array/tests/test_reductions.py,Unknown Test,test_reductions_0D,73
+dask/dask/array/tests/test_reductions.py,Unknown Test,test_reductions_1D,122
+dask/dask/array/tests/test_reductions.py,Unknown Test,test_reductions_1D_datetime,147
+dask/dask/array/tests/test_reductions.py,Unknown Test,test_reductions_1D_nans,162
+dask/dask/array/tests/test_reductions.py,Unknown Test,test_reduction_errors,228
+dask/dask/array/tests/test_reductions.py,Unknown Test,test_reductions_2D_datetime,271
+dask/dask/array/tests/test_reductions.py,Unknown Test,test_arg_reductions_unknown_chunksize_2d,389
+dask/dask/array/tests/test_reductions.py,Unknown Test,test_arg_reductions_unknown_single_chunksize,400
+dask/dask/array/tests/test_reductions.py,Unknown Test,test_trace,815
+dask/dask/array/tests/test_reductions.py,Verbose Test,reduction_2d_test,176;225
+dask/dask/array/tests/test_reductions.py,Verbose Test,test_topk_argtopk1,718;766
+dask/dask/array/tests/test_reductions.py,Undefined Test,reduction_0d_test,64
+dask/dask/array/tests/test_reductions.py,Undefined Test,reduction_1d_test,96
+dask/dask/array/tests/test_reductions.py,Undefined Test,reduction_2d_test,176
+dask/dask/array/tests/test_reshape.py,Unknown Test,test_reshape_blockwise_raises_for_expansion,400
+dask/dask/array/tests/test_reshape.py,Unknown Test,test_reshape_blockwise_dimension_reduction_and_chunks,414
+dask/dask/array/tests/test_reshape.py,Unknown Test,test_blockwise_reshape_sanity_checks,440
+dask/dask/array/tests/test_reshape.py,Verbose Test,test_reshape_blockwise,330;397
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_atleast_nd_two_args,113
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_moveaxis_rollaxis,170
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_moveaxis_rollaxis,172
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_flip,214
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_flip,215
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_flip,231
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_matmul,332
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_matmul,333
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_tensordot,346
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_apply_along_axis,475
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_diff_prepend,570
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_diff_append,598
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_gradient,643
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_gradient,648
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_digitize,701
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_digitize,702
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_digitize,711
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_digitize,712
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_histogram_extra_args_and_shapes,803
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_histogram_delayed_range,864
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_histogram_delayed_range,869
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_histogram_delayed_bins,901
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_histogram2d,960
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_histogram2d_array_bins,992
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_histogramdd_edges,1202
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_histogramdd_edges,1207
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_corrcoef,1336
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_round,1345
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_unique_kwargs,1367
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_unique_kwargs,1376
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_unique_kwargs,1380
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_roll,1458
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_union1d,1495
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_ravel,1513
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_ravel,1527
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_expand_dims,1567
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_squeeze,1587
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_squeeze,1597
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_compress,1717
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_compress,1718
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_compress,1721
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_extract,1753
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_extract,1756
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_argwhere,1900
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_where,1941
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_where,1952
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_where_bool_optimization,1980
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_where_nonzero,1992
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_where_nonzero,2002
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_where_incorrect_args,2009
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_count_nonzero,2018
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_count_nonzero,2025
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_count_nonzero_axis,2033
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_count_nonzero_axis,2040
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_count_nonzero_obj,2053
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_count_nonzero_obj_axis,2067
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_flatnonzero,2092
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_nonzero,2103
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_nonzero,2113
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_nonzero_method,2118
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_nonzero_method,2128
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_unravel_index,2146
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_unravel_index,2166
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_ravel_multi_index,2205
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_ravel_multi_index,2208
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_aligned_coarsen_chunks,2335
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_result_type,2477
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_tril_triu,2810
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_tril_triu,2816
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_tril_triu_indices,2865
+dask/dask/array/tests/test_routines.py,Conditional Test Logic,test_tril_triu_indices,2876
+dask/dask/array/tests/test_routines.py,Exception Handling,test_flip,230
+dask/dask/array/tests/test_routines.py,Exception Handling,test_matmul,327
+dask/dask/array/tests/test_routines.py,Exception Handling,test_where_incorrect_args,2011
+dask/dask/array/tests/test_routines.py,Unknown Test,test_rot90_invalid,272
+dask/dask/array/tests/test_routines.py,Unknown Test,test_diff_negative_order,605
+dask/dask/array/tests/test_routines.py,Unknown Test,test_searchsorted_sorter_not_implemented,745
+dask/dask/array/tests/test_routines.py,Unknown Test,test_histogram_delayed_n_bins_raises_with_density,929
+dask/dask/array/tests/test_routines.py,Unknown Test,test_histogramdd_raises_incompat_sample_chunks,1103
+dask/dask/array/tests/test_routines.py,Unknown Test,test_histogramdd_raises_incompat_multiarg_chunks,1111
+dask/dask/array/tests/test_routines.py,Unknown Test,test_histogramdd_raises_incompat_weight_chunks,1122
+dask/dask/array/tests/test_routines.py,Unknown Test,test_histogramdd_raises_incompat_bins_or_range,1140
+dask/dask/array/tests/test_routines.py,Unknown Test,test_histogramdd_raise_normed_and_density,1169
+dask/dask/array/tests/test_routines.py,Unknown Test,test_histogramdd_raise_incompat_shape,1177
+dask/dask/array/tests/test_routines.py,Unknown Test,test_ravel_multi_index_delayed_dims,2252
+dask/dask/array/tests/test_routines.py,Unknown Test,test_ravel_multi_index_non_int_dtype,2257
+dask/dask/array/tests/test_routines.py,Unknown Test,test_einsum_invalid_args,2677
+dask/dask/array/tests/test_routines.py,Unknown Test,test_average_raises,2790
+dask/dask/array/tests/test_routines.py,Verbose Test,test_append,2379;2425
+dask/dask/array/tests/test_routines.py,Non-Functional Statement,test_matmul,330
+dask/dask/array/tests/test_shuffle.py,Conditional Test Logic,test_dtype_taker,152
+dask/dask/array/tests/test_shuffle.py,Conditional Test Logic,test_dtype_taker,153
+dask/dask/array/tests/test_shuffle.py,Unknown Test,test_incompatible_indexer,61
+dask/dask/array/tests/test_shuffle.py,Unknown Test,test_unknown_chunk_sizes,69
+dask/dask/array/tests/test_shuffle.py,Unknown Test,test_oob_axis,77
+dask/dask/array/tests/test_shuffle.py,Unknown Test,test_oob_indexer,82
+dask/dask/array/tests/test_slicing.py,Conditional Test Logic,test_slicing_exhaustively,435
+dask/dask/array/tests/test_slicing.py,Conditional Test Logic,test_slicing_exhaustively,437
+dask/dask/array/tests/test_slicing.py,Conditional Test Logic,test_slicing_exhaustively,440
+dask/dask/array/tests/test_slicing.py,Conditional Test Logic,test_slicing_exhaustively,446
+dask/dask/array/tests/test_slicing.py,Conditional Test Logic,test_slicing_exhaustively,447
+dask/dask/array/tests/test_slicing.py,Conditional Test Logic,test_index_with_int_dask_array,655
+dask/dask/array/tests/test_slicing.py,Conditional Test Logic,test_index_with_int_dask_array,657
+dask/dask/array/tests/test_slicing.py,Conditional Test Logic,test_index_with_bool_dask_array,730
+dask/dask/array/tests/test_slicing.py,Conditional Test Logic,test_index_with_bool_dask_array_2,745
+dask/dask/array/tests/test_slicing.py,Conditional Test Logic,test_cull,759
+dask/dask/array/tests/test_slicing.py,Conditional Test Logic,test_slicing_none_int_ellipes,811
+dask/dask/array/tests/test_slicing.py,Conditional Test Logic,test_slicing_none_int_ellipes,812
+dask/dask/array/tests/test_slicing.py,Conditional Test Logic,test_take_sorted_indexer,1068
+dask/dask/array/tests/test_slicing.py,Unknown Test,test_slice_optimizations,269
+dask/dask/array/tests/test_slicing.py,Unknown Test,test_slicing_and_unknown_chunks,386
+dask/dask/array/tests/test_slicing.py,Unknown Test,test_sanitize_index_element,548
+dask/dask/array/tests/test_slicing.py,Unknown Test,test_oob_check,628
+dask/dask/array/tests/test_slicing.py,Unknown Test,test_index_with_int_dask_array_indexerror,691
+dask/dask/array/tests/test_slicing.py,Unknown Test,test_index_with_int_dask_array_nocompute,710
+dask/dask/array/tests/test_slicing.py,Verbose Test,test_slice_1d,31;172
+dask/dask/array/tests/test_slicing.py,Verbose Test,test_uneven_blockdims,562;625
+dask/dask/array/tests/test_slicing.py,Programming Paradigms Blend,(nível do módulo),11;422
+dask/dask/array/tests/test_sparse.py,Conditional Test Logic,test_basic,90
+dask/dask/array/tests/test_sparse.py,Conditional Test Logic,test_basic,92
+dask/dask/array/tests/test_stats.py,Conditional Test Logic,test_measures,23
+dask/dask/array/tests/test_stats.py,Conditional Test Logic,test_measures,33
+dask/dask/array/tests/test_stats.py,Unknown Test,test_bias_raises,40
+dask/dask/array/tests/test_stats.py,Unknown Test,test_nan_raises,145
+dask/dask/array/tests/test_stats.py,Unknown Test,test_power_divergence_invalid,150
+dask/dask/array/tests/test_stats.py,Unknown Test,test_skew_raises,158
+dask/dask/array/tests/test_svg.py,Unknown Test,test_basic,16
+dask/dask/array/tests/test_svg.py,Undefined Test,parses,11
+dask/dask/array/tests/test_ufunc.py,Conditional Test Logic,test_ufunc_meta,41
+dask/dask/array/tests/test_ufunc.py,Conditional Test Logic,test_ufunc,52
+dask/dask/array/tests/test_ufunc.py,Conditional Test Logic,test_unary_ufunc,155
+dask/dask/array/tests/test_ufunc.py,Conditional Test Logic,test_unary_ufunc,173
+dask/dask/array/tests/test_ufunc.py,Conditional Test Logic,test_ufunc_outer,254
+dask/dask/array/tests/test_ufunc.py,Conditional Test Logic,test_complex,287
+dask/dask/array/tests/test_ufunc.py,Conditional Test Logic,test_array_ufunc,428
+dask/dask/array/tests/test_ufunc.py,Conditional Test Logic,test_array_ufunc_binop,437
+dask/dask/array/tests/test_ufunc.py,Conditional Test Logic,test_ufunc_where,529
+dask/dask/array/tests/test_ufunc.py,Conditional Test Logic,test_ufunc_where,533
+dask/dask/array/tests/test_wrap.py,Unknown Test,test_full_error_nonscalar_fill_value,49
+dask/dask/array/tests/test_wrap.py,Unknown Test,test_full_like_error_nonscalar_fill_value,69
+dask/dask/array/tests/test_wrap.py,Unknown Test,test_can_make_really_big_array_of_ones,75
+dask/dask/array/tests/test_xarray.py,Conditional Test Logic,test_xarray_blockwise_fusion_store,122
+dask/dask/array/tests/test_xarray.py,Conditional Test Logic,test_shared_tasks,151
+dask/dask/array/tests/test_xarray.py,Conditional Test Logic,test_shared_tasks,157
+dask/dask/bag/tests/test_avro.py,Conditional Test Logic,test_roundtrip,90
+dask/dask/bag/tests/test_avro.py,Unknown Test,test_invalid_schema,99
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_filter,210
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_foldby_tree_reduction,463
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_foldby_tree_reduction,467
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_partition_collect,810
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_to_dataframe,917
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_to_dataframe,941
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_to_textfiles,960
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_to_textfiles_encoding,1024
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_to_textfiles_encoding,1034
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_to_textfiles_endlines,1060
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_map_with_iterator_function,1104
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_groupby_tasks,1363
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_groupby_tasks,1364
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_groupby_tasks,1365
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_groupby_tasks,1373
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_groupby_tasks,1374
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_groupby_tasks,1375
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_groupby_tasks,1382
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_groupby_tasks,1383
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_groupby_tasks,1384
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_reduction_with_sparse_matrices,1463
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_reductions_are_lazy,1519
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_dask_layers_to_delayed,1688
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_default_partitioning_worker_saturation,1731
+dask/dask/bag/tests/test_bag.py,Conditional Test Logic,test_npartitions_saturation,1740
+dask/dask/bag/tests/test_bag.py,Exception Handling,test_map_releases_element_references_as_soon_as_possible,1636
+dask/dask/bag/tests/test_bag.py,Unknown Test,test_random_sample_prob_range,535
+dask/dask/bag/tests/test_bag.py,Unknown Test,test_groupby_with_scheduler_func,850
+dask/dask/bag/tests/test_bag.py,Unknown Test,test_to_textfiles_name_function_warn,998
+dask/dask/bag/tests/test_bag.py,Unknown Test,test_bag_compute_forward_kwargs,1149
+dask/dask/bag/tests/test_bag.py,Unknown Test,test_repartition_input_errors,1337
+dask/dask/bag/tests/test_bag.py,Verbose Test,test_bag_map,115;164
+dask/dask/bag/tests/test_bag.py,Verbose Test,test_to_dataframe,886;944
+dask/dask/bag/tests/test_bag.py,Verbose Test,test_to_delayed_optimize_graph,1166;1214
+dask/dask/bag/tests/test_bag.py,Verbose Test,test_map_releases_element_references_as_soon_as_possible,1592;1641
+dask/dask/bag/tests/test_bag.py,Programming Paradigms Blend,(nível do módulo),43;91
+dask/dask/bag/tests/test_bag.py,Undefined Test,__eq__,1446
+dask/dask/bag/tests/test_bag.py,Undefined Test,__ne__,1450
+dask/dask/bag/tests/test_random.py,Conditional Test Logic,test_reservoir_sample_map_partitions_correctness,166
+dask/dask/bag/tests/test_random.py,Conditional Test Logic,test_reservoir_sample_map_partitions_correctness,168
+dask/dask/bag/tests/test_random.py,Conditional Test Logic,test_reservoir_sample_map_partitions_correctness,170
+dask/dask/bag/tests/test_random.py,Conditional Test Logic,test_reservoir_sample_with_replacement_map_partitions_correctness,189
+dask/dask/bag/tests/test_random.py,Conditional Test Logic,test_reservoir_sample_with_replacement_map_partitions_correctness,191
+dask/dask/bag/tests/test_random.py,Conditional Test Logic,test_reservoir_sample_with_replacement_map_partitions_correctness,193
+dask/dask/bag/tests/test_random.py,Unknown Test,test_sample_k_bigger_than_bag_size,87
+dask/dask/bag/tests/test_text.py,Conditional Test Logic,test_read_text,48
+dask/dask/bag/tests/test_text.py,Conditional Test Logic,test_read_text,69
+dask/dask/bag/tests/test_text.py,Conditional Test Logic,test_read_text,75
+dask/dask/bytes/tests/test_bytes_utils.py,Conditional Test Logic,test_read_block,32
+dask/dask/bytes/tests/test_bytes_utils.py,Conditional Test Logic,test_seek_delimiter_endline,45
+dask/dask/bytes/tests/test_bytes_utils.py,Conditional Test Logic,test_seek_delimiter_endline,52
+dask/dask/bytes/tests/test_bytes_utils.py,Conditional Test Logic,test_infer_storage_options,109
+dask/dask/bytes/tests/test_bytes_utils.py,Verbose Test,test_infer_storage_options,64;116
+dask/dask/bytes/tests/test_compression.py,Conditional Test Logic,test_files,13
+dask/dask/bytes/tests/test_compression.py,Conditional Test Logic,test_files,15
+dask/dask/bytes/tests/test_http.py,Conditional Test Logic,test_ops_blocksize,128
+dask/dask/bytes/tests/test_http.py,Conditional Test Logic,test_files,164
+dask/dask/bytes/tests/test_http.py,Unknown Test,test_errors,137
+dask/dask/bytes/tests/test_http.py,Unknown Test,test_read_csv,217
+dask/dask/bytes/tests/test_http.py,Non-Functional Statement,test_errors,154
+dask/dask/bytes/tests/test_local.py,Conditional Test Logic,test_read_bytes_block,152
+dask/dask/bytes/tests/test_local.py,Conditional Test Logic,test_read_bytes_delimited,168
+dask/dask/bytes/tests/test_local.py,Conditional Test Logic,test_compression,197
+dask/dask/bytes/tests/test_local.py,Conditional Test Logic,test_compression,201
+dask/dask/bytes/tests/test_local.py,Conditional Test Logic,test_open_files,227
+dask/dask/bytes/tests/test_local.py,Conditional Test Logic,test_open_files_text_mode,239
+dask/dask/bytes/tests/test_local.py,Conditional Test Logic,test_open_files_compression,248
+dask/dask/bytes/tests/test_local.py,Conditional Test Logic,test_open_files_compression,254
+dask/dask/bytes/tests/test_local.py,Conditional Test Logic,test_open_files_compression,258
+dask/dask/bytes/tests/test_local.py,Conditional Test Logic,test_bad_compression,265
+dask/dask/bytes/tests/test_local.py,Conditional Test Logic,test_names,287
+dask/dask/bytes/tests/test_local.py,Conditional Test Logic,test_open_files_write,303
+dask/dask/bytes/tests/test_local.py,Conditional Test Logic,test_pickability_of_lazy_files,321
+dask/dask/bytes/tests/test_local.py,Unknown Test,test_unordered_urlpath_errors,51
+dask/dask/bytes/tests/test_local.py,Unknown Test,test_read_bytes_blocksize_float_errs,118
+dask/dask/bytes/tests/test_local.py,Unknown Test,test_bad_compression,263
+dask/dask/bytes/tests/test_local.py,Unknown Test,test_not_found,270
+dask/dask/bytes/tests/test_s3.py,Conditional Test Logic,s3_base,96
+dask/dask/bytes/tests/test_s3.py,Conditional Test Logic,s3_base,100
+dask/dask/bytes/tests/test_s3.py,Conditional Test Logic,s3_base,114
+dask/dask/bytes/tests/test_s3.py,Conditional Test Logic,test_open_files_write,248
+dask/dask/bytes/tests/test_s3.py,Conditional Test Logic,test_compression,387
+dask/dask/bytes/tests/test_s3.py,Conditional Test Logic,test_compression,391
+dask/dask/bytes/tests/test_s3.py,Conditional Test Logic,test_open_files,417
+dask/dask/bytes/tests/test_s3.py,Conditional Test Logic,test_parquet,472
+dask/dask/bytes/tests/test_s3.py,Conditional Test Logic,test_parquet,486
+dask/dask/bytes/tests/test_s3.py,Exception Handling,s3_base,97
+dask/dask/bytes/tests/test_s3.py,Exception Handling,s3_base,110
+dask/dask/bytes/tests/test_s3.py,Sleepy Test,s3_base,104
+dask/dask/bytes/tests/test_s3.py,Unknown Test,test_read_bytes_non_existing_glob,295
+dask/dask/bytes/tests/test_s3.py,Verbose Test,s3_with_yellow_tripdata,143;227
+dask/dask/bytes/tests/test_s3.py,Verbose Test,test_parquet,449;542
+dask/dask/bytes/tests/test_s3.py,Verbose Test,test_parquet_append,545;595
+dask/dask/bytes/tests/test_s3.py,Non-Functional Statement,s3_base,103
+dask/dask/bytes/tests/test_s3.py,Undefined Test,s3_base,82
+dask/dask/dataframe/dask_expr/io/tests/test_delayed.py,Conditional Test Logic,test_from_delayed,34
+dask/dask/dataframe/dask_expr/io/tests/test_delayed.py,Conditional Test Logic,test_from_delayed,40
+dask/dask/dataframe/dask_expr/io/tests/test_delayed.py,Conditional Test Logic,test_from_delayed_dask,52
+dask/dask/dataframe/dask_expr/io/tests/test_from_pandas.py,Conditional Test Logic,test_from_pandas_string_option,130
+dask/dask/dataframe/dask_expr/io/tests/test_from_pandas.py,Unknown Test,test_from_pandas_npartitions_and_chunksize,115
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_io_fusion,94
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_io_fusion,105
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_io_fusion,106
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_io_culling,190
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_io_culling,215
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_io_culling,217
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_from_map,302
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_from_map,310
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_from_map,320
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_from_map,321
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_from_map,323
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_from_map,326
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_from_map,327
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_from_map,330
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_from_map,331
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_from_map,336
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_from_map,338
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_from_map,346
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_from_map,350
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_from_map,356
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_from_array,415
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_from_array,416
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Conditional Test Logic,test_normalize_token_parquet_filemetadata_and_schema,476
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Verbose Test,test_from_map,298;359
+dask/dask/dataframe/dask_expr/io/tests/test_io.py,Non-Functional Statement,test_to_records_with_lengths,498
+dask/dask/dataframe/dask_expr/io/tests/test_parquet.py,Conditional Test Logic,test_parquet_len_filter,83
+dask/dask/dataframe/dask_expr/io/tests/test_parquet.py,Verbose Test,test_predicate_pushdown_compound,252;305
+dask/dask/dataframe/dask_expr/io/tests/test_parquet.py,Verbose Test,test_aggregate_statistics_to_file,324;420
+dask/dask/dataframe/dask_expr/io/tests/test_parquet.py,Verbose Test,test_combine_statistics,423;551
+dask/dask/dataframe/dask_expr/tests/_util.py,Non-Functional Statement,assert_eq,41
+dask/dask/dataframe/dask_expr/tests/test_align_partitions.py,Conditional Test Logic,test_broadcasting_scalar,43
+dask/dask/dataframe/dask_expr/tests/test_align_partitions.py,Verbose Test,test_broadcasting_scalar,30;76
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_info,79
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_info,83
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_info,84
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_info,89
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_column_projection_map_partitions,161
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_column_projection_map_partitions,166
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_bool,271
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_shift,465
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_shift,468
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_diff,544
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_method_operators,599
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_method_operators,600
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_method_operators,603
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_method_operators,608
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_method_operators,617
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_series_iter,1368
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_dataframe_iterrows,1373
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_dataframe_itertuples,1378
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_tree_repr,1511
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_tree_repr,1514
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_tree_repr,1530
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_tree_repr,1534
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_values,1584
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_values,1588
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_repartition_divisions,1632
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_repartition_divisions,1633
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_drop_duplicates,1720
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_array_series_comp,2111
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_combine,2287
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_combine,2298
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_isnull,2401
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_shift_with_freq_datetime,2423
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_shift_with_freq_period_index,2454
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_shift_with_freq_TimedeltaIndex,2470
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_shift_with_freq_TimedeltaIndex,2471
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_items,2489
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_assign_projection_mix,2684
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Conditional Test Logic,test_assign_projection_mix,2687
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Unknown Test,test_bool,269
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Unknown Test,test_abs_errors,796
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Unknown Test,test_drop_not_implemented,868
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Unknown Test,test_expression_bool_raises,2208
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Unknown Test,test_warn_annotations,2576
+dask/dask/dataframe/dask_expr/tests/test_collection.py,Verbose Test,test_info,78;132
+dask/dask/dataframe/dask_expr/tests/test_concat.py,Conditional Test Logic,test_concat4_interleave_partitions,243
+dask/dask/dataframe/dask_expr/tests/test_concat.py,Conditional Test Logic,test_concat5,301
+dask/dask/dataframe/dask_expr/tests/test_concat.py,Conditional Test Logic,test_concat5,333
+dask/dask/dataframe/dask_expr/tests/test_concat.py,Unknown Test,test_invalid_joins,64
+dask/dask/dataframe/dask_expr/tests/test_concat.py,Unknown Test,test_concat_invalid,69
+dask/dask/dataframe/dask_expr/tests/test_concat.py,Verbose Test,test_concat5,258;348
+dask/dask/dataframe/dask_expr/tests/test_core.py,Unknown Test,test_endless_simplify,32
+dask/dask/dataframe/dask_expr/tests/test_datetime.py,Conditional Test Logic,test_datetime_accessor_properties_deprecated,103
+dask/dask/dataframe/dask_expr/tests/test_diagnostics.py,Conditional Test Logic,test_analyze,39
+dask/dask/dataframe/dask_expr/tests/test_distributed.py,Conditional Test Logic,test_merge_combine_similar_squash_merges,321
+dask/dask/dataframe/dask_expr/tests/test_distributed.py,Conditional Test Logic,test_merge_combine_similar_squash_merges,325
+dask/dask/dataframe/dask_expr/tests/test_distributed.py,Verbose Test,test_merge_combine_similar_squash_merges,297;350
+dask/dask/dataframe/dask_expr/tests/test_format.py,Verbose Test,test_to_string,16;83
+dask/dask/dataframe/dask_expr/tests/test_format.py,Verbose Test,test_df_to_html,162;207
+dask/dask/dataframe/dask_expr/tests/test_groupby.py,Conditional Test Logic,test_groupby_no_numeric_only,158
+dask/dask/dataframe/dask_expr/tests/test_groupby.py,Conditional Test Logic,test_apply_or_transform_shuffle_multilevel,537
+dask/dask/dataframe/dask_expr/tests/test_groupby.py,Conditional Test Logic,test_apply_or_transform_shuffle_multilevel,541
+dask/dask/dataframe/dask_expr/tests/test_groupby.py,Conditional Test Logic,test_with_min_count,888
+dask/dask/dataframe/dask_expr/tests/test_groupby.py,Unknown Test,test_groupby_error,787
+dask/dask/dataframe/dask_expr/tests/test_groupby.py,Unknown Test,test_series_groupby_not_supported,957
+dask/dask/dataframe/dask_expr/tests/test_groupby.py,Verbose Test,test_groupby_numeric,60;105
+dask/dask/dataframe/dask_expr/tests/test_indexing.py,Conditional Test Logic,test_columns_dtype_on_empty_slice,61
+dask/dask/dataframe/dask_expr/tests/test_indexing.py,Conditional Test Logic,test_columns_dtype_on_empty_slice,70
+dask/dask/dataframe/dask_expr/tests/test_indexing.py,Unknown Test,test_iloc_errors,32
+dask/dask/dataframe/dask_expr/tests/test_map_partitions_overlap.py,Conditional Test Logic,test_map_overlap,132
+dask/dask/dataframe/dask_expr/tests/test_map_partitions_overlap.py,Conditional Test Logic,test_map_overlap_multiple_dataframes,277
+dask/dask/dataframe/dask_expr/tests/test_map_partitions_overlap.py,Unknown Test,test_map_overlap_raises,100
+dask/dask/dataframe/dask_expr/tests/test_map_partitions_overlap.py,Unknown Test,test_map_overlap_errors,195
+dask/dask/dataframe/dask_expr/tests/test_map_partitions_overlap.py,Verbose Test,test_map_overlap_multiple_dataframes,264;320
+dask/dask/dataframe/dask_expr/tests/test_merge.py,Conditional Test Logic,test_merge_indexed,61
+dask/dask/dataframe/dask_expr/tests/test_merge.py,Conditional Test Logic,test_broadcast_merge,103
+dask/dask/dataframe/dask_expr/tests/test_merge.py,Conditional Test Logic,test_broadcast_merge,107
+dask/dask/dataframe/dask_expr/tests/test_merge.py,Conditional Test Logic,test_recursive_join,429
+dask/dask/dataframe/dask_expr/tests/test_merge.py,Conditional Test Logic,test_recursive_join,441
+dask/dask/dataframe/dask_expr/tests/test_merge.py,Conditional Test Logic,test_merge_columns_dtypes1,579
+dask/dask/dataframe/dask_expr/tests/test_merge.py,Conditional Test Logic,test_pairwise_merge_results_in_identical_output_df,628
+dask/dask/dataframe/dask_expr/tests/test_merge.py,Conditional Test Logic,test_pairwise_merge_results_in_identical_output_df,637
+dask/dask/dataframe/dask_expr/tests/test_merge.py,Conditional Test Logic,test_pairwise_merge_results_in_identical_output_df,642
+dask/dask/dataframe/dask_expr/tests/test_merge.py,Conditional Test Logic,test_pairwise_merge_results_in_identical_output_df,644
+dask/dask/dataframe/dask_expr/tests/test_merge.py,Conditional Test Logic,test_pairwise_merge_results_in_identical_output_df,648
+dask/dask/dataframe/dask_expr/tests/test_merge.py,Unknown Test,test_join_recursive_raises,171
+dask/dask/dataframe/dask_expr/tests/test_merge.py,Verbose Test,test_merge_combine_similar_hangs,303;424
+dask/dask/dataframe/dask_expr/tests/test_merge.py,Verbose Test,test_filter_merge,657;783
+dask/dask/dataframe/dask_expr/tests/test_partitioning_knowledge.py,Conditional Test Logic,test_avoid_shuffle_when_possible,93
+dask/dask/dataframe/dask_expr/tests/test_reductions.py,Conditional Test Logic,test_median,35
+dask/dask/dataframe/dask_expr/tests/test_reductions.py,Conditional Test Logic,test_monotonic,69
+dask/dask/dataframe/dask_expr/tests/test_reductions.py,Conditional Test Logic,test_monotonic,73
+dask/dask/dataframe/dask_expr/tests/test_reductions.py,Conditional Test Logic,test_series_agg_with_min_count,245
+dask/dask/dataframe/dask_expr/tests/test_reductions.py,Unknown Test,test_split_every_lt2,195
+dask/dask/dataframe/dask_expr/tests/test_reductions.py,Unknown Test,test_split_every_lt2_split_out,203
+dask/dask/dataframe/dask_expr/tests/test_reductions.py,Unknown Test,test_unimplemented_on_index,342
+dask/dask/dataframe/dask_expr/tests/test_reductions.py,Verbose Test,test_reduction_method_split_every,475;522
+dask/dask/dataframe/dask_expr/tests/test_repartition.py,Unknown Test,test_repartition_freq_errors,89
+dask/dask/dataframe/dask_expr/tests/test_repartition.py,Unknown Test,test_repartition_unknown_divisions,138
+dask/dask/dataframe/dask_expr/tests/test_reshape.py,Unknown Test,test_pivot_table_fails,57
+dask/dask/dataframe/dask_expr/tests/test_rolling.py,Conditional Test Logic,test_rolling_apply,110
+dask/dask/dataframe/dask_expr/tests/test_rolling.py,Unknown Test,test_rolling_raises,184
+dask/dask/dataframe/dask_expr/tests/test_shuffle.py,Unknown Test,test_shuffle_column_columns,167
+dask/dask/dataframe/dask_expr/tests/test_shuffle.py,Unknown Test,test_index_nulls,579
+dask/dask/dataframe/dask_expr/tests/test_shuffle.py,Unknown Test,test_set_index_sorted_divisions,656
+dask/dask/dataframe/dask_expr/tests/test_shuffle.py,Unknown Test,test_shuffle_index_shuffle,788
+dask/dask/dataframe/dask_expr/tests/test_string_accessor.py,Conditional Test Logic,test_string_accessor,78
+dask/dask/dataframe/dask_expr/tests/test_string_accessor.py,Conditional Test Logic,test_string_accessor,83
+dask/dask/dataframe/dask_expr/tests/test_string_accessor.py,Conditional Test Logic,test_string_accessor,106
+dask/dask/dataframe/dask_expr/tests/test_string_accessor.py,Conditional Test Logic,test_string_accessor,109
+dask/dask/dataframe/dask_expr/tests/test_string_accessor.py,Conditional Test Logic,test_str_accessor_cat,127
+dask/dask/dataframe/dask_expr/tests/test_ufunc.py,Conditional Test Logic,test_ufunc,36
+dask/dask/dataframe/dask_expr/tests/test_ufunc.py,Conditional Test Logic,test_ufunc,49
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_text_blocks_to_pandas_blocked,234
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_comment,279
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_skiprows_as_list,310
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_read_csv_index,536
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_read_csv_index,537
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_read_csv_index,539
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_read_csv_compression,755
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_read_csv_compression,765
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_late_dtypes,936
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_late_dtypes,956
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_late_dtypes,1018
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_assume_missing,1068
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_assume_missing,1089
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_parse_dates_multi_column,1198
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_to_csv,1337
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_to_single_csv,1424
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_to_single_csv_gzip,1493
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_to_csv_gzip,1508
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_reading_empty_csv_files_with_path,1754
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_csv_name_should_be_different_even_if_head_is_same,1829
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_csv_name_should_be_different_even_if_head_is_same,1838
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_select_with_include_path_column,1858
+dask/dask/dataframe/io/tests/test_csv.py,Conditional Test Logic,test_names_with_header_0,1883
+dask/dask/dataframe/io/tests/test_csv.py,Exception Handling,test_read_csv_raises_on_no_files,894
+dask/dask/dataframe/io/tests/test_csv.py,Exception Handling,test_index_col,1103
+dask/dask/dataframe/io/tests/test_csv.py,Unknown Test,test_enforce_columns,344
+dask/dask/dataframe/io/tests/test_csv.py,Unknown Test,test_read_csv_include_path_column_with_duplicate_name,486
+dask/dask/dataframe/io/tests/test_csv.py,Unknown Test,test_read_csv_slash_r,1229
+dask/dask/dataframe/io/tests/test_csv.py,Unknown Test,test_to_single_csv_with_name_function,1440
+dask/dask/dataframe/io/tests/test_csv.py,Unknown Test,test_to_single_csv_with_header_first_partition_only,1452
+dask/dask/dataframe/io/tests/test_csv.py,Unknown Test,test_to_csv_warns_using_scheduler_argument,1605
+dask/dask/dataframe/io/tests/test_csv.py,Unknown Test,test_to_csv_errors_using_multiple_scheduler_args,1619
+dask/dask/dataframe/io/tests/test_csv.py,Verbose Test,test_categorical_known,655;711
+dask/dask/dataframe/io/tests/test_csv.py,Verbose Test,test_late_dtypes,934;1063
+dask/dask/dataframe/io/tests/test_csv.py,Verbose Test,test_to_csv_multiple_files_cornercases,1364;1418
+dask/dask/dataframe/io/tests/test_demo.py,Conditional Test Logic,test_no_overlaps,99
+dask/dask/dataframe/io/tests/test_demo.py,Conditional Test Logic,test_with_spec_default_integer,298
+dask/dask/dataframe/io/tests/test_demo.py,Verbose Test,test_make_timeseries,15;81
+dask/dask/dataframe/io/tests/test_hdf.py,Conditional Test Logic,test_to_hdf_lock_delays,392
+dask/dask/dataframe/io/tests/test_hdf.py,Exception Handling,test_read_hdf,594
+dask/dask/dataframe/io/tests/test_hdf.py,Unknown Test,test_to_hdf_exceptions,413
+dask/dask/dataframe/io/tests/test_hdf.py,Unknown Test,test_to_fmt_warns,520
+dask/dask/dataframe/io/tests/test_hdf.py,Unknown Test,test_read_hdf_multiply_open,621
+dask/dask/dataframe/io/tests/test_hdf.py,Unknown Test,test_read_hdf_start_stop_values,691
+dask/dask/dataframe/io/tests/test_hdf.py,Unknown Test,test_hdf_path_exceptions,816
+dask/dask/dataframe/io/tests/test_hdf.py,Unknown Test,test_hdf_nonpandas_keys,830
+dask/dask/dataframe/io/tests/test_hdf.py,Unknown Test,test_hdf_empty_dataframe,872
+dask/dask/dataframe/io/tests/test_hdf.py,Verbose Test,test_to_hdf_multiple_nodes,61;138
+dask/dask/dataframe/io/tests/test_hdf.py,Verbose Test,test_to_hdf_multiple_files,141;231
+dask/dask/dataframe/io/tests/test_hdf.py,Verbose Test,test_to_hdf_modes_multiple_nodes,234;279
+dask/dask/dataframe/io/tests/test_hdf.py,Verbose Test,test_to_hdf_lock_delays,344;410
+dask/dask/dataframe/io/tests/test_hdf.py,Verbose Test,test_to_hdf_schedulers,439;501
+dask/dask/dataframe/io/tests/test_hdf.py,Verbose Test,test_to_fmt_warns,520;574
+dask/dask/dataframe/io/tests/test_hdf.py,Verbose Test,test_read_hdf_multiple,638;688
+dask/dask/dataframe/io/tests/test_io.py,Conditional Test Logic,test_from_pandas_small,143
+dask/dask/dataframe/io/tests/test_io.py,Conditional Test Logic,test_from_pandas_small,154
+dask/dask/dataframe/io/tests/test_io.py,Conditional Test Logic,test_from_pandas_small,155
+dask/dask/dataframe/io/tests/test_io.py,Conditional Test Logic,test_from_dask_array_index,364
+dask/dask/dataframe/io/tests/test_io.py,Conditional Test Logic,test_from_delayed,655
+dask/dask/dataframe/io/tests/test_io.py,Unknown Test,test_from_pandas_with_index_nulls,232
+dask/dask/dataframe/io/tests/test_io.py,Unknown Test,test_from_pandas_with_wrong_args,238
+dask/dask/dataframe/io/tests/test_io.py,Unknown Test,test_from_dask_array_index_raises,370
+dask/dask/dataframe/io/tests/test_io.py,Unknown Test,test_from_array_raises_more_than_2D,381
+dask/dask/dataframe/io/tests/test_io.py,Unknown Test,test_from_array_wrong_column_shape_error,403
+dask/dask/dataframe/io/tests/test_io.py,Unknown Test,test_from_dask_array_unknown_width_error,506
+dask/dask/dataframe/io/tests/test_io.py,Unknown Test,test_to_records_raises,630
+dask/dask/dataframe/io/tests/test_io.py,Programming Paradigms Blend,(nível do módulo),23;922
+dask/dask/dataframe/io/tests/test_io.py,Non-Functional Statement,test_to_records,606
+dask/dask/dataframe/io/tests/test_io.py,Non-Functional Statement,test_to_records_with_lengths,621
+dask/dask/dataframe/io/tests/test_json.py,Conditional Test Logic,test_read_json_basic,108
+dask/dask/dataframe/io/tests/test_json.py,Conditional Test Logic,test_read_json_fkeyword,116
+dask/dask/dataframe/io/tests/test_json.py,Conditional Test Logic,test_read_json_meta,145
+dask/dask/dataframe/io/tests/test_json.py,Conditional Test Logic,test_read_json_meta,154
+dask/dask/dataframe/io/tests/test_json.py,Conditional Test Logic,test_write_json_basic,172
+dask/dask/dataframe/io/tests/test_json.py,Unknown Test,test_read_json_path_column_with_duplicate_name_is_error,36
+dask/dask/dataframe/io/tests/test_json.py,Unknown Test,test_read_orient_not_records_and_lines,65
+dask/dask/dataframe/io/tests/test_json.py,Unknown Test,test_write_orient_not_records_and_lines,70
+dask/dask/dataframe/io/tests/test_json.py,Unknown Test,test_read_json_error,196
+dask/dask/dataframe/io/tests/test_orc.py,Conditional Test Logic,test_orc_roundtrip,88
+dask/dask/dataframe/io/tests/test_orc.py,Conditional Test Logic,test_orc_roundtrip,91
+dask/dask/dataframe/io/tests/test_orc.py,Conditional Test Logic,test_orc_roundtrip_aggregate_files,117
+dask/dask/dataframe/io/tests/test_orc.py,Conditional Test Logic,test_orc_names,138
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_local,130
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_empty,138
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_read_glob,181
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_read_list,214
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_read_list,215
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_columns_index_with_multi_index,447
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_columns_index_with_multi_index,452
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_columns_index_with_multi_index,457
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_append,601
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_append,605
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_roundtrip,1037
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_to_parquet_pyarrow_w_inconsistent_schema_by_partition_succeeds_w_manual_schema,1182
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_to_parquet_pyarrow_w_inconsistent_schema_by_partition_succeeds_w_manual_schema,1187
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_to_parquet_pyarrow_w_inconsistent_schema_by_partition_succeeds_w_manual_schema,1189
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_to_parquet_pyarrow_w_inconsistent_schema_by_partition_succeeds_w_manual_schema,1196
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_to_parquet_pyarrow_w_inconsistent_schema_by_partition_succeeds_w_manual_schema,1198
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_pyarrow_schema_inference,1214
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_pyarrow_schema_inference,1237
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_pyarrow_schema_mismatch_error,1263
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_partition_on,1302
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_partition_on,1307
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_partition_on_duplicates,1323
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_partition_on_duplicates,1329
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_partition_on_duplicates,1330
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_partition_on_string,1357
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_filtering_pyarrow_dataset,1483
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,check_compression,1625
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,check_compression,1627
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,check_compression,1629
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,check_compression,1633
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_writing_parquet_with_kwargs,1717
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_roundtrip_arrow,1841
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_read_dir_nometa,1898
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_read_dir_nometa,1903
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_optimize_and_not,2198
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_split_adaptive_files,2247
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_split_adaptive_files,2250
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_split_adaptive_files,2256
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_split_adaptive_aggregate_files,2295
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_split_adaptive_blocksize,2331
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_split_adaptive_blocksize,2352
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_split_adaptive_blocksize,2357
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_blocksize,2388
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_blocksize,2406
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_blocksize,2411
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_pandas_timestamp_overflow_pyarrow,2522
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_pandas_timestamp_overflow_pyarrow,2523
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_partitioned_column_overlap,2622
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_multi_partition_none_index_false,2732
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_pyarrow_dataset_partitioned,2808
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_create_metadata_file,3015
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_create_metadata_file,3034
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_to_parquet_overwrite_files_from_read_parquet_in_same_call_raises,3170
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_roundtrip_decimal_dtype,3233
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_roundtrip_decimal_dtype,3240
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_roundtrip_date_dtype,3260
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_roundtrip_date_dtype,3267
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_custom_metadata,3311
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_custom_metadata,3316
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_custom_metadata,3318
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_extra_file,3441
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_custom_filename_with_partition,3588
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_custom_filename_with_partition,3589
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_custom_filename_with_partition,3595
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_read_parquet_convert_string,3829
+dask/dask/dataframe/io/tests/test_parquet.py,Conditional Test Logic,test_parquet_string_roundtrip,3971
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_get_engine_no_engine,81
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_get_engine_invalid,96
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_nonsense_column,348
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_append_overlapping_divisions,813
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_writing_parquet_with_partition_on_and_compression,1654
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_writing_parquet_with_unknown_kwargs,1721
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_select_partitioned_column,1749
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_arrow_partitioning,1771
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_informative_error_messages,1789
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_optimize_getitem_and_nonblockwise,2165
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_pandas_timestamp_overflow_pyarrow,2493
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_parquet_pyarrow_write_empty_metadata_append,2962
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_to_parquet_overwrite_raises,3142
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_to_parquet_overwrite_files_from_read_parquet_in_same_call_raises,3158
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_to_parquet_errors_non_string_column_names,3184
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_throws_error_if_custom_filename_is_invalid,3554
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_in_predicate_requires_an_iterable,3706
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_pyarrow_filesystem_option_real_data,3751
+dask/dask/dataframe/io/tests/test_parquet.py,Unknown Test,test_parquet_botocore_exception,3981
+dask/dask/dataframe/io/tests/test_parquet.py,Verbose Test,test_columns_index,263;345
+dask/dask/dataframe/io/tests/test_parquet.py,Verbose Test,test_columns_index_with_multi_index,410;465
+dask/dask/dataframe/io/tests/test_parquet.py,Verbose Test,test_append_with_partition,640;685
+dask/dask/dataframe/io/tests/test_parquet.py,Verbose Test,test_to_parquet_pyarrow_w_inconsistent_schema_by_partition_succeeds_w_manual_schema,1125;1207
+dask/dask/dataframe/io/tests/test_parquet.py,Verbose Test,test_filters,1382;1427
+dask/dask/dataframe/io/tests/test_parquet.py,Verbose Test,test_split_adaptive_blocksize,2309;2360
+dask/dask/dataframe/io/tests/test_parquet.py,Verbose Test,test_blocksize,2366;2420
+dask/dask/dataframe/io/tests/test_parquet.py,Verbose Test,test_pandas_timestamp_overflow_pyarrow,2493;2567
+dask/dask/dataframe/io/tests/test_parquet.py,Verbose Test,test_create_metadata_file,3000;3053
+dask/dask/dataframe/io/tests/test_parquet.py,Verbose Test,test_extra_file,3411;3467
+dask/dask/dataframe/io/tests/test_parquet.py,Non-Functional Statement,test_get_engine_third_party,91
+dask/dask/dataframe/io/tests/test_parquet.py,Undefined Test,check_compression,1621
+dask/dask/dataframe/io/tests/test_sql.py,Conditional Test Logic,test_single_column,86
+dask/dask/dataframe/io/tests/test_sql.py,Conditional Test Logic,test_to_sql,519
+dask/dask/dataframe/io/tests/test_sql.py,Unknown Test,test_passing_engine_as_uri_raises_helpful_error,103
+dask/dask/dataframe/io/tests/test_sql.py,Unknown Test,test_no_meta_no_head_rows,337
+dask/dask/dataframe/io/tests/test_sql.py,Unknown Test,test_read_sql_query_string_raises_error,450
+dask/dask/dataframe/io/tests/test_sql.py,Unknown Test,test_no_character_index_without_divisions,455
+dask/dask/dataframe/io/tests/test_sql.py,Unknown Test,test_to_sql_kwargs,560
+dask/dask/dataframe/io/tests/test_sql.py,Verbose Test,test_needs_rational,164;215
+dask/dask/dataframe/io/tests/test_sql.py,Verbose Test,test_to_sql,484;557
+dask/dask/dataframe/tests/test_accessors.py,Conditional Test Logic,test_dt_accessor,110
+dask/dask/dataframe/tests/test_accessors.py,Conditional Test Logic,test_str_accessor,166
+dask/dask/dataframe/tests/test_accessors.py,Conditional Test Logic,test_str_accessor,168
+dask/dask/dataframe/tests/test_accessors.py,Conditional Test Logic,test_str_accessor,191
+dask/dask/dataframe/tests/test_accessors.py,Conditional Test Logic,test_str_accessor,200
+dask/dask/dataframe/tests/test_accessors.py,Conditional Test Logic,test_str_accessor_cat,260
+dask/dask/dataframe/tests/test_accessors.py,Conditional Test Logic,test_str_accessor_split_noexpand,282
+dask/dask/dataframe/tests/test_accessors.py,Conditional Test Logic,test_str_accessor_split_expand,298
+dask/dask/dataframe/tests/test_accessors.py,Conditional Test Logic,test_str_accessor_split_expand,309
+dask/dask/dataframe/tests/test_accessors.py,Verbose Test,test_str_accessor,139;207
+dask/dask/dataframe/tests/test_accessors.py,Programming Paradigms Blend,(nível do módulo),8;29
+dask/dask/dataframe/tests/test_accessors.py,Non-Functional Statement,ensure_removed,25
+dask/dask/dataframe/tests/test_api.py,Conditional Test Logic,test_api,22
+dask/dask/dataframe/tests/test_api.py,Conditional Test Logic,test_api,23
+dask/dask/dataframe/tests/test_api.py,Conditional Test Logic,test_api,24
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_arithmetics_different_index,98
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_arithmetics_different_index,157
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,check_series_arithmetics,180
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,check_series_arithmetics,242
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,check_frame_arithmetics,264
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,check_frame_arithmetics,326
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_frame_series_arithmetic_methods,356
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_frame_series_arithmetic_methods,390
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_frame_series_arithmetic_methods,416
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_frame_series_arithmetic_methods,420
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions,471
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions,492
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions,505
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_numpy_dispatch,591
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_numpy_dispatch,599
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_deterministic_reduction_names,642
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reduction_series_invalid_axis,693
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reduction_series_invalid_axis,694
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_non_numeric_dtypes,734
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_non_numeric_dtypes,747
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_frame,801
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_frame_dtypes,869
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_frame_dtypes,888
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_frame_dtypes,891
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_frame_dtypes,892
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_frame_dtypes,895
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_frame_dtypes,899
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_frame_dtypes_numeric_only_supported,944
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_frame_dtypes_numeric_only_supported,960
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_frame_dtypes_numeric_only_supported,965
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_frame_dtypes_numeric_only_supported,983
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_frame_dtypes_numeric_only_supported,1000
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_series_agg_with_min_count,1266
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_datetime_std_with_larger_dataset,1329
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_datetime_std_with_larger_dataset,1346
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_datetime_std_across_axis1_null_results,1387
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_datetime_std_across_axis1_null_results,1396
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_datetime_std_across_axis1_null_results,1404
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_datetime_std_across_axis1_null_results,1426
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_with_pandas_and_arrow_ea,1465
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_with_pandas_and_arrow_ea,1467
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_with_pandas_and_arrow_ea,1469
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Conditional Test Logic,test_reductions_with_pandas_and_arrow_ea,1476
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Unknown Test,test_arithmetics_different_index,40
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Unknown Test,test_reduction_series_invalid_axis,684
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Unknown Test,test_skew_kurt_numeric_only_false,1060
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Unknown Test,test_std_raises_on_index,1430
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Unknown Test,test_std_raises_with_arrow_string_ea,1438
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Verbose Test,test_arithmetics_different_index,40;159
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Verbose Test,check_series_arithmetics,162;244
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Verbose Test,check_frame_arithmetics,247;328
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Verbose Test,test_frame_series_arithmetic_methods,331;436
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Verbose Test,test_reductions,440;568
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Verbose Test,test_reductions_non_numeric_dtypes,714;774
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Verbose Test,test_reductions_frame,778;840
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Verbose Test,test_reductions_frame_dtypes_numeric_only_supported,932;1013
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Verbose Test,test_reductions_frame_nan,1085;1188
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Verbose Test,test_datetime_std_across_axis1_null_results,1367;1427
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Undefined Test,check_series_arithmetics,162
+dask/dask/dataframe/tests/test_arithmetics_reduction.py,Undefined Test,check_frame_arithmetics,247
+dask/dask/dataframe/tests/test_categorical.py,Conditional Test Logic,test_unknown_categoricals,158
+dask/dask/dataframe/tests/test_categorical.py,Conditional Test Logic,test_unknown_categoricals,168
+dask/dask/dataframe/tests/test_categorical.py,Conditional Test Logic,test_categorize,195
+dask/dask/dataframe/tests/test_categorical.py,Conditional Test Logic,test_categorize,216
+dask/dask/dataframe/tests/test_categorical.py,Conditional Test Logic,test_repartition_on_categoricals,356
+dask/dask/dataframe/tests/test_categorical.py,Unknown Test,test_properties,427
+dask/dask/dataframe/tests/test_categorical.py,Unknown Test,test_categorical_empty,467
+dask/dask/dataframe/tests/test_categorical.py,Unknown Test,test_categorical_non_string_raises,515
+dask/dask/dataframe/tests/test_categorical.py,Unknown Test,test_categorical_set_index_npartitions_vs_ncategories,338
+dask/dask/dataframe/tests/test_categorical.py,Verbose Test,test_categorize,191;260
+dask/dask/dataframe/tests/test_categorical.py,Programming Paradigms Blend,(nível do módulo),20;417
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_head_npartitions_warn,159
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_Index,183
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_rename_series_method_2,319
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_describe_without_datetime_is_numeric,515
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_describe_for_possibly_unsorted_q,574
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_describe_for_possibly_unsorted_q,575
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_describe_for_possibly_unsorted_q,576
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_where_mask,898
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_drop_duplicates_subset,1134
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_drop_duplicates_subset,1136
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_isin,1314
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_dataframe_quantile,1479
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_dataframe_quantile,1482
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_quantile_for_possibly_unsorted_q,1547
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_with_min_count,1721
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_with_min_count,1722
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_with_min_count,1723
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_combine,1838
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_combine,1849
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_combine_first_all_nans,1901
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_repartition,2006
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_repartition,2021
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_repartition,2026
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_repartition,2045
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_repartition,2059
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_repartition,2064
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_repartition,2084
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_repartition_freq_divisions,2235
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_map_freq_to_period_start,2323
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_delayed_roundtrip,2427
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_to_dask_array_raises,2802
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_to_dask_array_unknown,2817
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_to_dask_array_unknown,2824
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_to_dask_array,2847
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_to_dask_array,2855
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_cov_dataframe,3024
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_cov_gpu,3080
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_cov_corr_mixed,3230
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_cov_corr_mixed,3243
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_nlargest_nsmallest,3333
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_series_iter,3400
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_dataframe_iterrows,3408
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_dataframe_itertuples,3416
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_dataframe_items,3429
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_dataframe_itertuples_with_index_false,3438
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_dataframe_itertuples_with_name_none,3446
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_astype_categoricals_known,3502
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_astype_categoricals_known,3508
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_idxmaxmin,3702
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_idxmaxmin,3707
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_idxmaxmin_empty_partitions,3803
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_idxmaxmin_empty_partitions,3812
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_idxmaxmin_empty_partitions,3815
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_shift_with_freq_DatetimeIndex,3954
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_shift_with_freq_DatetimeIndex,3955
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_shift_with_freq_PeriodIndex,3971
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_shift_with_freq_TimedeltaIndex,3987
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_shift_with_freq_TimedeltaIndex,3990
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_shift_with_freq_TimedeltaIndex,3991
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_split_out_drop_duplicates,4042
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_values,4076
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_values,4081
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_copy,4130
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_memory_usage_dataframe,4159
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_memory_usage_series,4172
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_memory_usage_index,4184
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_memory_usage_per_partition,4208
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_median,4259
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_to_datetime,4321
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_to_datetime,4331
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_coerce,4486
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_bool,4494
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_cumulative_multiple_columns,4504
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_cumulative_multiple_columns,4505
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_map_partition_array,4524
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_map_partition_sparse,4550
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_dask_dataframe_holds_scipy_sparse_containers,4624
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_iter,4853
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_assign_no_warning_fragmented,4914
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_is_monotonic_numeric,5007
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_is_monotonic_numeric,5011
+dask/dask/dataframe/tests/test_dataframe.py,Conditional Test Logic,test_from_dict,5065
+dask/dask/dataframe/tests/test_dataframe.py,Exception Handling,test_map_partition_array,4525
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_map_partitions_with_delayed_collection,1051
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_empty_quantile,1427
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_repartition_npartitions_same_limits,2152
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_repartition_input_errors,2337
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_from_delayed_lazy_if_meta_provided,2435
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_fillna_duplicate_index,2449
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_rename_index,2762
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_to_dask_array_raises,2798
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_nlargest_nsmallest_raises,3358
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_dataframe_compute_forward_kwargs,3392
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_index_errors,3568
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_index_nulls,3583
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_shift_with_freq_errors,4001
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_coerce,4482
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_bool,4490
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_setitem_with_numeric_column_name_raises_not_implemented,4701
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_from_dict_raises,5073
+dask/dask/dataframe/tests/test_dataframe.py,Unknown Test,test_empty,5080
+dask/dask/dataframe/tests/test_dataframe.py,Verbose Test,test_where_mask,844;914
+dask/dask/dataframe/tests/test_dataframe.py,Verbose Test,test_dataframe_quantile,1465;1522
+dask/dask/dataframe/tests/test_dataframe.py,Verbose Test,test_assign,1590;1647
+dask/dask/dataframe/tests/test_dataframe.py,Verbose Test,test_repartition,1995;2091
+dask/dask/dataframe/tests/test_dataframe.py,Verbose Test,test_reduction_method_split_every,2632;2688
+dask/dask/dataframe/tests/test_dataframe.py,Verbose Test,test_idxmaxmin,3692;3762
+dask/dask/dataframe/tests/test_dataframe.py,Non-Functional Statement,test_getitem_string_subclass,3867
+dask/dask/dataframe/tests/test_dataframe.py,Non-Functional Statement,test_map_partition_array,4530
+dask/dask/dataframe/tests/test_dataframe.py,Undefined Test,_assert_info,3534
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_full_groupby_multilevel,168
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_multilevel_getitem,262
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_multilevel_getitem,279
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_multilevel_getitem,289
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_get_group,343
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_get_group,347
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_series_groupby,418
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_split_apply_combine_on_series,479
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_split_apply_combine_on_series,492
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_split_apply_combine_on_series,503
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_split_apply_combine_on_series,517
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_split_apply_combine_on_series,529
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_split_apply_combine_on_series,561
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_split_apply_combine_on_series,565
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_split_apply_combine_on_series,616
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_split_apply_combine_on_series,621
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_split_apply_combine_on_series,648
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_reduction_split,668
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_reduction_split,686
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_reduction_split,692
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_reduction_split,700
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_reduction_split,706
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_reduction_split,714
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_reduction_split,722
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_apply_tasks,833
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_apply_tasks,841
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_aggregate_single_element_groups,888
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_aggregate_single_element_groups,900
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,_check_multilevel_agg,1086
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,_check_multilevel_agg,1097
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,_check_multilevel_agg,1109
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,_check_multilevel_agg,1120
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_series_aggregations_multilevel,1196
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_unaligned_index,1409
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_column_and_index_agg_funcs,1539
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_column_and_index_agg_funcs,1552
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_column_and_index_agg_funcs,1560
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_column_and_index_agg_funcs,1570
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_column_and_index_agg_funcs,1578
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_column_and_index_agg_funcs,1588
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_agg_custom__mode,1728
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_with_min_count,1867
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_cov,1915
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_df_groupby_idxmin_skipna,1955
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_df_groupby_idxmin_skipna,1961
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_df_groupby_idxmax_skipna,1997
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_df_groupby_idxmax_skipna,2003
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_series_groupby_idxmin_skipna,2041
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_series_groupby_idxmin_skipna,2047
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_series_groupby_idxmax_skipna,2086
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_series_groupby_idxmax_skipna,2092
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,groupby_axis_and_meta,2156
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_shift_within_partition_sorting,2204
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_transform_ufunc_partitioning,2284
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_aggregate_categoricals,2344
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_dropna_cudf,2500
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_dropna_cudf,2506
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_split_out_multiindex,2627
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_large_ints_exception,2656
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_sort_argument,2714
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_sort_argument_agg,2768
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_aggregate_categorical_observed,2796
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_aggregate_categorical_observed,2819
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_aggregate_categorical_observed,2828
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_empty_partitions_with_value_counts,2918
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_numeric_only_supported,3109
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_groupby_numeric_only_false_cov_corr,3172
+dask/dask/dataframe/tests/test_groupby.py,Conditional Test Logic,test_agg_pyarrow_casts,3257
+dask/dask/dataframe/tests/test_groupby.py,Exception Handling,test_groupby_numeric_only_supported,3094
+dask/dask/dataframe/tests/test_groupby.py,Unknown Test,test_groupby_set_index,471
+dask/dask/dataframe/tests/test_groupby.py,Unknown Test,test_shuffle_aggregate_defaults,994
+dask/dask/dataframe/tests/test_groupby.py,Unknown Test,test_dataframe_aggregations_multilevel,1159
+dask/dask/dataframe/tests/test_groupby.py,Unknown Test,test_groupy_non_aligned_index,1224
+dask/dask/dataframe/tests/test_groupby.py,Unknown Test,test_groupy_series_wrong_grouper,1258
+dask/dask/dataframe/tests/test_groupby.py,Unknown Test,test_groupby_not_supported,1332
+dask/dask/dataframe/tests/test_groupby.py,Unknown Test,test_groupby_agg_custom__name_clash_with_internal_same_column,1688
+dask/dask/dataframe/tests/test_groupby.py,Unknown Test,test_groupby_aggregate_partial_function_unexpected_kwargs,2392
+dask/dask/dataframe/tests/test_groupby.py,Unknown Test,test_groupby_aggregate_partial_function_unexpected_args,2428
+dask/dask/dataframe/tests/test_groupby.py,Unknown Test,test_groupby_sort_true_split_out,2774
+dask/dask/dataframe/tests/test_groupby.py,Unknown Test,test_groupby_numeric_only_None_column_name,2855
+dask/dask/dataframe/tests/test_groupby.py,Unknown Test,test_groupby_with_pd_grouper,2926
+dask/dask/dataframe/tests/test_groupby.py,Unknown Test,test_groupby_iter_fails,3013
+dask/dask/dataframe/tests/test_groupby.py,Unknown Test,test_groupby_numeric_only_not_implemented,3116
+dask/dask/dataframe/tests/test_groupby.py,Unknown Test,test_groupby_numeric_only_false,3188
+dask/dask/dataframe/tests/test_groupby.py,Verbose Test,test_groupby_on_index,199;244
+dask/dask/dataframe/tests/test_groupby.py,Verbose Test,test_split_apply_combine_on_series,478;663
+dask/dask/dataframe/tests/test_groupby.py,Verbose Test,test_groupby_reduction_split,667;727
+dask/dask/dataframe/tests/test_groupby.py,Verbose Test,_check_multilevel_agg,1085;1144
+dask/dask/dataframe/tests/test_groupby.py,Verbose Test,test_groupby_column_and_index_agg_funcs,1519;1590
+dask/dask/dataframe/tests/test_groupby.py,Verbose Test,test_groupby_sort_argument,2688;2755
+dask/dask/dataframe/tests/test_groupby.py,Non-Functional Statement,test_groupby_shift_with_freq,2230
+dask/dask/dataframe/tests/test_groupby.py,Undefined Test,_check_multilevel_agg,1085
+dask/dask/dataframe/tests/test_groupby.py,Undefined Test,groupby_axis_and_meta,2150
+dask/dask/dataframe/tests/test_hashing.py,Conditional Test Logic,test_hash_pandas_object,35
+dask/dask/dataframe/tests/test_hashing.py,Conditional Test Logic,test_categorical_consistency,44
+dask/dask/dataframe/tests/test_hashing.py,Conditional Test Logic,test_categorical_consistency,51
+dask/dask/dataframe/tests/test_indexing.py,Conditional Test Logic,test_loc_with_non_boolean_series,156
+dask/dask/dataframe/tests/test_indexing.py,Conditional Test Logic,test_getitem_integer_slice,306
+dask/dask/dataframe/tests/test_indexing.py,Conditional Test Logic,test_coerce_loc_index,353
+dask/dask/dataframe/tests/test_indexing.py,Unknown Test,test_iloc_series,537
+dask/dask/dataframe/tests/test_indexing.py,Unknown Test,test_iloc_raises,544
+dask/dask/dataframe/tests/test_indexing.py,Verbose Test,test_loc_timestamp_str,360;418
+dask/dask/dataframe/tests/test_map.py,Conditional Test Logic,test_series_map,23
+dask/dask/dataframe/tests/test_map.py,Conditional Test Logic,test_series_map,29
+dask/dask/dataframe/tests/test_map.py,Conditional Test Logic,test_series_map_dtype_unmapped,231
+dask/dask/dataframe/tests/test_map.py,Conditional Test Logic,test_series_map_dtype_null_base,248
+dask/dask/dataframe/tests/test_map.py,Exception Handling,test_series_meta_raises,126
+dask/dask/dataframe/tests/test_map.py,Unknown Test,test_dataframe_map_raises,133
+dask/dask/dataframe/tests/test_merge_column_and_index.py,Conditional Test Logic,test_merge_known_to_double_bcast_right,233
+dask/dask/dataframe/tests/test_merge_column_and_index.py,Conditional Test Logic,test_merge_known_to_double_bcast_left,253
+dask/dask/dataframe/tests/test_merge_column_and_index.py,Conditional Test Logic,test_merge_column_with_nulls,269
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,list_eq,51
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,list_eq,55
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,list_eq,61
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_asof_left_on_right_index,181
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_asof_left_on_right_index,202
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_asof_left_on_right_index,203
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_asof_left_on_right_index,214
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_asof_on_by,250
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_asof_on_by,266
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_asof_on_by_tolerance,308
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_asof_on_by_tolerance,324
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_asof_on_by_tolerance_no_exact_matches,366
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_asof_on_by_tolerance_no_exact_matches,382
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_asof_with_various_npartitions,530
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_concat,574
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_concat_series,602
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_columns_dtypes,674
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_tasks_semi_anti_cudf,861
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_tasks_semi_anti_cudf,884
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_by_index_patterns,948
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_by_index_patterns,952
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_by_index_patterns,961
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_join_by_index_patterns,1191
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_join_by_index_patterns,1234
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_join_by_index_patterns,1243
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_by_multiple_columns,1333
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_by_multiple_columns,1389
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_by_multiple_columns,1390
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_concat4_interleave_partitions,1786
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_concat5,1846
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_concat5,1878
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_concat_categorical,1947
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_concat_categorical,1951
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_concat_categorical,1956
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_concat_categorical,1958
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_concat_categorical,1967
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_concat_categorical,1979
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_concat_categorical,1983
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_concat_categorical,1989
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_concat_categorical,2000
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_outer_empty,2103
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_groupby_concat_cudf,2143
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_tasks_large_to_small,2337
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_merge_tasks_large_to_small,2363
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_pairwise_merge_results_in_identical_output_df,2399
+dask/dask/dataframe/tests/test_multi.py,Conditional Test Logic,test_pairwise_merge_results_in_identical_output_df,2411
+dask/dask/dataframe/tests/test_multi.py,Unknown Test,test_merge_asof_on_lefton_righton_error,122
+dask/dask/dataframe/tests/test_multi.py,Unknown Test,test_merge_asof_by_leftby_rightby_error,136
+dask/dask/dataframe/tests/test_multi.py,Unknown Test,test_merge_asof_unsorted_raises,435
+dask/dask/dataframe/tests/test_multi.py,Unknown Test,test_merge_how_raises,817
+dask/dask/dataframe/tests/test_multi.py,Unknown Test,test_melt,1504
+dask/dask/dataframe/tests/test_multi.py,Unknown Test,test_errors_for_merge_on_frame_columns,1666
+dask/dask/dataframe/tests/test_multi.py,Unknown Test,test_concat_unknown_divisions_errors,1711
+dask/dask/dataframe/tests/test_multi.py,Unknown Test,test_pairwise_rejects_unsupported_join_types,2374
+dask/dask/dataframe/tests/test_multi.py,Verbose Test,test_merge_asof_left_on_right_index,173;233
+dask/dask/dataframe/tests/test_multi.py,Verbose Test,test_merge_asof_on_by,247;302
+dask/dask/dataframe/tests/test_multi.py,Verbose Test,test_merge_asof_on_by_tolerance,305;360
+dask/dask/dataframe/tests/test_multi.py,Verbose Test,test_merge_asof_on_by_tolerance_no_exact_matches,363;432
+dask/dask/dataframe/tests/test_multi.py,Verbose Test,test_merge_asof_with_empty,447;496
+dask/dask/dataframe/tests/test_multi.py,Verbose Test,test_merge,694;790
+dask/dask/dataframe/tests/test_multi.py,Verbose Test,test_merge_by_index_patterns,912;1182
+dask/dask/dataframe/tests/test_multi.py,Verbose Test,test_join_by_index_patterns,1187;1311
+dask/dask/dataframe/tests/test_multi.py,Verbose Test,test_merge_by_multiple_columns,1330;1489
+dask/dask/dataframe/tests/test_multi.py,Verbose Test,test_concat5,1803;1895
+dask/dask/dataframe/tests/test_multi.py,Verbose Test,test_concat_categorical,1919;2010
+dask/dask/dataframe/tests/test_multi.py,Verbose Test,test_merge_tasks_large_to_small,2314;2370
+dask/dask/dataframe/tests/test_multi.py,Undefined Test,list_eq,50
+dask/dask/dataframe/tests/test_multi.py,Undefined Test,check_append_with_warning,2049
+dask/dask/dataframe/tests/test_numeric.py,Conditional Test Logic,test_to_numeric_on_dask_dataframe_series,48
+dask/dask/dataframe/tests/test_numeric.py,Unknown Test,test_to_numeric_on_dask_dataframe_dataframe_raises_error,66
+dask/dask/dataframe/tests/test_numeric.py,Unknown Test,test_to_numeric_raises,74
+dask/dask/dataframe/tests/test_pyarrow.py,Conditional Test Logic,test_is_pyarrow_string_dtype,35
+dask/dask/dataframe/tests/test_pyarrow.py,Conditional Test Logic,test_is_object_string_dtype,56
+dask/dask/dataframe/tests/test_pyarrow_compat.py,Conditional Test Logic,test_pickle_roundtrip_pyarrow_string_implementations,114
+dask/dask/dataframe/tests/test_pyarrow_compat.py,Verbose Test,data,21;77
+dask/dask/dataframe/tests/test_reshape.py,Conditional Test Logic,test_pivot_table,207
+dask/dask/dataframe/tests/test_reshape.py,Conditional Test Logic,test_pivot_table,218
+dask/dask/dataframe/tests/test_reshape.py,Unknown Test,test_get_dummies_errors,168
+dask/dask/dataframe/tests/test_reshape.py,Verbose Test,test_pivot_table_errors,285;335
+dask/dask/dataframe/tests/test_rolling.py,Conditional Test Logic,test_map_overlap,61
+dask/dask/dataframe/tests/test_rolling.py,Conditional Test Logic,test_map_overlap,64
+dask/dask/dataframe/tests/test_rolling.py,Conditional Test Logic,test_map_overlap_multiple_dataframes,108
+dask/dask/dataframe/tests/test_rolling.py,Conditional Test Logic,test_rolling_methods,276
+dask/dask/dataframe/tests/test_rolling.py,Conditional Test Logic,test_rolling_methods,280
+dask/dask/dataframe/tests/test_rolling.py,Conditional Test Logic,test_rolling_methods,287
+dask/dask/dataframe/tests/test_rolling.py,Conditional Test Logic,test_rolling_partition_size,332
+dask/dask/dataframe/tests/test_rolling.py,Conditional Test Logic,test_time_rolling_methods,351
+dask/dask/dataframe/tests/test_rolling.py,Conditional Test Logic,test_time_rolling_methods,357
+dask/dask/dataframe/tests/test_rolling.py,Unknown Test,test_map_overlap_errors,209
+dask/dask/dataframe/tests/test_rolling.py,Verbose Test,test_map_overlap_multiple_dataframes,96;153
+dask/dask/dataframe/tests/test_rolling.py,Verbose Test,test_map_overlap_names,160;206
+dask/dask/dataframe/tests/test_shuffle.py,Conditional Test Logic,test_shuffle_from_one_partition_to_one_other,103
+dask/dask/dataframe/tests/test_shuffle.py,Conditional Test Logic,test_shuffle_empty_partitions,113
+dask/dask/dataframe/tests/test_shuffle.py,Conditional Test Logic,test_set_index_string,200
+dask/dask/dataframe/tests/test_shuffle.py,Conditional Test Logic,test_set_index_names,229
+dask/dask/dataframe/tests/test_shuffle.py,Conditional Test Logic,test_set_index,462
+dask/dask/dataframe/tests/test_shuffle.py,Conditional Test Logic,test_set_index_interpolate,500
+dask/dask/dataframe/tests/test_shuffle.py,Conditional Test Logic,test_set_index_interpolate,509
+dask/dask/dataframe/tests/test_shuffle.py,Conditional Test Logic,test_set_index_interpolate_int,529
+dask/dask/dataframe/tests/test_shuffle.py,Conditional Test Logic,test_set_index_interpolate_int,539
+dask/dask/dataframe/tests/test_shuffle.py,Conditional Test Logic,test_set_index_sorted_true,639
+dask/dask/dataframe/tests/test_shuffle.py,Conditional Test Logic,test_set_index_empty_partition,674
+dask/dask/dataframe/tests/test_shuffle.py,Conditional Test Logic,test_set_index_timestamp,798
+dask/dask/dataframe/tests/test_shuffle.py,Conditional Test Logic,test_dataframe_shuffle_on_arg,876
+dask/dask/dataframe/tests/test_shuffle.py,Conditional Test Logic,test_dataframe_shuffle_on_arg,893
+dask/dask/dataframe/tests/test_shuffle.py,Conditional Test Logic,test_sort_values_tasks_backend,1058
+dask/dask/dataframe/tests/test_shuffle.py,Conditional Test Logic,test_sort_values_tasks_backend,1064
+dask/dask/dataframe/tests/test_shuffle.py,Conditional Test Logic,test_set_index_pyarrow_dtype,1224
+dask/dask/dataframe/tests/test_shuffle.py,Unknown Test,test_index_with_non_series,81
+dask/dask/dataframe/tests/test_shuffle.py,Unknown Test,test_set_index_2,256
+dask/dask/dataframe/tests/test_shuffle.py,Unknown Test,test_set_index_with_empty_divisions,363
+dask/dask/dataframe/tests/test_shuffle.py,Unknown Test,test_disk_shuffle_with_compression_option,815
+dask/dask/dataframe/tests/test_shuffle.py,Unknown Test,test_disk_shuffle_with_unknown_compression,821
+dask/dask/dataframe/tests/test_shuffle.py,Unknown Test,test_compute_current_divisions_overlap_2,958
+dask/dask/dataframe/tests/test_shuffle.py,Unknown Test,test_shuffle_values_raises,1119
+dask/dask/dataframe/tests/test_ufunc.py,Conditional Test Logic,test_ufunc_with_2args,318
+dask/dask/dataframe/tests/test_ufunc.py,Conditional Test Logic,test_mixed_types,459
+dask/dask/dataframe/tests/test_ufunc.py,Conditional Test Logic,test_ufunc_with_reduction,540
+dask/dask/dataframe/tests/test_ufunc.py,Conditional Test Logic,test_ufunc_with_reduction,541
+dask/dask/dataframe/tests/test_ufunc.py,Unknown Test,test_ufunc_wrapped_not_implemented,236
+dask/dask/dataframe/tests/test_ufunc.py,Verbose Test,test_ufunc_wrapped,185;233
+dask/dask/dataframe/tests/test_utils_dataframe.py,Conditional Test Logic,test_make_meta,46
+dask/dask/dataframe/tests/test_utils_dataframe.py,Conditional Test Logic,test_make_meta,47
+dask/dask/dataframe/tests/test_utils_dataframe.py,Conditional Test Logic,test_make_meta,88
+dask/dask/dataframe/tests/test_utils_dataframe.py,Conditional Test Logic,test_make_meta,99
+dask/dask/dataframe/tests/test_utils_dataframe.py,Conditional Test Logic,test_make_meta,121
+dask/dask/dataframe/tests/test_utils_dataframe.py,Conditional Test Logic,test_make_meta,131
+dask/dask/dataframe/tests/test_utils_dataframe.py,Conditional Test Logic,test_meta_nonempty,223
+dask/dask/dataframe/tests/test_utils_dataframe.py,Conditional Test Logic,test_meta_nonempty,236
+dask/dask/dataframe/tests/test_utils_dataframe.py,Conditional Test Logic,test_meta_duplicated,252
+dask/dask/dataframe/tests/test_utils_dataframe.py,Conditional Test Logic,test_meta_nonempty_empty_categories,266
+dask/dask/dataframe/tests/test_utils_dataframe.py,Conditional Test Logic,test_meta_nonempty_index,316
+dask/dask/dataframe/tests/test_utils_dataframe.py,Conditional Test Logic,test_meta_nonempty_multiindex,349
+dask/dask/dataframe/tests/test_utils_dataframe.py,Conditional Test Logic,test_check_meta,445
+dask/dask/dataframe/tests/test_utils_dataframe.py,Conditional Test Logic,test_is_dataframe_like,518
+dask/dask/dataframe/tests/test_utils_dataframe.py,Exception Handling,test_raise_on_meta_error,378
+dask/dask/dataframe/tests/test_utils_dataframe.py,Exception Handling,test_raise_on_meta_error,387
+dask/dask/dataframe/tests/test_utils_dataframe.py,Exception Handling,test_assert_eq_scheduler,631
+dask/dask/dataframe/tests/test_utils_dataframe.py,Unknown Test,test_apply_and_enforce_message,575
+dask/dask/dataframe/tests/test_utils_dataframe.py,Unknown Test,test_meta_constructor_utilities_raise,677
+dask/dask/dataframe/tests/test_utils_dataframe.py,Verbose Test,test_make_meta,35;198
+dask/dask/dataframe/tests/test_utils_dataframe.py,Verbose Test,test_check_meta,397;479
+dask/dask/dataframe/tests/test_utils_dataframe.py,Verbose Test,test_is_dataframe_like,515;572
+dask/dask/dataframe/tseries/tests/test_resample.py,Conditional Test Logic,test_series_resample,39
+dask/dask/dataframe/tseries/tests/test_resample.py,Conditional Test Logic,test_series_resample,45
+dask/dask/dataframe/tseries/tests/test_resample.py,Conditional Test Logic,test_rule_deprecated,235
+dask/dask/dataframe/tseries/tests/test_resample.py,Exception Handling,test_unknown_divisions_error,177
+dask/dask/dataframe/tseries/tests/test_resample.py,Unknown Test,test_resample_throws_error_when_partition_index_does_not_match_index,99
+dask/dask/dataframe/tseries/tests/test_resample_expr.py,Conditional Test Logic,test_series_resample,87
+dask/dask/dataframe/tseries/tests/test_resample_expr.py,Conditional Test Logic,test_series_resample,93
+dask/dask/diagnostics/tests/test_profiler.py,Conditional Test Logic,test_profiler_plot,209
+dask/dask/diagnostics/tests/test_profiler.py,Conditional Test Logic,test_resource_profiler_plot,238
+dask/dask/diagnostics/tests/test_profiler.py,Conditional Test Logic,test_resource_profiler_plot,250
+dask/dask/diagnostics/tests/test_profiler.py,Conditional Test Logic,test_cache_profiler_plot,278
+dask/dask/diagnostics/tests/test_profiler.py,Conditional Test Logic,test_plot_multiple,316
+dask/dask/diagnostics/tests/test_profiler.py,Conditional Test Logic,test_saves_file_path_deprecated,357
+dask/dask/diagnostics/tests/test_profiler.py,Exception Handling,test_register,169
+dask/dask/diagnostics/tests/test_profiler.py,Unknown Test,test_cache_profiler_plot_with_invalid_bokeh_kwarg_raises_error,296
+dask/dask/diagnostics/tests/test_progress.py,Exception Handling,test_register,74
+dask/dask/diagnostics/tests/test_progress.py,Unknown Test,test_no_tasks,91
+dask/dask/diagnostics/tests/test_progress.py,Unknown Test,test_with_alias,116
+dask/dask/diagnostics/tests/test_progress.py,Undefined Test,check_bar_completed,16
+dask/dask/tests/test_base.py,Conditional Test Logic,test_default_imports,694
+dask/dask/tests/test_base.py,Conditional Test Logic,test_optimize_globals,845
+dask/dask/tests/test_base.py,Conditional Test Logic,test_clone_key,958
+dask/dask/tests/test_base.py,Conditional Test Logic,check_default_scheduler,1006
+dask/dask/tests/test_base.py,Conditional Test Logic,check_default_scheduler,1013
+dask/dask/tests/test_base.py,Exception Handling,test_scheduler_keyword,888
+dask/dask/tests/test_base.py,Sleepy Test,test_num_workers_config,944
+dask/dask/tests/test_base.py,Unknown Test,test_unpack_collections_task_literals,165
+dask/dask/tests/test_base.py,Unknown Test,test_compute_dataframe_valid_unicode_in_bytes,492
+dask/dask/tests/test_base.py,Unknown Test,test_compute_dataframe_invalid_unicode,498
+dask/dask/tests/test_base.py,Unknown Test,test_emscripten_default_scheduler,1034
+dask/dask/tests/test_base.py,Verbose Test,test_custom_collection,280;355
+dask/dask/tests/test_base.py,Programming Paradigms Blend,(nível do módulo),43;107
+dask/dask/tests/test_base.py,Undefined Test,check_default_scheduler,1000
+dask/dask/tests/test_cache.py,Conditional Test Logic,test_cache,37
+dask/dask/tests/test_cli.py,Conditional Test Logic,_setup_config_set_scenario,79
+dask/dask/tests/test_cli.py,Conditional Test Logic,_setup_config_set_scenario,88
+dask/dask/tests/test_cli.py,Conditional Test Logic,_setup_config_set_scenario,92
+dask/dask/tests/test_cli.py,Exception Handling,test_info_versions,186
+dask/dask/tests/test_cli.py,Unknown Test,test_repeated_name_registration_warn,252
+dask/dask/tests/test_cli.py,Undefined Test,_setup_config_set_scenario,74
+dask/dask/tests/test_config.py,Conditional Test Logic,test_collect_yaml_permission_errors,190
+dask/dask/tests/test_config.py,Conditional Test Logic,test_ensure_file_directory,395
+dask/dask/tests/test_config.py,Conditional Test Logic,test_get_set_canonical_name,474
+dask/dask/tests/test_config.py,Conditional Test Logic,test_get_set_canonical_name,478
+dask/dask/tests/test_config.py,Conditional Test Logic,test_schema_is_complete,524
+dask/dask/tests/test_config.py,Conditional Test Logic,test_schema_is_complete,525
+dask/dask/tests/test_config.py,Conditional Test Logic,test_schema_is_complete,538
+dask/dask/tests/test_config.py,Conditional Test Logic,test_config_files_order,760
+dask/dask/tests/test_config.py,Unknown Test,test_schema,508
+dask/dask/tests/test_config.py,Unknown Test,test_schema_is_complete,518
+dask/dask/tests/test_context.py,Programming Paradigms Blend,(nível do módulo),9;40
+dask/dask/tests/test_core.py,Conditional Test Logic,test_quote,269
+dask/dask/tests/test_core.py,Exception Handling,test_subs_with_unfriendly_eq,232
+dask/dask/tests/test_core.py,Exception Handling,test_subs_with_surprisingly_friendly_eq,252
+dask/dask/tests/test_core.py,Unknown Test,test_validate_key,70
+dask/dask/tests/test_core.py,Unknown Test,test_GetFunctionTestMixin_class,101
+dask/dask/tests/test_core.py,Unknown Test,test_get_dependencies_nothing,140
+dask/dask/tests/test_core.py,Programming Paradigms Blend,(nível do módulo),26;97
+dask/dask/tests/test_core.py,Non-Functional Statement,test_iskey,49
+dask/dask/tests/test_core.py,Non-Functional Statement,test_subs_with_unfriendly_eq,241
+dask/dask/tests/test_datasets.py,Exception Handling,test_make_dataset_with_processes,26
+dask/dask/tests/test_datasets.py,Exception Handling,test_no_mimesis,33
+dask/dask/tests/test_datasets.py,Unknown Test,test_make_dataset_with_processes,23
+dask/dask/tests/test_delayed.py,Conditional Test Logic,test_array_delayed_complex_optimization,582
+dask/dask/tests/test_delayed.py,Conditional Test Logic,test_array_delayed_complex_optimization_kwargs,609
+dask/dask/tests/test_delayed.py,Unknown Test,test_delayed_with_dataclass_with_custom_init,140
+dask/dask/tests/test_delayed.py,Unknown Test,test_delayed_with_dataclass_with_set_init_false_field,196
+dask/dask/tests/test_delayed.py,Unknown Test,test_delayed_visualise_warn,293
+dask/dask/tests/test_delayed.py,Unknown Test,test_delayed_errors,314
+dask/dask/tests/test_delayed.py,Unknown Test,test_delayed_compute_forward_kwargs,665
+dask/dask/tests/test_delayed.py,Unknown Test,test_delayed_method_descriptor,670
+dask/dask/tests/test_delayed.py,Unknown Test,test_keys_from_array,749
+dask/dask/tests/test_distributed.py,Conditional Test Logic,test_default_scheduler_on_worker,208
+dask/dask/tests/test_distributed.py,Conditional Test Logic,test_to_hdf_scheduler_distributed,296
+dask/dask/tests/test_distributed.py,Conditional Test Logic,test_zarr_distributed_with_explicit_directory_store,377
+dask/dask/tests/test_distributed.py,Conditional Test Logic,test_zarr_distributed_with_explicit_memory_store,400
+dask/dask/tests/test_distributed.py,Conditional Test Logic,test_blockwise_dataframe_io,530
+dask/dask/tests/test_distributed.py,Conditional Test Logic,test_blockwise_dataframe_io,537
+dask/dask/tests/test_distributed.py,Conditional Test Logic,test_get_scheduler_lock,916
+dask/dask/tests/test_distributed.py,Conditional Test Logic,test_get_scheduler_lock_distributed,942
+dask/dask/tests/test_distributed.py,Exception Handling,test_set_index_no_recursion_error,868
+dask/dask/tests/test_distributed.py,Exception Handling,_assert_client_scheduler,963
+dask/dask/tests/test_distributed.py,Exception Handling,test_get_scheduler_default_client_config_interleaving,981
+dask/dask/tests/test_distributed.py,Exception Handling,test_get_scheduler_client_race_and_config_override,996
+dask/dask/tests/test_distributed.py,Exception Handling,test_get_scheduler_client_race_and_config_override,1008
+dask/dask/tests/test_distributed.py,Unknown Test,test_can_import_client,62
+dask/dask/tests/test_distributed.py,Unknown Test,test_can_import_nested_things,66
+dask/dask/tests/test_distributed.py,Unknown Test,test_to_hdf_distributed,267
+dask/dask/tests/test_distributed.py,Unknown Test,test_to_hdf_scheduler_distributed,291
+dask/dask/tests/test_distributed.py,Unknown Test,test_zarr_distributed_with_explicit_memory_store,394
+dask/dask/tests/test_distributed.py,Unknown Test,test_zarr_in_memory_distributed_err,415
+dask/dask/tests/test_distributed.py,Unknown Test,test_blockwise_dataframe_io,524
+dask/dask/tests/test_distributed.py,Unknown Test,test_futures_in_subgraphs,726
+dask/dask/tests/test_distributed.py,Unknown Test,test_set_index_no_recursion_error,864
+dask/dask/tests/test_distributed.py,Unknown Test,test_get_scheduler_without_distributed_raises,880
+dask/dask/tests/test_distributed.py,Unknown Test,test_write_single_hdf,949
+dask/dask/tests/test_distributed.py,Non-Functional Statement,zarr,355
+dask/dask/tests/test_distributed.py,Undefined Test,_assert_client_scheduler,961
+dask/dask/tests/test_dot.py,Exception Handling,test_dot_graph_defaults,272
+dask/dask/tests/test_dot.py,Exception Handling,test_cytoscape_graph,283
+dask/dask/tests/test_expr.py,Conditional Test Logic,test_pickle_cached_properties,63
+dask/dask/tests/test_expr.py,Unknown Test,test_refcounting_futures,122
+dask/dask/tests/test_graph_manipulation.py,Conditional Test Logic,test_clone,167
+dask/dask/tests/test_graph_manipulation.py,Conditional Test Logic,test_bind,262
+dask/dask/tests/test_graph_manipulation.py,Unknown Test,test_split_every_invalid,335
+dask/dask/tests/test_graph_manipulation.py,Verbose Test,test_bind,254;302
+dask/dask/tests/test_graph_manipulation.py,Programming Paradigms Blend,(nível do módulo),19;25
+dask/dask/tests/test_hashing.py,Conditional Test Logic,test_hash_buffer,22
+dask/dask/tests/test_hashing.py,Conditional Test Logic,test_hash_buffer_hex,31
+dask/dask/tests/test_highgraph.py,Conditional Test Logic,test_getitem,73
+dask/dask/tests/test_highgraph.py,Conditional Test Logic,test_getitem,80
+dask/dask/tests/test_highgraph.py,Conditional Test Logic,test_copy,93
+dask/dask/tests/test_highgraph.py,Conditional Test Logic,test_cull_layers,134
+dask/dask/tests/test_highgraph.py,Conditional Test Logic,test_repr_html_hlg_layers,146
+dask/dask/tests/test_highgraph.py,Conditional Test Logic,test_blockwise_cull,238
+dask/dask/tests/test_highgraph.py,Conditional Test Logic,test_blockwise_cull,255
+dask/dask/tests/test_highgraph.py,Conditional Test Logic,test_blockwise_cull,257
+dask/dask/tests/test_highgraph.py,Conditional Test Logic,test_node_tooltips_exist,306
+dask/dask/tests/test_highgraph.py,Conditional Test Logic,test_node_tooltips_exist,307
+dask/dask/tests/test_hlgexpr.py,Conditional Test Logic,test_tokenize,40
+dask/dask/tests/test_hlgexpr.py,Conditional Test Logic,test_hlg_sequence_uses_annotations_of_optimized_dsk,214
+dask/dask/tests/test_hlgexpr.py,Verbose Test,test_hlg_sequence_uses_annotations_of_optimized_dsk,177;236
+dask/dask/tests/test_imports.py,Unknown Test,test_defaults,27
+dask/dask/tests/test_imports.py,Unknown Test,test_array,31
+dask/dask/tests/test_imports.py,Unknown Test,test_pandas_pyarrow,36
+dask/dask/tests/test_imports.py,Unknown Test,test_bokeh,42
+dask/dask/tests/test_imports.py,Unknown Test,test_distributed,47
+dask/dask/tests/test_layers.py,Conditional Test Logic,test_array_chunk_shape_dep,50
+dask/dask/tests/test_layers.py,Conditional Test Logic,test_array_chunk_shape_dep,51
+dask/dask/tests/test_layers.py,Conditional Test Logic,test_array_slice_deps,71
+dask/dask/tests/test_layers.py,Conditional Test Logic,test_array_slice_deps,72
+dask/dask/tests/test_layers.py,Programming Paradigms Blend,(nível do módulo),7;18
+dask/dask/tests/test_local.py,Conditional Test Logic,test_ensure_calculate_only_whats_needed,199
+dask/dask/tests/test_local.py,Unknown Test,test_get_sync_num_workers,98
+dask/dask/tests/test_local.py,Programming Paradigms Blend,(nível do módulo),11;95
+dask/dask/tests/test_multiprocessing.py,Conditional Test Logic,test_random_seeds,182
+dask/dask/tests/test_multiprocessing.py,Exception Handling,test_custom_context_used_python3_posix,264
+dask/dask/tests/test_multiprocessing.py,Unknown Test,test_unpicklable_args_generate_errors,116
+dask/dask/tests/test_multiprocessing.py,Programming Paradigms Blend,(nível do módulo),18;108
+dask/dask/tests/test_optimization.py,Conditional Test Logic,fuse2,41
+dask/dask/tests/test_optimization.py,Conditional Test Logic,test_donot_substitute_same_key_multiple_times,210
+dask/dask/tests/test_optimization.py,Conditional Test Logic,test_fused_keys_max_length,1189
+dask/dask/tests/test_optimization.py,Unknown Test,test_inline_cull_dependencies,348
+dask/dask/tests/test_optimization.py,Verbose Test,test_fuse,52;167
+dask/dask/tests/test_optimization.py,Verbose Test,test_fuse_reductions_single_input,355;949
+dask/dask/tests/test_optimization.py,Verbose Test,test_fuse_stressed,952;1021
+dask/dask/tests/test_optimization.py,Verbose Test,test_fuse_reductions_multiple_input,1024;1128
+dask/dask/tests/test_optimization.py,Verbose Test,test_fusion_wide_legacy_hybrid,1263;1334
+dask/dask/tests/test_optimization.py,Undefined Test,fuse2,38
+dask/dask/tests/test_order.py,Conditional Test Logic,test_gh_3055,501
+dask/dask/tests/test_order.py,Conditional Test Logic,test_use_structure_not_keys,845
+dask/dask/tests/test_order.py,Conditional Test Logic,test_dont_run_all_dependents_too_early,863
+dask/dask/tests/test_order.py,Conditional Test Logic,test_order_with_equal_dependents,949
+dask/dask/tests/test_order.py,Conditional Test Logic,test_order_with_equal_dependents,958
+dask/dask/tests/test_order.py,Conditional Test Logic,test_order_with_equal_dependents,972
+dask/dask/tests/test_order.py,Conditional Test Logic,test_order_with_equal_dependents,973
+dask/dask/tests/test_order.py,Conditional Test Logic,test_order_with_equal_dependents,982
+dask/dask/tests/test_order.py,Conditional Test Logic,test_order_with_equal_dependents,983
+dask/dask/tests/test_order.py,Conditional Test Logic,test_order_with_equal_dependents,988
+dask/dask/tests/test_order.py,Conditional Test Logic,test_order_with_equal_dependents,989
+dask/dask/tests/test_order.py,Conditional Test Logic,test_order_with_equal_dependents,998
+dask/dask/tests/test_order.py,Conditional Test Logic,test_order_with_equal_dependents,999
+dask/dask/tests/test_order.py,Conditional Test Logic,test_order_with_equal_dependents,1004
+dask/dask/tests/test_order.py,Conditional Test Logic,test_order_with_equal_dependents,1005
+dask/dask/tests/test_order.py,Conditional Test Logic,test_order_with_equal_dependents,1014
+dask/dask/tests/test_order.py,Conditional Test Logic,test_order_with_equal_dependents,1015
+dask/dask/tests/test_order.py,Conditional Test Logic,test_order_with_equal_dependents,1021
+dask/dask/tests/test_order.py,Conditional Test Logic,test_order_with_equal_dependents,1022
+dask/dask/tests/test_order.py,Conditional Test Logic,test_array_store_final_order,1095
+dask/dask/tests/test_order.py,Conditional Test Logic,test_eager_to_compute_dependent_to_free_parent,1222
+dask/dask/tests/test_order.py,Conditional Test Logic,test_eager_to_compute_dependent_to_free_parent,1226
+dask/dask/tests/test_order.py,Conditional Test Logic,test_eager_to_compute_dependent_to_free_parent,1227
+dask/dask/tests/test_order.py,Conditional Test Logic,test_diagnostics,1257
+dask/dask/tests/test_order.py,Conditional Test Logic,test_xarray_like_reduction,1369
+dask/dask/tests/test_order.py,Conditional Test Logic,test_xarray_like_reduction,1382
+dask/dask/tests/test_order.py,Conditional Test Logic,test_anom_mean,1470
+dask/dask/tests/test_order.py,Conditional Test Logic,test_anom_mean_raw,1555
+dask/dask/tests/test_order.py,Conditional Test Logic,test_reduce_with_many_common_dependents,2032
+dask/dask/tests/test_order.py,Conditional Test Logic,test_reduce_with_many_common_dependents,2060
+dask/dask/tests/test_order.py,Conditional Test Logic,test_reduce_with_many_common_dependents,2061
+dask/dask/tests/test_order.py,Conditional Test Logic,test_reduce_with_many_common_dependents,2063
+dask/dask/tests/test_order.py,Conditional Test Logic,test_recursion_depth_long_linear_chains,2159
+dask/dask/tests/test_order.py,Conditional Test Logic,test_order_flox_reduction_2,2237
+dask/dask/tests/test_order.py,Conditional Test Logic,test_xarray_map_reduce_with_slicing,2307
+dask/dask/tests/test_order.py,Conditional Test Logic,test_xarray_rechunk_map_reduce_cohorts,2322
+dask/dask/tests/test_order.py,Conditional Test Logic,test_xarray_rechunk_map_reduce_cohorts,2340
+dask/dask/tests/test_order.py,Conditional Test Logic,test_xarray_8414,2388
+dask/dask/tests/test_order.py,Conditional Test Logic,test_xarray_8414,2389
+dask/dask/tests/test_order.py,Conditional Test Logic,test_xarray_8414,2390
+dask/dask/tests/test_order.py,Conditional Test Logic,test_connecting_to_roots_long_linear_chains,2485
+dask/dask/tests/test_order.py,Conditional Test Logic,test_connecting_to_roots_long_linear_chains,2489
+dask/dask/tests/test_order.py,Conditional Test Logic,test_connected_roots_deduplication_mem_usage,2503
+dask/dask/tests/test_order.py,Conditional Test Logic,test_connected_roots_deduplication_mem_usage,2532
+dask/dask/tests/test_order.py,Conditional Test Logic,test_connecting_to_roots_asym,2577
+dask/dask/tests/test_order.py,Conditional Test Logic,test_stackstac,2693
+dask/dask/tests/test_order.py,Unknown Test,test_visualize_int_overflow,262
+dask/dask/tests/test_order.py,Unknown Test,test_stacklimit,472
+dask/dask/tests/test_order.py,Unknown Test,test_order_doesnt_fail_on_mixed_type_keys,492
+dask/dask/tests/test_order.py,Unknown Test,test_type_comparisons_ok,519
+dask/dask/tests/test_order.py,Unknown Test,test_order_cycle,915
+dask/dask/tests/test_order.py,Verbose Test,visualize,33;85
+dask/dask/tests/test_order.py,Verbose Test,_rechunk_merge_graph,88;258
+dask/dask/tests/test_order.py,Verbose Test,test_local_parents_of_reduction,575;621
+dask/dask/tests/test_order.py,Verbose Test,test_prefer_short_ancestor,711;769
+dask/dask/tests/test_order.py,Verbose Test,test_order_with_equal_dependents,934;1023
+dask/dask/tests/test_order.py,Verbose Test,test_terminal_node_backtrack,1026;1081
+dask/dask/tests/test_order.py,Verbose Test,test_eager_to_compute_dependent_to_free_parent,1116;1228
+dask/dask/tests/test_order.py,Verbose Test,test_diagnostics,1231;1362
+dask/dask/tests/test_order.py,Verbose Test,test_anom_mean,1437;1499
+dask/dask/tests/test_order.py,Verbose Test,test_anom_mean_raw,1502;1557
+dask/dask/tests/test_order.py,Verbose Test,test_flaky_array_reduction,1560;1964
+dask/dask/tests/test_order.py,Verbose Test,test_reduce_with_many_common_dependents,2010;2067
+dask/dask/tests/test_order.py,Verbose Test,test_doublediff,2079;2154
+dask/dask/tests/test_order.py,Verbose Test,test_xarray_map_reduce_with_slicing,2244;2316
+dask/dask/tests/test_order.py,Verbose Test,test_xarray_8414,2348;2395
+dask/dask/tests/test_order.py,Verbose Test,test_stackstac,2601;2696
+dask/dask/tests/test_system.py,Conditional Test Logic,test_cpu_affinity_psutil,31
+dask/dask/tests/test_system.py,Conditional Test Logic,test_cpu_affinity_psutil,33
+dask/dask/tests/test_system.py,Conditional Test Logic,test_cpu_affinity_taskset,47
+dask/dask/tests/test_system.py,Conditional Test Logic,test_cpu_count_arg,69
+dask/dask/tests/test_system.py,Conditional Test Logic,test_cpu_count_cgroups,108
+dask/dask/tests/test_system.py,Conditional Test Logic,test_cpu_count_cgroups,116
+dask/dask/tests/test_system.py,Conditional Test Logic,test_cpu_count_cgroups,124
+dask/dask/tests/test_system.py,Conditional Test Logic,test_cpu_count_cgroups_v2,135
+dask/dask/tests/test_system.py,Conditional Test Logic,test_cpu_count_cgroups_v2,145
+dask/dask/tests/test_system.py,Conditional Test Logic,test_cpu_count_cgroups_v2,153
+dask/dask/tests/test_system.py,Exception Handling,test_cpu_affinity_psutil,37
+dask/dask/tests/test_system.py,Unknown Test,test_cpu_affinity_taskset,45
+dask/dask/tests/test_system.py,Unknown Test,test_cpu_count_arg,67
+dask/dask/tests/test_task_spec.py,Conditional Test Logic,test_pickle,254
+dask/dask/tests/test_task_spec.py,Conditional Test Logic,test_pickle_size,320
+dask/dask/tests/test_task_spec.py,Conditional Test Logic,test_pickle_size,323
+dask/dask/tests/test_task_spec.py,Conditional Test Logic,test_parse_namedtuple,520
+dask/dask/tests/test_task_spec.py,Conditional Test Logic,test_keys_in_tasks,749
+dask/dask/tests/test_task_spec.py,Conditional Test Logic,test_keys_in_tasks,756
+dask/dask/tests/test_task_spec.py,Conditional Test Logic,test_fuse_tasks_key,778
+dask/dask/tests/test_task_spec.py,Conditional Test Logic,test_fuse_tasks,790
+dask/dask/tests/test_task_spec.py,Conditional Test Logic,test_fuse_reject_multiple_outputs,804
+dask/dask/tests/test_task_spec.py,Conditional Test Logic,test_fused_ensure_only_executed_once,820
+dask/dask/tests/test_task_spec.py,Conditional Test Logic,test_fused_dont_hold_in_memory_too_long,841
+dask/dask/tests/test_task_spec.py,Conditional Test Logic,test_fused_dont_hold_in_memory_too_long,851
+dask/dask/tests/test_task_spec.py,Unknown Test,test_deterministic_tokenization_respected,737
+dask/dask/tests/test_task_spec.py,Unknown Test,test_fuse_reject_multiple_outputs,801
+dask/dask/tests/test_task_spec.py,Verbose Test,test_convert_legacy_dsk,124;175
+dask/dask/tests/test_task_spec.py,Verbose Test,test_resolve_aliases,540;592
+dask/dask/tests/test_task_spec.py,Programming Paradigms Blend,(nível do módulo),34;230
+dask/dask/tests/test_task_spec.py,Non-Functional Statement,__setstate__,660
+dask/dask/tests/test_task_spec.py,Undefined Test,convert_and_verify_keys,34
+dask/dask/tests/test_threaded.py,Conditional Test Logic,_spawn_and_join_worker_threads,85
+dask/dask/tests/test_threaded.py,Conditional Test Logic,_wait_for_thread_cleanup,96
+dask/dask/tests/test_threaded.py,Conditional Test Logic,test_dont_spawn_too_many_threads,116
+dask/dask/tests/test_threaded.py,Conditional Test Logic,test_dont_spawn_too_many_threads_CPU_COUNT,129
+dask/dask/tests/test_threaded.py,Conditional Test Logic,test_thread_safety,149
+dask/dask/tests/test_threaded.py,Conditional Test Logic,test_thread_safety,155
+dask/dask/tests/test_threaded.py,Conditional Test Logic,test_interrupt,178
+dask/dask/tests/test_threaded.py,Conditional Test Logic,test_interrupt,190
+dask/dask/tests/test_threaded.py,Conditional Test Logic,test_interrupt,195
+dask/dask/tests/test_threaded.py,Exception Handling,test_contextvars,245
+dask/dask/tests/test_threaded.py,Unknown Test,test_broken_callback,36
+dask/dask/tests/test_threaded.py,Unknown Test,test_exceptions_rise_to_top,57
+dask/dask/tests/test_threaded.py,Unknown Test,test_threaded_within_thread,101
+dask/dask/tests/test_threaded.py,Unknown Test,test_interrupt,174
+dask/dask/tests/test_threaded.py,Undefined Test,_spawn_and_join_worker_threads,83
+dask/dask/tests/test_threaded.py,Undefined Test,_wait_for_thread_cleanup,94
+dask/dask/tests/test_tokenize.py,Conditional Test Logic,test_normalize_base,340
+dask/dask/tests/test_tokenize.py,Conditional Test Logic,test_tokenize_pandas_extension_array,643
+dask/dask/tests/test_tokenize.py,Conditional Test Logic,test_tokenize_offset,654
+dask/dask/tests/test_tokenize.py,Conditional Test Logic,test_tokenize_slotted_no_value,709
+dask/dask/tests/test_tokenize.py,Conditional Test Logic,test_tokenize_slotted_no_value,711
+dask/dask/tests/test_tokenize.py,Conditional Test Logic,test_tokenize_slots_and_dict,725
+dask/dask/tests/test_tokenize.py,Conditional Test Logic,test_nested_tokenize_seen,855
+dask/dask/tests/test_tokenize.py,Conditional Test Logic,test_tokenize_dense_sparse_array,1069
+dask/dask/tests/test_tokenize.py,Conditional Test Logic,test_tokenize_datetime_datetime,1157
+dask/dask/tests/test_tokenize.py,Conditional Test Logic,test_tokenize_numba,1409
+dask/dask/tests/test_tokenize.py,Conditional Test Logic,test_tokenize_nested_sequence_thread_safe,1500
+dask/dask/tests/test_tokenize.py,Conditional Test Logic,test_tokenize_nested_sequence_thread_safe,1504
+dask/dask/tests/test_tokenize.py,Conditional Test Logic,test_tokenize_range_index,1528
+dask/dask/tests/test_tokenize.py,Conditional Test Logic,test_tokenize_range_index,1529
+dask/dask/tests/test_tokenize.py,Conditional Test Logic,test_tokenize_range_index,1532
+dask/dask/tests/test_tokenize.py,Unknown Test,test_tokenize_numpy_array_supports_uneven_sizes,135
+dask/dask/tests/test_tokenize.py,Unknown Test,test_tokenize_numpy_datetime,146
+dask/dask/tests/test_tokenize.py,Unknown Test,test_tokenize_local_functions,499
+dask/dask/tests/test_tokenize.py,Unknown Test,test_tokenize_special_callables,504
+dask/dask/tests/test_tokenize.py,Unknown Test,test_tokenize_pandas_fragmented_index,584
+dask/dask/tests/test_tokenize.py,Unknown Test,test_tokenize_pandas_invalid_unicode,590
+dask/dask/tests/test_tokenize.py,Unknown Test,test_tokenize_pandas_mixed_unicode_bytes,604
+dask/dask/tests/test_tokenize.py,Unknown Test,test_tokenize_pandas_cloudpickle,613
+dask/dask/tests/test_tokenize.py,Unknown Test,test_tokenize_pandas_extension_array,623
+dask/dask/tests/test_tokenize.py,Unknown Test,test_tokenize_na,648
+dask/dask/tests/test_tokenize.py,Unknown Test,test_tokenize_offset,653
+dask/dask/tests/test_tokenize.py,Unknown Test,test_tokenize_pandas_index,667
+dask/dask/tests/test_tokenize.py,Unknown Test,test_tokenize_object_array_with_nans,1030
+dask/dask/tests/test_tokenize.py,Unknown Test,test_tokenize_base_types,1038
+dask/dask/tests/test_tokenize.py,Unknown Test,test_tokenize_functions_main,1195
+dask/dask/tests/test_tokenize.py,Unknown Test,test_tokenize_recursive_respects_ensure_deterministic,1489
+dask/dask/tests/test_tokenize.py,Verbose Test,_local_functions,402;474
+dask/dask/tests/test_tokenize.py,Programming Paradigms Blend,(nível do módulo),28;477
+dask/dask/tests/test_tokenize.py,Non-Functional Statement,test_tokenize_numpy_array_on_object_dtype,179
+dask/dask/tests/test_tokenize.py,Non-Functional Statement,test_tokenize_local_classes_from_different_contexts,519
+dask/dask/tests/test_tokenize.py,Non-Functional Statement,test_tokenize_pandas_cloudpickle,616
+dask/dask/tests/test_tokenize.py,Non-Functional Statement,test_tokenize_callable_class,772
+dask/dask/tests/test_tokenize.py,Non-Functional Statement,test_local_objects,967
+dask/dask/tests/test_tokenize.py,Non-Functional Statement,test_tokenize_dataclass,992
+dask/dask/tests/test_tokenize.py,Undefined Test,check_clean_state,38
+dask/dask/tests/test_tokenize.py,Undefined Test,check_tokenize,51
+dask/dask/tests/test_tokenize.py,Undefined Test,nested_tokenize_ensure_deterministic,383
+dask/dask/tests/test_traceback.py,Conditional Test Logic,test_compute_shorten_traceback,79
+dask/dask/tests/test_traceback.py,Conditional Test Logic,test_persist_shorten_traceback,98
+dask/dask/tests/test_traceback.py,Unknown Test,test_shorten_traceback,55
+dask/dask/tests/test_traceback.py,Unknown Test,test_compute_shorten_traceback,75
+dask/dask/tests/test_traceback.py,Unknown Test,test_persist_shorten_traceback,94
+dask/dask/tests/test_traceback.py,Unknown Test,test_distributed_shorten_traceback,112
+dask/dask/tests/test_typing.py,Programming Paradigms Blend,(nível do módulo),23;49
+dask/dask/tests/test_utils.py,Conditional Test Logic,test_ensure_bytes,55
+dask/dask/tests/test_utils.py,Conditional Test Logic,test_ensure_unicode,76
+dask/dask/tests/test_utils.py,Conditional Test Logic,test_random_state_data,260
+dask/dask/tests/test_utils.py,Conditional Test Logic,test_random_state_data,268
+dask/dask/tests/test_utils.py,Conditional Test Logic,test_memory_repr,273
+dask/dask/tests/test_utils.py,Conditional Test Logic,test_SerializableLock,381
+dask/dask/tests/test_utils.py,Conditional Test Logic,test_SerializableLock,382
+dask/dask/tests/test_utils.py,Conditional Test Logic,test_SerializableLock,389
+dask/dask/tests/test_utils.py,Conditional Test Logic,test_SerializableLock,390
+dask/dask/tests/test_utils.py,Conditional Test Logic,test_ensure_dict,513
+dask/dask/tests/test_utils.py,Conditional Test Logic,test_ensure_set,528
+dask/dask/tests/test_utils.py,Conditional Test Logic,test_parse_timedelta,673
+dask/dask/tests/test_utils.py,Conditional Test Logic,test_stringify,766
+dask/dask/tests/test_utils.py,Programming Paradigms Blend,(nível do módulo),53;865
+dask/dask/tests/test_utils.py,Non-Functional Statement,test_dispatch,165
+dask/dask/tests/test_utils.py,Non-Functional Statement,test_dispatch_lazy_walks_mro,222
+dask/dask/tests/test_utils.py,Non-Functional Statement,test_dispatch_lazy_walks_mro,225
+dask/dask/tests/test_utils.py,Non-Functional Statement,test_SerializableLock,368
+dask/dask/tests/test_utils.py,Non-Functional Statement,test_SerializableLock,372
+dask/dask/tests/test_utils.py,Non-Functional Statement,test_SerializableLock,393
+dask/dask/tests/test_utils.py,Non-Functional Statement,test_SerializableLock,396
+dask/dask/tests/test_utils.py,Non-Functional Statement,test_funcname,435
+dask/dask/tests/test_utils.py,Non-Functional Statement,test_ensure_dict,507
+dask/dask/tests/test_utils.py,Non-Functional Statement,test_derived_from,588
+dask/dask/tests/test_utils.py,Non-Functional Statement,test_derived_from_func,635
+dask/dask/tests/test_utils.py,Non-Functional Statement,test_is_empty_fallback_object,1001
+dask/dask/tests/test_utils_test.py,Unknown Test,test__check_warning,39
+dask/dask/tests/test_utils_test.py,Non-Functional Statement,test__check_warning,41
