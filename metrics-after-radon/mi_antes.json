@@ -1,1445 +1,1441 @@
 {
-  "dask/__init__.py": {
-    "mi": 100.0,
-    "rank": "A"
-  },
-  "dask/__main__.py": {
-    "mi": 78.01508585192973,
-    "rank": "A"
-  },
-  "dask/_collections.py": {
-    "mi": 100.0,
-    "rank": "A"
-  },
-  "dask/_compatibility.py": {
-    "mi": 70.49003819479834,
-    "rank": "A"
-  },
-  "dask/_dispatch.py": {
-    "mi": 100.0,
-    "rank": "A"
-  },
-  "dask/_expr.py": {
-    "mi": 0.0,
-    "rank": "C"
-  },
-  "dask/_pandas_compat.py": {
-    "mi": 55.97755974554927,
-    "rank": "A"
-  },
-  "dask/_task_spec.py": {
-    "mi": 0.0,
-    "rank": "C"
-  },
-  "dask/backends.py": {
+  "dask\\backends.py": {
     "mi": 61.21013476102016,
     "rank": "A"
   },
-  "dask/base.py": {
+  "dask\\base.py": {
     "mi": 25.251430177851432,
     "rank": "A"
   },
-  "dask/blockwise.py": {
+  "dask\\blockwise.py": {
     "mi": 5.117277431099533,
     "rank": "C"
   },
-  "dask/cache.py": {
+  "dask\\cache.py": {
     "mi": 75.38150273694393,
     "rank": "A"
   },
-  "dask/callbacks.py": {
+  "dask\\callbacks.py": {
     "mi": 75.34183295760745,
     "rank": "A"
   },
-  "dask/cli.py": {
+  "dask\\cli.py": {
     "mi": 59.01458485830262,
     "rank": "A"
   },
-  "dask/config.py": {
+  "dask\\config.py": {
     "mi": 38.933255882375704,
     "rank": "A"
   },
-  "dask/conftest.py": {
+  "dask\\conftest.py": {
     "mi": 85.36553865112609,
     "rank": "A"
   },
-  "dask/context.py": {
-    "mi": 75.36282974920444,
+  "dask\\context.py": {
+    "mi": 75.36282974920442,
     "rank": "A"
   },
-  "dask/core.py": {
+  "dask\\core.py": {
     "mi": 43.856837415847735,
     "rank": "A"
   },
-  "dask/datasets.py": {
+  "dask\\datasets.py": {
     "mi": 74.64689156954806,
     "rank": "A"
   },
-  "dask/delayed.py": {
+  "dask\\delayed.py": {
     "mi": 32.826389782085805,
     "rank": "A"
   },
-  "dask/distributed.py": {
+  "dask\\distributed.py": {
     "mi": 82.13356768729695,
     "rank": "A"
   },
-  "dask/dot.py": {
+  "dask\\dot.py": {
     "mi": 45.855966133149415,
     "rank": "A"
   },
-  "dask/graph_manipulation.py": {
+  "dask\\graph_manipulation.py": {
     "mi": 51.62175314257068,
     "rank": "A"
   },
-  "dask/hashing.py": {
+  "dask\\hashing.py": {
     "mi": 80.97330317739514,
     "rank": "A"
   },
-  "dask/highlevelgraph.py": {
+  "dask\\highlevelgraph.py": {
     "mi": 29.631267119241418,
     "rank": "A"
   },
-  "dask/layers.py": {
+  "dask\\layers.py": {
     "mi": 46.13649746255835,
     "rank": "A"
   },
-  "dask/local.py": {
+  "dask\\local.py": {
     "mi": 47.0126573354554,
     "rank": "A"
   },
-  "dask/ml.py": {
+  "dask\\ml.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/multiprocessing.py": {
+  "dask\\multiprocessing.py": {
     "mi": 61.03959603117256,
     "rank": "A"
   },
-  "dask/optimization.py": {
+  "dask\\optimization.py": {
     "mi": 20.761924800624367,
     "rank": "A"
   },
-  "dask/order.py": {
+  "dask\\order.py": {
     "mi": 36.33717180824115,
     "rank": "A"
   },
-  "dask/rewrite.py": {
+  "dask\\rewrite.py": {
     "mi": 50.71367211538309,
     "rank": "A"
   },
-  "dask/sizeof.py": {
+  "dask\\sizeof.py": {
     "mi": 49.75419034318183,
     "rank": "A"
   },
-  "dask/system.py": {
+  "dask\\system.py": {
     "mi": 72.9261239040824,
     "rank": "A"
   },
-  "dask/task_spec.py": {
+  "dask\\task_spec.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/threaded.py": {
+  "dask\\threaded.py": {
     "mi": 72.60555022578839,
     "rank": "A"
   },
-  "dask/tokenize.py": {
+  "dask\\tokenize.py": {
     "mi": 41.05241935213259,
     "rank": "A"
   },
-  "dask/typing.py": {
+  "dask\\typing.py": {
     "mi": 30.428377165692645,
     "rank": "A"
   },
-  "dask/utils.py": {
+  "dask\\utils.py": {
     "mi": 0.0,
     "rank": "C"
   },
-  "dask/utils_test.py": {
+  "dask\\utils_test.py": {
     "mi": 49.424927893856214,
     "rank": "A"
   },
-  "dask/_version.py": {
-    "mi": 81.98809043290142,
-    "rank": "A"
-  },
-  "dask/array/__init__.py": {
-    "mi": 43.68382249822346,
-    "rank": "A"
-  },
-  "dask/array/_reductions_generic.py": {
-    "mi": 55.68782320607458,
-    "rank": "A"
-  },
-  "dask/array/_shuffle.py": {
-    "mi": 51.03566899108895,
-    "rank": "A"
-  },
-  "dask/array/api.py": {
+  "dask\\_collections.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/array/backends.py": {
+  "dask\\_compatibility.py": {
+    "mi": 70.49003819479834,
+    "rank": "A"
+  },
+  "dask\\_dispatch.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "dask\\_expr.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "dask\\_pandas_compat.py": {
+    "mi": 55.97755974554927,
+    "rank": "A"
+  },
+  "dask\\_task_spec.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "dask\\__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "dask\\__main__.py": {
+    "mi": 78.01508585192973,
+    "rank": "A"
+  },
+  "dask\\array\\api.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "dask\\array\\backends.py": {
     "mi": 39.25409579171631,
     "rank": "A"
   },
-  "dask/array/blockwise.py": {
+  "dask\\array\\blockwise.py": {
     "mi": 61.683815753599816,
     "rank": "A"
   },
-  "dask/array/chunk.py": {
+  "dask\\array\\chunk.py": {
     "mi": 50.601953107674106,
     "rank": "A"
   },
-  "dask/array/chunk_types.py": {
+  "dask\\array\\chunk_types.py": {
     "mi": 54.3998926062472,
     "rank": "A"
   },
-  "dask/array/core.py": {
+  "dask\\array\\core.py": {
     "mi": 0.0,
     "rank": "C"
   },
-  "dask/array/creation.py": {
+  "dask\\array\\creation.py": {
     "mi": 14.685153381722476,
     "rank": "B"
   },
-  "dask/array/cupy_entry_point.py": {
+  "dask\\array\\cupy_entry_point.py": {
     "mi": 63.36700080004394,
     "rank": "A"
   },
-  "dask/array/dispatch.py": {
+  "dask\\array\\dispatch.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/array/einsumfuncs.py": {
+  "dask\\array\\einsumfuncs.py": {
     "mi": 47.172512237919605,
     "rank": "A"
   },
-  "dask/array/fft.py": {
+  "dask\\array\\fft.py": {
     "mi": 44.92446855781179,
     "rank": "A"
   },
-  "dask/array/gufunc.py": {
+  "dask\\array\\gufunc.py": {
     "mi": 35.742750098729005,
     "rank": "A"
   },
-  "dask/array/image.py": {
+  "dask\\array\\image.py": {
     "mi": 82.37180018933364,
     "rank": "A"
   },
-  "dask/array/linalg.py": {
+  "dask\\array\\linalg.py": {
     "mi": 20.792037350670096,
     "rank": "A"
   },
-  "dask/array/ma.py": {
+  "dask\\array\\ma.py": {
     "mi": 37.9772185893339,
     "rank": "A"
   },
-  "dask/array/numpy_compat.py": {
+  "dask\\array\\numpy_compat.py": {
     "mi": 66.6197516230107,
     "rank": "A"
   },
-  "dask/array/optimization.py": {
+  "dask\\array\\optimization.py": {
     "mi": 45.2112254741995,
     "rank": "A"
   },
-  "dask/array/overlap.py": {
+  "dask\\array\\overlap.py": {
     "mi": 30.674773454747243,
     "rank": "A"
   },
-  "dask/array/percentile.py": {
+  "dask\\array\\percentile.py": {
     "mi": 51.22270207458355,
     "rank": "A"
   },
-  "dask/array/random.py": {
+  "dask\\array\\random.py": {
     "mi": 26.927514713770698,
     "rank": "A"
   },
-  "dask/array/rechunk.py": {
+  "dask\\array\\rechunk.py": {
     "mi": 27.605818570192554,
     "rank": "A"
   },
-  "dask/array/reductions.py": {
-    "mi": 5.066289590699814,
+  "dask\\array\\reductions.py": {
+    "mi": 5.066289590699818,
     "rank": "C"
   },
-  "dask/array/reshape.py": {
+  "dask\\array\\reshape.py": {
     "mi": 40.9449550525334,
     "rank": "A"
   },
-  "dask/array/routines.py": {
+  "dask\\array\\routines.py": {
     "mi": 0.0,
     "rank": "C"
   },
-  "dask/array/slicing.py": {
+  "dask\\array\\slicing.py": {
     "mi": 0.0,
     "rank": "C"
   },
-  "dask/array/stats.py": {
+  "dask\\array\\stats.py": {
     "mi": 47.5641316335032,
     "rank": "A"
   },
-  "dask/array/svg.py": {
-    "mi": 47.623943778101804,
+  "dask\\array\\svg.py": {
+    "mi": 47.62394377810179,
     "rank": "A"
   },
-  "dask/array/tiledb_io.py": {
+  "dask\\array\\tiledb_io.py": {
     "mi": 70.8562199455565,
     "rank": "A"
   },
-  "dask/array/ufunc.py": {
+  "dask\\array\\ufunc.py": {
     "mi": 37.736932156088564,
     "rank": "A"
   },
-  "dask/array/utils.py": {
+  "dask\\array\\utils.py": {
     "mi": 25.54620392856678,
     "rank": "A"
   },
-  "dask/array/wrap.py": {
+  "dask\\array\\wrap.py": {
     "mi": 57.609732742702114,
     "rank": "A"
   },
-  "dask/array/_array_expr/__init__.py": {
+  "dask\\array\\_reductions_generic.py": {
+    "mi": 55.68782320607458,
+    "rank": "A"
+  },
+  "dask\\array\\_shuffle.py": {
+    "mi": 51.03566899108895,
+    "rank": "A"
+  },
+  "dask\\array\\__init__.py": {
+    "mi": 43.68382249822346,
+    "rank": "A"
+  },
+  "dask\\array\\lib\\stride_tricks.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/array/_array_expr/_backends.py": {
-    "mi": 59.51868177473924,
-    "rank": "A"
-  },
-  "dask/array/_array_expr/_blockwise.py": {
-    "mi": 35.96710302816523,
-    "rank": "A"
-  },
-  "dask/array/_array_expr/_collection.py": {
-    "mi": 17.481961491639026,
-    "rank": "B"
-  },
-  "dask/array/_array_expr/_creation.py": {
-    "mi": 49.46435703383673,
-    "rank": "A"
-  },
-  "dask/array/_array_expr/_expr.py": {
-    "mi": 27.939569945714204,
-    "rank": "A"
-  },
-  "dask/array/_array_expr/_gufunc.py": {
-    "mi": 36.19526084094294,
-    "rank": "A"
-  },
-  "dask/array/_array_expr/_io.py": {
-    "mi": 54.018499040577424,
-    "rank": "A"
-  },
-  "dask/array/_array_expr/_map_blocks.py": {
-    "mi": 54.7388276236266,
-    "rank": "A"
-  },
-  "dask/array/_array_expr/_overlap.py": {
-    "mi": 30.811313351470126,
-    "rank": "A"
-  },
-  "dask/array/_array_expr/_rechunk.py": {
-    "mi": 47.209817751668666,
-    "rank": "A"
-  },
-  "dask/array/_array_expr/_reductions.py": {
-    "mi": 54.404118898226166,
-    "rank": "A"
-  },
-  "dask/array/_array_expr/_shuffle.py": {
-    "mi": 41.160927777833166,
-    "rank": "A"
-  },
-  "dask/array/_array_expr/_slicing.py": {
-    "mi": 36.74505706725509,
-    "rank": "A"
-  },
-  "dask/array/_array_expr/_ufunc.py": {
-    "mi": 37.888153011121275,
-    "rank": "A"
-  },
-  "dask/array/_array_expr/_utils.py": {
-    "mi": 64.95750134295872,
-    "rank": "A"
-  },
-  "dask/array/_array_expr/random.py": {
-    "mi": 30.209558501439115,
-    "rank": "A"
-  },
-  "dask/array/_array_expr/tests/__init__.py": {
+  "dask\\array\\lib\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/array/_array_expr/tests/test_collection.py": {
-    "mi": 55.65167389363175,
-    "rank": "A"
-  },
-  "dask/array/_array_expr/tests/test_config.py": {
-    "mi": 82.98190451513113,
-    "rank": "A"
-  },
-  "dask/array/lib/__init__.py": {
-    "mi": 100.0,
-    "rank": "A"
-  },
-  "dask/array/lib/stride_tricks.py": {
-    "mi": 100.0,
-    "rank": "A"
-  },
-  "dask/array/tests/__init__.py": {
-    "mi": 100.0,
-    "rank": "A"
-  },
-  "dask/array/tests/test_api.py": {
+  "dask\\array\\tests\\test_api.py": {
     "mi": 79.37995487062138,
     "rank": "A"
   },
-  "dask/array/tests/test_array_expr_incompatible.py": {
+  "dask\\array\\tests\\test_array_core.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "dask\\array\\tests\\test_array_expr_incompatible.py": {
     "mi": 79.00142182580431,
     "rank": "A"
   },
-  "dask/array/tests/test_array_function.py": {
+  "dask\\array\\tests\\test_array_function.py": {
     "mi": 52.236666702836345,
     "rank": "A"
   },
-  "dask/array/tests/test_array_utils.py": {
+  "dask\\array\\tests\\test_array_utils.py": {
     "mi": 47.525933327356405,
     "rank": "A"
   },
-  "dask/array/tests/test_atop.py": {
+  "dask\\array\\tests\\test_atop.py": {
     "mi": 27.035627617292867,
     "rank": "A"
   },
-  "dask/array/tests/test_chunk.py": {
+  "dask\\array\\tests\\test_chunk.py": {
     "mi": 50.90974965505114,
     "rank": "A"
   },
-  "dask/array/tests/test_creation.py": {
+  "dask\\array\\tests\\test_creation.py": {
     "mi": 15.515878068730004,
     "rank": "B"
   },
-  "dask/array/tests/test_cupy_creation.py": {
-    "mi": 56.56520462878453,
-    "rank": "A"
-  },
-  "dask/array/tests/test_cupy_gufunc.py": {
-    "mi": 100.0,
-    "rank": "A"
-  },
-  "dask/array/tests/test_cupy_overlap.py": {
-    "mi": 42.80461922382122,
-    "rank": "A"
-  },
-  "dask/array/tests/test_cupy_percentile.py": {
-    "mi": 61.15999635409359,
-    "rank": "A"
-  },
-  "dask/array/tests/test_cupy_random.py": {
-    "mi": 48.988897812221936,
-    "rank": "A"
-  },
-  "dask/array/tests/test_cupy_reductions.py": {
-    "mi": 100.0,
-    "rank": "A"
-  },
-  "dask/array/tests/test_cupy_routines.py": {
-    "mi": 49.16142614234623,
-    "rank": "A"
-  },
-  "dask/array/tests/test_cupy_slicing.py": {
-    "mi": 60.83005727078776,
-    "rank": "A"
-  },
-  "dask/array/tests/test_dispatch.py": {
-    "mi": 49.085330723958904,
-    "rank": "A"
-  },
-  "dask/array/tests/test_gufunc.py": {
-    "mi": 23.86443200353675,
-    "rank": "A"
-  },
-  "dask/array/tests/test_image.py": {
-    "mi": 50.70148917816848,
-    "rank": "A"
-  },
-  "dask/array/tests/test_linalg.py": {
-    "mi": 31.173820536240097,
-    "rank": "A"
-  },
-  "dask/array/tests/test_map_blocks.py": {
-    "mi": 73.1756852057256,
-    "rank": "A"
-  },
-  "dask/array/tests/test_masked.py": {
-    "mi": 30.374013213379627,
-    "rank": "A"
-  },
-  "dask/array/tests/test_numpy_compat.py": {
-    "mi": 80.81723837041473,
-    "rank": "A"
-  },
-  "dask/array/tests/test_optimization.py": {
-    "mi": 44.692972662502754,
-    "rank": "A"
-  },
-  "dask/array/tests/test_random.py": {
-    "mi": 26.138570199532555,
-    "rank": "A"
-  },
-  "dask/array/tests/test_rechunk.py": {
-    "mi": 1.3994644963673615,
-    "rank": "C"
-  },
-  "dask/array/tests/test_reductions.py": {
-    "mi": 14.842855142782685,
-    "rank": "B"
-  },
-  "dask/array/tests/test_reshape.py": {
-    "mi": 43.64245467154526,
-    "rank": "A"
-  },
-  "dask/array/tests/test_shuffle.py": {
-    "mi": 35.35939116106731,
-    "rank": "A"
-  },
-  "dask/array/tests/test_slicing.py": {
-    "mi": 13.512372229334172,
-    "rank": "B"
-  },
-  "dask/array/tests/test_sparse.py": {
-    "mi": 49.379088954097305,
-    "rank": "A"
-  },
-  "dask/array/tests/test_stats.py": {
-    "mi": 57.29613645944247,
-    "rank": "A"
-  },
-  "dask/array/tests/test_svg.py": {
-    "mi": 58.63811279102946,
-    "rank": "A"
-  },
-  "dask/array/tests/test_testing.py": {
-    "mi": 76.7407638494613,
-    "rank": "A"
-  },
-  "dask/array/tests/test_ufunc.py": {
-    "mi": 34.36744724650409,
-    "rank": "A"
-  },
-  "dask/array/tests/test_wrap.py": {
-    "mi": 52.06698901429614,
-    "rank": "A"
-  },
-  "dask/array/tests/test_array_core.py": {
-    "mi": 0.0,
-    "rank": "C"
-  },
-  "dask/array/tests/test_cupy_core.py": {
+  "dask\\array\\tests\\test_cupy_core.py": {
     "mi": 31.454592978221594,
     "rank": "A"
   },
-  "dask/array/tests/test_cupy_linalg.py": {
+  "dask\\array\\tests\\test_cupy_creation.py": {
+    "mi": 56.56520462878453,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_cupy_gufunc.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_cupy_linalg.py": {
     "mi": 55.444254775376166,
     "rank": "A"
   },
-  "dask/array/tests/test_cupy_sparse.py": {
+  "dask\\array\\tests\\test_cupy_overlap.py": {
+    "mi": 42.80461922382122,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_cupy_percentile.py": {
+    "mi": 61.15999635409359,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_cupy_random.py": {
+    "mi": 48.988897812221936,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_cupy_reductions.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_cupy_routines.py": {
+    "mi": 49.16142614234623,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_cupy_slicing.py": {
+    "mi": 60.83005727078776,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_cupy_sparse.py": {
     "mi": 46.255559939397216,
     "rank": "A"
   },
-  "dask/array/tests/test_overlap.py": {
-    "mi": 21.493965530977796,
+  "dask\\array\\tests\\test_dispatch.py": {
+    "mi": 49.085330723958904,
     "rank": "A"
   },
-  "dask/array/tests/test_fft.py": {
+  "dask\\array\\tests\\test_fft.py": {
     "mi": 30.010542017302793,
     "rank": "A"
   },
-  "dask/array/tests/test_percentiles.py": {
+  "dask\\array\\tests\\test_gufunc.py": {
+    "mi": 23.86443200353675,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_image.py": {
+    "mi": 50.70148917816848,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_linalg.py": {
+    "mi": 31.173820536240097,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_map_blocks.py": {
+    "mi": 73.1756852057256,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_masked.py": {
+    "mi": 30.374013213379627,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_numpy_compat.py": {
+    "mi": 80.81723837041473,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_optimization.py": {
+    "mi": 44.692972662502754,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_overlap.py": {
+    "mi": 21.493965530977796,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_percentiles.py": {
     "mi": 52.736864356935264,
     "rank": "A"
   },
-  "dask/array/tests/test_routines.py": {
+  "dask\\array\\tests\\test_random.py": {
+    "mi": 26.138570199532555,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_rechunk.py": {
+    "mi": 1.3994644963673615,
+    "rank": "C"
+  },
+  "dask\\array\\tests\\test_reductions.py": {
+    "mi": 14.842855142782685,
+    "rank": "B"
+  },
+  "dask\\array\\tests\\test_reshape.py": {
+    "mi": 43.64245467154526,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_routines.py": {
     "mi": 0.0,
     "rank": "C"
   },
-  "dask/array/tests/test_xarray.py": {
+  "dask\\array\\tests\\test_shuffle.py": {
+    "mi": 35.35939116106731,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_slicing.py": {
+    "mi": 13.512372229334174,
+    "rank": "B"
+  },
+  "dask\\array\\tests\\test_sparse.py": {
+    "mi": 49.379088954097305,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_stats.py": {
+    "mi": 57.29613645944247,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_svg.py": {
+    "mi": 58.63811279102946,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_testing.py": {
+    "mi": 76.7407638494613,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_ufunc.py": {
+    "mi": 34.36744724650409,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_wrap.py": {
+    "mi": 52.06698901429614,
+    "rank": "A"
+  },
+  "dask\\array\\tests\\test_xarray.py": {
     "mi": 47.86042614928487,
     "rank": "A"
   },
-  "dask/bag/__init__.py": {
+  "dask\\array\\tests\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/bag/avro.py": {
+  "dask\\array\\_array_expr\\random.py": {
+    "mi": 30.209558501439115,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\_backends.py": {
+    "mi": 59.51868177473924,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\_blockwise.py": {
+    "mi": 35.96710302816523,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\_collection.py": {
+    "mi": 17.481961491639026,
+    "rank": "B"
+  },
+  "dask\\array\\_array_expr\\_creation.py": {
+    "mi": 49.46435703383673,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\_expr.py": {
+    "mi": 27.939569945714204,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\_gufunc.py": {
+    "mi": 36.19526084094294,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\_io.py": {
+    "mi": 54.018499040577424,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\_map_blocks.py": {
+    "mi": 54.7388276236266,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\_overlap.py": {
+    "mi": 30.811313351470126,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\_rechunk.py": {
+    "mi": 47.209817751668666,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\_reductions.py": {
+    "mi": 54.404118898226166,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\_shuffle.py": {
+    "mi": 41.160927777833166,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\_slicing.py": {
+    "mi": 36.74505706725509,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\_ufunc.py": {
+    "mi": 37.888153011121275,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\_utils.py": {
+    "mi": 64.95750134295872,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\tests\\test_collection.py": {
+    "mi": 55.65167389363175,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\tests\\test_config.py": {
+    "mi": 82.98190451513113,
+    "rank": "A"
+  },
+  "dask\\array\\_array_expr\\tests\\__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "dask\\bag\\avro.py": {
     "mi": 60.71265303603915,
     "rank": "A"
   },
-  "dask/bag/chunk.py": {
+  "dask\\bag\\chunk.py": {
     "mi": 75.85465688708557,
     "rank": "A"
   },
-  "dask/bag/core.py": {
+  "dask\\bag\\core.py": {
     "mi": 0.0,
     "rank": "C"
   },
-  "dask/bag/random.py": {
+  "dask\\bag\\random.py": {
     "mi": 64.97647092940399,
     "rank": "A"
   },
-  "dask/bag/text.py": {
+  "dask\\bag\\text.py": {
     "mi": 66.74458309818117,
     "rank": "A"
   },
-  "dask/bag/utils.py": {
+  "dask\\bag\\utils.py": {
     "mi": 76.28570514245513,
     "rank": "A"
   },
-  "dask/bag/tests/__init__.py": {
+  "dask\\bag\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/bag/tests/test_avro.py": {
+  "dask\\bag\\tests\\test_avro.py": {
     "mi": 39.02165209854734,
     "rank": "A"
   },
-  "dask/bag/tests/test_random.py": {
+  "dask\\bag\\tests\\test_bag.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "dask\\bag\\tests\\test_random.py": {
     "mi": 37.16914013475246,
     "rank": "A"
   },
-  "dask/bag/tests/test_text.py": {
+  "dask\\bag\\tests\\test_text.py": {
     "mi": 45.8817386750378,
     "rank": "A"
   },
-  "dask/bag/tests/test_bag.py": {
-    "mi": 0.0,
-    "rank": "C"
-  },
-  "dask/bytes/__init__.py": {
+  "dask\\bag\\tests\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/bytes/core.py": {
+  "dask\\bytes\\core.py": {
     "mi": 62.638969814429366,
     "rank": "A"
   },
-  "dask/bytes/utils.py": {
+  "dask\\bytes\\utils.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/bytes/tests/__init__.py": {
+  "dask\\bytes\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/bytes/tests/test_bytes_utils.py": {
+  "dask\\bytes\\tests\\test_bytes_utils.py": {
     "mi": 46.26504243653873,
     "rank": "A"
   },
-  "dask/bytes/tests/test_compression.py": {
+  "dask\\bytes\\tests\\test_compression.py": {
     "mi": 60.748959394711534,
     "rank": "A"
   },
-  "dask/bytes/tests/test_http.py": {
+  "dask\\bytes\\tests\\test_http.py": {
     "mi": 42.785065346819394,
     "rank": "A"
   },
-  "dask/bytes/tests/test_local.py": {
+  "dask\\bytes\\tests\\test_local.py": {
     "mi": 25.510202651159574,
     "rank": "A"
   },
-  "dask/bytes/tests/test_s3.py": {
+  "dask\\bytes\\tests\\test_s3.py": {
     "mi": 29.685508264390894,
     "rank": "A"
   },
-  "dask/dataframe/__init__.py": {
-    "mi": 75.01955344609,
-    "rank": "A"
-  },
-  "dask/dataframe/_compat.py": {
-    "mi": 77.36521351653295,
-    "rank": "A"
-  },
-  "dask/dataframe/_dtypes.py": {
-    "mi": 53.37128232040721,
-    "rank": "A"
-  },
-  "dask/dataframe/_pyarrow.py": {
-    "mi": 57.551851439232124,
-    "rank": "A"
-  },
-  "dask/dataframe/_pyarrow_compat.py": {
+  "dask\\bytes\\tests\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/accessor.py": {
+  "dask\\dataframe\\accessor.py": {
     "mi": 82.38154772145658,
     "rank": "A"
   },
-  "dask/dataframe/api.py": {
+  "dask\\dataframe\\api.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/backends.py": {
+  "dask\\dataframe\\backends.py": {
     "mi": 31.89481103358019,
     "rank": "A"
   },
-  "dask/dataframe/categorical.py": {
+  "dask\\dataframe\\categorical.py": {
     "mi": 70.47887457779873,
     "rank": "A"
   },
-  "dask/dataframe/core.py": {
+  "dask\\dataframe\\core.py": {
     "mi": 29.410961325210263,
     "rank": "A"
   },
-  "dask/dataframe/dispatch.py": {
+  "dask\\dataframe\\dispatch.py": {
     "mi": 78.69390598658862,
     "rank": "A"
   },
-  "dask/dataframe/extensions.py": {
+  "dask\\dataframe\\extensions.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/groupby.py": {
+  "dask\\dataframe\\groupby.py": {
     "mi": 24.297111827347514,
     "rank": "A"
   },
-  "dask/dataframe/hyperloglog.py": {
+  "dask\\dataframe\\hyperloglog.py": {
     "mi": 74.03411190013281,
     "rank": "A"
   },
-  "dask/dataframe/indexing.py": {
+  "dask\\dataframe\\indexing.py": {
     "mi": 68.93666118662634,
     "rank": "A"
   },
-  "dask/dataframe/methods.py": {
+  "dask\\dataframe\\methods.py": {
     "mi": 40.37494625847199,
     "rank": "A"
   },
-  "dask/dataframe/multi.py": {
+  "dask\\dataframe\\multi.py": {
     "mi": 46.3588481052976,
     "rank": "A"
   },
-  "dask/dataframe/partitionquantiles.py": {
+  "dask\\dataframe\\partitionquantiles.py": {
     "mi": 46.30506904359328,
     "rank": "A"
   },
-  "dask/dataframe/rolling.py": {
+  "dask\\dataframe\\rolling.py": {
     "mi": 79.6464921118628,
     "rank": "A"
   },
-  "dask/dataframe/shuffle.py": {
+  "dask\\dataframe\\shuffle.py": {
     "mi": 58.834038915696226,
     "rank": "A"
   },
-  "dask/dataframe/utils.py": {
+  "dask\\dataframe\\utils.py": {
     "mi": 16.79576779161066,
     "rank": "B"
   },
-  "dask/dataframe/dask_expr/__init__.py": {
+  "dask\\dataframe\\_compat.py": {
+    "mi": 77.36521351653295,
+    "rank": "A"
+  },
+  "dask\\dataframe\\_dtypes.py": {
+    "mi": 53.37128232040721,
+    "rank": "A"
+  },
+  "dask\\dataframe\\_pyarrow.py": {
+    "mi": 57.551851439232124,
+    "rank": "A"
+  },
+  "dask\\dataframe\\_pyarrow_compat.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/_accessor.py": {
-    "mi": 63.406573283678114,
+  "dask\\dataframe\\__init__.py": {
+    "mi": 75.01955344609,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/_backends.py": {
-    "mi": 100.0,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/_categorical.py": {
-    "mi": 66.30604934408642,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/_collection.py": {
-    "mi": 0.0,
-    "rank": "C"
-  },
-  "dask/dataframe/dask_expr/_concat.py": {
-    "mi": 26.833927140981068,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/_cumulative.py": {
-    "mi": 46.83929059073201,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/_datetime.py": {
-    "mi": 100.0,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/_describe.py": {
-    "mi": 52.49252091469162,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/_dummies.py": {
-    "mi": 79.215969607622,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/_expr.py": {
-    "mi": 0.0,
-    "rank": "C"
-  },
-  "dask/dataframe/dask_expr/_groupby.py": {
-    "mi": 0.0,
-    "rank": "C"
-  },
-  "dask/dataframe/dask_expr/_indexing.py": {
-    "mi": 20.192197038789352,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/_interchange.py": {
-    "mi": 100.0,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/_merge.py": {
-    "mi": 9.299266937180672,
-    "rank": "B"
-  },
-  "dask/dataframe/dask_expr/_merge_asof.py": {
-    "mi": 37.249154167203415,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/_quantile.py": {
-    "mi": 46.067573760309095,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/_quantiles.py": {
-    "mi": 59.066284660624426,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/_reductions.py": {
-    "mi": 0.0,
-    "rank": "C"
-  },
-  "dask/dataframe/dask_expr/_repartition.py": {
-    "mi": 19.696691472786945,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/_rolling.py": {
-    "mi": 36.561686672185026,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/_shuffle.py": {
-    "mi": 2.3666184369631997,
-    "rank": "C"
-  },
-  "dask/dataframe/dask_expr/_str_accessor.py": {
-    "mi": 51.387333317902616,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/_util.py": {
-    "mi": 58.89638790467563,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/datasets.py": {
+  "dask\\dataframe\\dask_expr\\datasets.py": {
     "mi": 61.829472844090986,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/diagnostics/__init__.py": {
+  "dask\\dataframe\\dask_expr\\_accessor.py": {
+    "mi": 63.406573283678114,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\_backends.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/diagnostics/_analyze.py": {
+  "dask\\dataframe\\dask_expr\\_categorical.py": {
+    "mi": 66.30604934408642,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\_collection.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "dask\\dataframe\\dask_expr\\_concat.py": {
+    "mi": 26.833927140981068,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\_cumulative.py": {
+    "mi": 46.83929059073201,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\_datetime.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\_describe.py": {
+    "mi": 52.49252091469162,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\_dummies.py": {
+    "mi": 79.215969607622,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\_expr.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "dask\\dataframe\\dask_expr\\_groupby.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "dask\\dataframe\\dask_expr\\_indexing.py": {
+    "mi": 20.192197038789352,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\_interchange.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\_merge.py": {
+    "mi": 9.299266937180672,
+    "rank": "B"
+  },
+  "dask\\dataframe\\dask_expr\\_merge_asof.py": {
+    "mi": 37.249154167203415,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\_quantile.py": {
+    "mi": 46.067573760309095,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\_quantiles.py": {
+    "mi": 59.066284660624426,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\_reductions.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "dask\\dataframe\\dask_expr\\_repartition.py": {
+    "mi": 19.69669147278694,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\_rolling.py": {
+    "mi": 36.561686672185026,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\_shuffle.py": {
+    "mi": 2.3666184369631997,
+    "rank": "C"
+  },
+  "dask\\dataframe\\dask_expr\\_str_accessor.py": {
+    "mi": 51.387333317902616,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\_util.py": {
+    "mi": 58.89638790467563,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\diagnostics\\_analyze.py": {
     "mi": 48.08645312928904,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/diagnostics/_analyze_plugin.py": {
+  "dask\\dataframe\\dask_expr\\diagnostics\\_analyze_plugin.py": {
     "mi": 44.79925041732719,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/diagnostics/_explain.py": {
+  "dask\\dataframe\\dask_expr\\diagnostics\\_explain.py": {
     "mi": 45.897765837139694,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/io/__init__.py": {
+  "dask\\dataframe\\dask_expr\\diagnostics\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/io/_delayed.py": {
-    "mi": 66.71494077621463,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/io/bag.py": {
+  "dask\\dataframe\\dask_expr\\io\\bag.py": {
     "mi": 92.39059878096066,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/io/io.py": {
+  "dask\\dataframe\\dask_expr\\io\\io.py": {
     "mi": 11.771773198812518,
     "rank": "B"
   },
-  "dask/dataframe/dask_expr/io/parquet.py": {
+  "dask\\dataframe\\dask_expr\\io\\parquet.py": {
     "mi": 0.0,
     "rank": "C"
   },
-  "dask/dataframe/dask_expr/io/records.py": {
+  "dask\\dataframe\\dask_expr\\io\\records.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/io/tests/__init__.py": {
+  "dask\\dataframe\\dask_expr\\io\\_delayed.py": {
+    "mi": 66.71494077621463,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\io\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/io/tests/test_delayed.py": {
+  "dask\\dataframe\\dask_expr\\io\\tests\\test_delayed.py": {
     "mi": 53.74194332650205,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/io/tests/test_distributed.py": {
+  "dask\\dataframe\\dask_expr\\io\\tests\\test_distributed.py": {
     "mi": 61.980596242135434,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/io/tests/test_from_pandas.py": {
+  "dask\\dataframe\\dask_expr\\io\\tests\\test_from_pandas.py": {
     "mi": 34.13946118398222,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/io/tests/test_io.py": {
+  "dask\\dataframe\\dask_expr\\io\\tests\\test_io.py": {
     "mi": 26.85475504285679,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/io/tests/test_parquet.py": {
+  "dask\\dataframe\\dask_expr\\io\\tests\\test_parquet.py": {
     "mi": 31.531578342490928,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/io/tests/test_sql.py": {
+  "dask\\dataframe\\dask_expr\\io\\tests\\test_sql.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/__init__.py": {
+  "dask\\dataframe\\dask_expr\\io\\tests\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/_util.py": {
-    "mi": 77.49946619602046,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/tests/test_align_partitions.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_align_partitions.py": {
     "mi": 58.878735934621815,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_categorical.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_categorical.py": {
     "mi": 58.469717677455094,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_concat.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_collection.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_concat.py": {
     "mi": 32.23153923652232,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_core.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_core.py": {
     "mi": 51.52705956566082,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_cumulative.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_cumulative.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_datasets.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_datasets.py": {
     "mi": 51.856987193407065,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_datetime.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_datetime.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_describe.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_describe.py": {
     "mi": 66.10745829255977,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_diagnostics.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_diagnostics.py": {
     "mi": 76.67611957357883,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_distributed.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_distributed.py": {
     "mi": 33.71216459081794,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_dummies.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_dummies.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_format.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_format.py": {
     "mi": 56.24669489066961,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_fusion.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_fusion.py": {
     "mi": 58.084645808558406,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_groupby.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_groupby.py": {
     "mi": 17.719418867308647,
     "rank": "B"
   },
-  "dask/dataframe/dask_expr/tests/test_indexing.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_indexing.py": {
     "mi": 37.51495262044008,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_interchange.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_interchange.py": {
     "mi": 79.36369987800997,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_map_partitions_overlap.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_map_partitions_overlap.py": {
     "mi": 40.420257841514896,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_merge.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_merge.py": {
     "mi": 13.738546990929647,
     "rank": "B"
   },
-  "dask/dataframe/dask_expr/tests/test_merge_asof.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_merge_asof.py": {
     "mi": 59.854976301593105,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_partitioning_knowledge.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_partitioning_knowledge.py": {
     "mi": 37.487668609584055,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_predicate_pushdown.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_predicate_pushdown.py": {
     "mi": 50.70580939003035,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_quantiles.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_quantiles.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_reductions.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_reductions.py": {
     "mi": 34.93601244004725,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_repartition.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_repartition.py": {
     "mi": 54.31869501187336,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_reshape.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_reshape.py": {
     "mi": 64.81099263390466,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_rolling.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_rolling.py": {
     "mi": 51.18715431511626,
     "rank": "A"
   },
-  "dask/dataframe/dask_expr/tests/test_string_accessor.py": {
-    "mi": 56.57687389703131,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/tests/test_ufunc.py": {
-    "mi": 69.34739163150289,
-    "rank": "A"
-  },
-  "dask/dataframe/dask_expr/tests/test_collection.py": {
-    "mi": 0.0,
-    "rank": "C"
-  },
-  "dask/dataframe/dask_expr/tests/test_shuffle.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_shuffle.py": {
     "mi": 18.482567192600523,
     "rank": "B"
   },
-  "dask/dataframe/io/__init__.py": {
+  "dask\\dataframe\\dask_expr\\tests\\test_string_accessor.py": {
+    "mi": 56.57687389703131,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\tests\\test_ufunc.py": {
+    "mi": 69.3473916315029,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\tests\\_util.py": {
+    "mi": 77.49946619602046,
+    "rank": "A"
+  },
+  "dask\\dataframe\\dask_expr\\tests\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/io/csv.py": {
+  "dask\\dataframe\\io\\csv.py": {
     "mi": 29.710576004218705,
     "rank": "A"
   },
-  "dask/dataframe/io/demo.py": {
+  "dask\\dataframe\\io\\demo.py": {
     "mi": 46.82779760084148,
     "rank": "A"
   },
-  "dask/dataframe/io/hdf.py": {
+  "dask\\dataframe\\io\\hdf.py": {
     "mi": 43.978650862470374,
     "rank": "A"
   },
-  "dask/dataframe/io/io.py": {
+  "dask\\dataframe\\io\\io.py": {
     "mi": 50.680975387270664,
     "rank": "A"
   },
-  "dask/dataframe/io/json.py": {
+  "dask\\dataframe\\io\\json.py": {
     "mi": 63.56272380714672,
     "rank": "A"
   },
-  "dask/dataframe/io/sql.py": {
+  "dask\\dataframe\\io\\sql.py": {
     "mi": 52.19809407882045,
     "rank": "A"
   },
-  "dask/dataframe/io/utils.py": {
+  "dask\\dataframe\\io\\utils.py": {
     "mi": 58.24450729456434,
     "rank": "A"
   },
-  "dask/dataframe/io/orc/__init__.py": {
+  "dask\\dataframe\\io\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/io/orc/arrow.py": {
+  "dask\\dataframe\\io\\orc\\arrow.py": {
     "mi": 46.98164882441485,
     "rank": "A"
   },
-  "dask/dataframe/io/orc/core.py": {
+  "dask\\dataframe\\io\\orc\\core.py": {
     "mi": 71.65470391396103,
     "rank": "A"
   },
-  "dask/dataframe/io/orc/utils.py": {
+  "dask\\dataframe\\io\\orc\\utils.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/io/parquet/__init__.py": {
+  "dask\\dataframe\\io\\orc\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/io/parquet/arrow.py": {
+  "dask\\dataframe\\io\\parquet\\arrow.py": {
     "mi": 0.0,
     "rank": "C"
   },
-  "dask/dataframe/io/parquet/core.py": {
+  "dask\\dataframe\\io\\parquet\\core.py": {
     "mi": 34.64443536020254,
     "rank": "A"
   },
-  "dask/dataframe/io/parquet/utils.py": {
+  "dask\\dataframe\\io\\parquet\\utils.py": {
     "mi": 41.16114843669529,
     "rank": "A"
   },
-  "dask/dataframe/io/tests/__init__.py": {
+  "dask\\dataframe\\io\\parquet\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/io/tests/test_csv.py": {
+  "dask\\dataframe\\io\\tests\\test_csv.py": {
     "mi": 0.0,
     "rank": "C"
   },
-  "dask/dataframe/io/tests/test_demo.py": {
+  "dask\\dataframe\\io\\tests\\test_demo.py": {
     "mi": 24.707604341904926,
     "rank": "A"
   },
-  "dask/dataframe/io/tests/test_hdf.py": {
+  "dask\\dataframe\\io\\tests\\test_hdf.py": {
     "mi": 35.63888591205783,
     "rank": "A"
   },
-  "dask/dataframe/io/tests/test_io.py": {
+  "dask\\dataframe\\io\\tests\\test_io.py": {
     "mi": 18.352088933035933,
     "rank": "B"
   },
-  "dask/dataframe/io/tests/test_json.py": {
+  "dask\\dataframe\\io\\tests\\test_json.py": {
     "mi": 43.54443742605534,
     "rank": "A"
   },
-  "dask/dataframe/io/tests/test_orc.py": {
+  "dask\\dataframe\\io\\tests\\test_orc.py": {
     "mi": 52.922318244312336,
     "rank": "A"
   },
-  "dask/dataframe/io/tests/test_parquet.py": {
+  "dask\\dataframe\\io\\tests\\test_parquet.py": {
     "mi": 0.0,
     "rank": "C"
   },
-  "dask/dataframe/io/tests/test_sql.py": {
+  "dask\\dataframe\\io\\tests\\test_sql.py": {
     "mi": 29.97131654570429,
     "rank": "A"
   },
-  "dask/dataframe/tests/__init__.py": {
+  "dask\\dataframe\\io\\tests\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_accessors.py": {
+  "dask\\dataframe\\tests\\test_accessors.py": {
     "mi": 40.018184137355824,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_api.py": {
+  "dask\\dataframe\\tests\\test_api.py": {
     "mi": 80.22015057018321,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_arithmetics_reduction.py": {
-    "mi": 7.550883166257628,
+  "dask\\dataframe\\tests\\test_arithmetics_reduction.py": {
+    "mi": 7.55088316625763,
     "rank": "C"
   },
-  "dask/dataframe/tests/test_boolean.py": {
+  "dask\\dataframe\\tests\\test_boolean.py": {
     "mi": 54.79795082692957,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_categorical.py": {
+  "dask\\dataframe\\tests\\test_categorical.py": {
     "mi": 31.44052953746806,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_extensions.py": {
+  "dask\\dataframe\\tests\\test_dataframe.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "dask\\dataframe\\tests\\test_extensions.py": {
     "mi": 79.51788672685437,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_hashing.py": {
+  "dask\\dataframe\\tests\\test_groupby.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "dask\\dataframe\\tests\\test_hashing.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_hyperloglog.py": {
+  "dask\\dataframe\\tests\\test_hyperloglog.py": {
     "mi": 52.423225083511866,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_indexing.py": {
+  "dask\\dataframe\\tests\\test_indexing.py": {
     "mi": 29.836872392066333,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_map.py": {
+  "dask\\dataframe\\tests\\test_map.py": {
     "mi": 46.450114865294516,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_merge_column_and_index.py": {
+  "dask\\dataframe\\tests\\test_merge_column_and_index.py": {
     "mi": 63.54147175929985,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_methods.py": {
+  "dask\\dataframe\\tests\\test_methods.py": {
     "mi": 75.67471120151156,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_multi.py": {
+  "dask\\dataframe\\tests\\test_multi.py": {
     "mi": 6.349271435338088,
     "rank": "C"
   },
-  "dask/dataframe/tests/test_numeric.py": {
+  "dask\\dataframe\\tests\\test_numeric.py": {
     "mi": 50.41935669737175,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_pyarrow.py": {
+  "dask\\dataframe\\tests\\test_pyarrow.py": {
     "mi": 62.1887821062214,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_pyarrow_compat.py": {
+  "dask\\dataframe\\tests\\test_pyarrow_compat.py": {
     "mi": 46.927102987098735,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_reshape.py": {
+  "dask\\dataframe\\tests\\test_reshape.py": {
     "mi": 44.00037413750592,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_rolling.py": {
+  "dask\\dataframe\\tests\\test_rolling.py": {
     "mi": 42.54517523979747,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_shuffle.py": {
+  "dask\\dataframe\\tests\\test_shuffle.py": {
     "mi": 10.140604077762363,
     "rank": "B"
   },
-  "dask/dataframe/tests/test_ufunc.py": {
+  "dask\\dataframe\\tests\\test_ufunc.py": {
     "mi": 41.572189642764116,
     "rank": "A"
   },
-  "dask/dataframe/tests/test_utils_dataframe.py": {
+  "dask\\dataframe\\tests\\test_utils_dataframe.py": {
     "mi": 11.714837929688922,
     "rank": "B"
   },
-  "dask/dataframe/tests/test_dataframe.py": {
-    "mi": 0.0,
-    "rank": "C"
-  },
-  "dask/dataframe/tests/test_groupby.py": {
-    "mi": 0.0,
-    "rank": "C"
-  },
-  "dask/dataframe/tseries/__init__.py": {
+  "dask\\dataframe\\tests\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/tseries/resample.py": {
+  "dask\\dataframe\\tseries\\resample.py": {
     "mi": 34.54515127113511,
     "rank": "A"
   },
-  "dask/dataframe/tseries/tests/__init__.py": {
+  "dask\\dataframe\\tseries\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/dataframe/tseries/tests/test_resample.py": {
+  "dask\\dataframe\\tseries\\tests\\test_resample.py": {
     "mi": 47.73511366422737,
     "rank": "A"
   },
-  "dask/dataframe/tseries/tests/test_resample_expr.py": {
+  "dask\\dataframe\\tseries\\tests\\test_resample_expr.py": {
     "mi": 51.80133140591322,
     "rank": "A"
   },
-  "dask/diagnostics/__init__.py": {
+  "dask\\dataframe\\tseries\\tests\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/diagnostics/profile.py": {
+  "dask\\diagnostics\\profile.py": {
     "mi": 52.77383221236624,
     "rank": "A"
   },
-  "dask/diagnostics/profile_visualize.py": {
+  "dask\\diagnostics\\profile_visualize.py": {
     "mi": 51.43011099422631,
     "rank": "A"
   },
-  "dask/diagnostics/progress.py": {
+  "dask\\diagnostics\\progress.py": {
     "mi": 67.77476458260794,
     "rank": "A"
   },
-  "dask/diagnostics/tests/__init__.py": {
+  "dask\\diagnostics\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/diagnostics/tests/test_profiler.py": {
+  "dask\\diagnostics\\tests\\test_profiler.py": {
     "mi": 23.950292136561842,
     "rank": "A"
   },
-  "dask/diagnostics/tests/test_progress.py": {
+  "dask\\diagnostics\\tests\\test_progress.py": {
     "mi": 41.10947636108384,
     "rank": "A"
   },
-  "dask/tests/__init__.py": {
+  "dask\\diagnostics\\tests\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/tests/test_backends.py": {
+  "dask\\tests\\test_backends.py": {
     "mi": 85.84548917630954,
     "rank": "A"
   },
-  "dask/tests/test_cache.py": {
+  "dask\\tests\\test_base.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "dask\\tests\\test_cache.py": {
     "mi": 54.96422311197208,
     "rank": "A"
   },
-  "dask/tests/test_composite_expr.py": {
-    "mi": 31.299151969398064,
-    "rank": "A"
-  },
-  "dask/tests/test_context.py": {
-    "mi": 59.34065171428192,
-    "rank": "A"
-  },
-  "dask/tests/test_datasets.py": {
-    "mi": 65.81655308138421,
-    "rank": "A"
-  },
-  "dask/tests/test_docs.py": {
-    "mi": 61.66504222660138,
-    "rank": "A"
-  },
-  "dask/tests/test_graph_manipulation.py": {
-    "mi": 40.02566290796185,
-    "rank": "A"
-  },
-  "dask/tests/test_hashing.py": {
-    "mi": 67.40872066334911,
-    "rank": "A"
-  },
-  "dask/tests/test_highgraph.py": {
-    "mi": 35.150558862148635,
-    "rank": "A"
-  },
-  "dask/tests/test_imports.py": {
-    "mi": 100.0,
-    "rank": "A"
-  },
-  "dask/tests/test_layers.py": {
-    "mi": 55.64644502222847,
-    "rank": "A"
-  },
-  "dask/tests/test_ml.py": {
-    "mi": 91.25068481744863,
-    "rank": "A"
-  },
-  "dask/tests/test_multiprocessing.py": {
-    "mi": 42.91257788573538,
-    "rank": "A"
-  },
-  "dask/tests/test_optimization.py": {
-    "mi": 2.5622817763321155,
-    "rank": "C"
-  },
-  "dask/tests/test_rewrite.py": {
-    "mi": 49.99365961128394,
-    "rank": "A"
-  },
-  "dask/tests/test_sizeof.py": {
-    "mi": 30.195070291562466,
-    "rank": "A"
-  },
-  "dask/tests/test_spark_compat.py": {
-    "mi": 67.77507171611151,
-    "rank": "A"
-  },
-  "dask/tests/test_system.py": {
-    "mi": 48.80613219233993,
-    "rank": "A"
-  },
-  "dask/tests/test_tokenize.py": {
-    "mi": 0.0,
-    "rank": "C"
-  },
-  "dask/tests/test_traceback.py": {
-    "mi": 60.54032794383003,
-    "rank": "A"
-  },
-  "dask/tests/test_typing.py": {
-    "mi": 35.81322297309644,
-    "rank": "A"
-  },
-  "dask/tests/test_utils_test.py": {
-    "mi": 50.0367479611332,
-    "rank": "A"
-  },
-  "dask/tests/warning_aliases.py": {
-    "mi": 100.0,
-    "rank": "A"
-  },
-  "dask/tests/test_core.py": {
-    "mi": 36.73122582707404,
-    "rank": "A"
-  },
-  "dask/tests/test_utils.py": {
-    "mi": 0.0,
-    "rank": "C"
-  },
-  "dask/tests/test_base.py": {
-    "mi": 0.0,
-    "rank": "C"
-  },
-  "dask/tests/test_hlgexpr.py": {
-    "mi": 42.82914962717233,
-    "rank": "A"
-  },
-  "dask/tests/test_task_spec.py": {
-    "mi": 0.0,
-    "rank": "C"
-  },
-  "dask/tests/test_cli.py": {
-    "mi": 40.05366203760548,
-    "rank": "A"
-  },
-  "dask/tests/test_delayed.py": {
-    "mi": 1.6064818617564385,
-    "rank": "C"
-  },
-  "dask/tests/test_distributed.py": {
-    "mi": 20.37423262690823,
-    "rank": "A"
-  },
-  "dask/tests/test_order.py": {
-    "mi": 0.0,
-    "rank": "C"
-  },
-  "dask/tests/test_threaded.py": {
-    "mi": 49.682450813408884,
-    "rank": "A"
-  },
-  "dask/tests/test_callbacks.py": {
+  "dask\\tests\\test_callbacks.py": {
     "mi": 53.09407121395724,
     "rank": "A"
   },
-  "dask/tests/test_config.py": {
-    "mi": 12.840108126464875,
+  "dask\\tests\\test_cli.py": {
+    "mi": 40.05366203760548,
+    "rank": "A"
+  },
+  "dask\\tests\\test_composite_expr.py": {
+    "mi": 31.299151969398064,
+    "rank": "A"
+  },
+  "dask\\tests\\test_config.py": {
+    "mi": 12.840108126464871,
     "rank": "B"
   },
-  "dask/tests/test_dot.py": {
+  "dask\\tests\\test_context.py": {
+    "mi": 59.34065171428192,
+    "rank": "A"
+  },
+  "dask\\tests\\test_core.py": {
+    "mi": 36.73122582707404,
+    "rank": "A"
+  },
+  "dask\\tests\\test_datasets.py": {
+    "mi": 65.81655308138421,
+    "rank": "A"
+  },
+  "dask\\tests\\test_delayed.py": {
+    "mi": 1.6064818617564385,
+    "rank": "C"
+  },
+  "dask\\tests\\test_distributed.py": {
+    "mi": 20.37423262690823,
+    "rank": "A"
+  },
+  "dask\\tests\\test_docs.py": {
+    "mi": 61.66504222660138,
+    "rank": "A"
+  },
+  "dask\\tests\\test_dot.py": {
     "mi": 30.812922734238235,
     "rank": "A"
   },
-  "dask/tests/test_expr.py": {
+  "dask\\tests\\test_expr.py": {
     "mi": 53.67995715476493,
     "rank": "A"
   },
-  "dask/tests/test_local.py": {
+  "dask\\tests\\test_graph_manipulation.py": {
+    "mi": 40.02566290796185,
+    "rank": "A"
+  },
+  "dask\\tests\\test_hashing.py": {
+    "mi": 67.40872066334911,
+    "rank": "A"
+  },
+  "dask\\tests\\test_highgraph.py": {
+    "mi": 35.150558862148635,
+    "rank": "A"
+  },
+  "dask\\tests\\test_hlgexpr.py": {
+    "mi": 42.82914962717233,
+    "rank": "A"
+  },
+  "dask\\tests\\test_imports.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "dask\\tests\\test_layers.py": {
+    "mi": 55.64644502222847,
+    "rank": "A"
+  },
+  "dask\\tests\\test_local.py": {
     "mi": 29.500355920590376,
     "rank": "A"
   },
-  "dask/widgets/__init__.py": {
+  "dask\\tests\\test_ml.py": {
+    "mi": 91.25068481744863,
+    "rank": "A"
+  },
+  "dask\\tests\\test_multiprocessing.py": {
+    "mi": 42.91257788573538,
+    "rank": "A"
+  },
+  "dask\\tests\\test_optimization.py": {
+    "mi": 2.5622817763321155,
+    "rank": "C"
+  },
+  "dask\\tests\\test_order.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "dask\\tests\\test_rewrite.py": {
+    "mi": 49.99365961128394,
+    "rank": "A"
+  },
+  "dask\\tests\\test_sizeof.py": {
+    "mi": 30.195070291562466,
+    "rank": "A"
+  },
+  "dask\\tests\\test_spark_compat.py": {
+    "mi": 67.77507171611151,
+    "rank": "A"
+  },
+  "dask\\tests\\test_system.py": {
+    "mi": 48.80613219233993,
+    "rank": "A"
+  },
+  "dask\\tests\\test_task_spec.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "dask\\tests\\test_threaded.py": {
+    "mi": 49.682450813408884,
+    "rank": "A"
+  },
+  "dask\\tests\\test_tokenize.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "dask\\tests\\test_traceback.py": {
+    "mi": 60.54032794383003,
+    "rank": "A"
+  },
+  "dask\\tests\\test_typing.py": {
+    "mi": 35.81322297309644,
+    "rank": "A"
+  },
+  "dask\\tests\\test_utils.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "dask\\tests\\test_utils_test.py": {
+    "mi": 50.0367479611332,
+    "rank": "A"
+  },
+  "dask\\tests\\warning_aliases.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/widgets/widgets.py": {
+  "dask\\tests\\__init__.py": {
     "mi": 100.0,
     "rank": "A"
   },
-  "dask/widgets/tests/test_widgets.py": {
+  "dask\\widgets\\widgets.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "dask\\widgets\\__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "dask\\widgets\\tests\\test_widgets.py": {
     "mi": 69.92199870509859,
     "rank": "A"
   }

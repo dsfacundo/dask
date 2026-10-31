@@ -1,6 +1,6 @@
 arquivo,loc,lloc,sloc,comments,multi,blank,single_comments
-dask/array/_array_expr/tests/__init__.py,0,0,0,0,0,0,0
 dask/array/tests/__init__.py,0,0,0,0,0,0,0
+dask/array/_array_expr/tests/__init__.py,0,0,0,0,0,0,0
 dask/bag/tests/__init__.py,0,0,0,0,0,0,0
 dask/bytes/tests/__init__.py,0,0,0,0,0,0,0
 dask/dataframe/dask_expr/io/tests/__init__.py,0,0,0,0,0,0,0
@@ -12,8 +12,8 @@ dask/dataframe/tseries/tests/__init__.py,0,0,0,0,0,0,0
 dask/diagnostics/tests/__init__.py,0,0,0,0,0,0,0
 dask/tests/__init__.py,0,0,0,0,0,0,0
 dask/array/api.py,3,2,2,1,0,1,0
-dask/array/lib/__init__.py,3,2,2,0,0,1,0
 dask/array/lib/stride_tricks.py,3,2,2,1,0,1,0
+dask/array/lib/__init__.py,3,2,2,0,0,1,0
 dask/bytes/__init__.py,3,2,2,0,0,1,0
 dask/dataframe/io/orc/__init__.py,3,2,2,0,0,1,0
 dask/dataframe/io/parquet/__init__.py,3,2,2,0,0,1,0
@@ -22,8 +22,8 @@ dask/dataframe/dask_expr/io/__init__.py,4,3,3,0,0,1,0
 dask/dataframe/dask_expr/diagnostics/__init__.py,6,4,4,0,0,2,0
 dask/dataframe/dask_expr/io/records.py,22,5,4,0,12,6,0
 dask/diagnostics/__init__.py,6,5,5,0,0,1,0
-dask/__main__.py,11,6,6,0,0,5,0
 dask/_collections.py,10,7,6,1,0,3,1
+dask/__main__.py,11,6,6,0,0,5,0
 dask/bag/utils.py,10,7,7,0,0,3,0
 dask/tests/warning_aliases.py,10,7,7,0,0,3,0
 dask/dataframe/api.py,10,9,9,8,0,1,0
@@ -43,7 +43,6 @@ dask/dataframe/dask_expr/tests/test_quantiles.py,21,14,15,1,0,5,1
 dask/tests/test_backends.py,22,16,15,2,0,5,2
 dask/dataframe/extensions.py,26,7,16,0,4,6,0
 dask/array/_array_expr/tests/test_config.py,29,19,17,0,3,8,1
-dask/_version.py,24,17,18,2,0,4,2
 dask/array/tests/test_cupy_gufunc.py,26,17,18,0,0,8,0
 dask/bytes/tests/test_compression.py,24,18,18,0,0,6,0
 dask/distributed.py,24,15,20,1,0,4,0
@@ -179,9 +178,9 @@ dask/dataframe/io/utils.py,252,118,147,13,48,39,18
 dask/array/tests/test_cupy_creation.py,203,95,149,19,0,38,16
 dask/dataframe/dask_expr/_str_accessor.py,192,86,150,0,5,36,1
 dask/tests/test_typing.py,218,124,151,0,0,67,0
-dask/array/_array_expr/_rechunk.py,200,107,152,11,0,36,12
 dask/array/tests/test_sparse.py,191,98,152,10,0,36,3
 dask/array/tests/test_xarray.py,199,117,152,9,0,38,9
+dask/array/_array_expr/_rechunk.py,200,107,152,11,0,36,12
 dask/bag/tests/test_random.py,207,146,152,8,0,47,8
 dask/dataframe/dask_expr/tests/test_indexing.py,205,187,153,3,0,51,1
 dask/dataframe/dask_expr/diagnostics/_analyze.py,203,114,156,6,0,43,4
@@ -194,8 +193,8 @@ dask/dataframe/tests/test_merge_column_and_index.py,277,128,164,43,0,70,43
 dask/array/tests/test_cupy_routines.py,222,129,167,9,0,46,9
 dask/rewrite.py,437,190,168,16,150,94,25
 dask/array/ma.py,228,152,170,1,0,58,0
-dask/array/_array_expr/_shuffle.py,216,133,171,7,0,38,7
 dask/array/tests/test_cupy_random.py,217,171,171,16,0,35,11
+dask/array/_array_expr/_shuffle.py,216,133,171,7,0,38,7
 dask/dataframe/tests/test_pyarrow.py,184,27,171,2,0,13,0
 dask/tests/test_threaded.py,273,179,171,7,21,74,7
 dask/bytes/tests/test_http.py,224,162,177,11,0,36,11
@@ -209,8 +208,8 @@ dask/array/chunk.py,443,184,191,19,129,103,20
 dask/dataframe/dask_expr/tests/test_partitioning_knowledge.py,249,152,192,3,0,54,3
 dask/tests/test_multiprocessing.py,306,199,192,2,20,88,6
 dask/dataframe/partitionquantiles.py,475,189,194,29,178,74,29
-dask/array/_reductions_generic.py,342,124,196,8,109,29,8
 dask/array/einsumfuncs.py,295,164,196,28,28,45,26
+dask/array/_reductions_generic.py,342,124,196,8,109,29,8
 dask/array/optimization.py,318,177,197,29,39,57,25
 dask/tests/test_cli.py,269,163,197,8,0,65,7
 dask/dataframe/tests/test_map.py,266,182,198,9,17,47,4
@@ -316,8 +315,8 @@ dask/array/tests/test_atop.py,886,336,744,39,4,133,5
 dask/array/_array_expr/random.py,1127,516,748,35,155,192,32
 dask/array/random.py,1113,539,752,23,158,180,23
 dask/array/tests/test_overlap.py,986,513,767,59,0,186,33
-dask/tests/test_base.py,1048,726,773,45,3,235,37
 dask/blockwise.py,1569,625,776,109,455,233,105
+dask/tests/test_base.py,1051,730,777,43,3,236,35
 dask/dataframe/groupby.py,1262,546,791,96,152,223,96
 dask/dataframe/dask_expr/_merge.py,956,449,795,48,19,103,39
 dask/tests/test_distributed.py,1082,686,815,58,10,208,49
@@ -360,4 +359,4 @@ dask/dataframe/dask_expr/_expr.py,4217,2584,3100,168,98,853,166
 dask/dataframe/dask_expr/_collection.py,6517,2213,3535,104,1977,901,104
 dask/dataframe/tests/test_dataframe.py,5412,3378,4077,209,19,1136,180
 dask/array/tests/test_array_core.py,6202,4005,4590,194,31,1407,174
-TOTAL,183233,92852,124058,7819,19002,33149,7024
+TOTAL,183212,92839,124044,7815,19002,33146,7020
